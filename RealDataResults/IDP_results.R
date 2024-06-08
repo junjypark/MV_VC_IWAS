@@ -17,7 +17,7 @@ for (chr in 1:22) {
   
 
   chr_IDP_results <- list()
-  for (gene in 1:nrow(chr_S_results))) {
+  for (gene in 1:nrow(chr_S_results)) {
     tryCatch({
       
       # Stage 1 IDPs being included in Stage 2 analysis read in
