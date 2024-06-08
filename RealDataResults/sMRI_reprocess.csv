@@ -1,1426 +1,1426 @@
-Dataset,Description
-27143,Area of caudalanteriorcingulate (left hemisphere)
-27236,Area of caudalanteriorcingulate (right hemisphere)
-27144,Area of caudalmiddlefrontal (left hemisphere)
-27237,Area of caudalmiddlefrontal (right hemisphere)
-27145,Area of cuneus (left hemisphere)
-27238,Area of cuneus (right hemisphere)
-27146,Area of entorhinal (left hemisphere)
-27239,Area of entorhinal (right hemisphere)
-27147,Area of fusiform (left hemisphere)
-27240,Area of fusiform (right hemisphere)
-27148,Area of inferiorparietal (left hemisphere)
-27241,Area of inferiorparietal (right hemisphere)
-27149,Area of inferiortemporal (left hemisphere)
-27242,Area of inferiortemporal (right hemisphere)
-27173,Area of insula (left hemisphere)
-27266,Area of insula (right hemisphere)
-27150,Area of isthmuscingulate (left hemisphere)
-27243,Area of isthmuscingulate (right hemisphere)
-27151,Area of lateraloccipital (left hemisphere)
-27244,Area of lateraloccipital (right hemisphere)
-27152,Area of lateralorbitofrontal (left hemisphere)
-27245,Area of lateralorbitofrontal (right hemisphere)
-27153,Area of lingual (left hemisphere)
-27246,Area of lingual (right hemisphere)
-27154,Area of medialorbitofrontal (left hemisphere)
-27247,Area of medialorbitofrontal (right hemisphere)
-27155,Area of middletemporal (left hemisphere)
-27248,Area of middletemporal (right hemisphere)
-27157,Area of paracentral (left hemisphere)
-27250,Area of paracentral (right hemisphere)
-27156,Area of parahippocampal (left hemisphere)
-27249,Area of parahippocampal (right hemisphere)
-27158,Area of parsopercularis (left hemisphere)
-27251,Area of parsopercularis (right hemisphere)
-27159,Area of parsorbitalis (left hemisphere)
-27252,Area of parsorbitalis (right hemisphere)
-27160,Area of parstriangularis (left hemisphere)
-27253,Area of parstriangularis (right hemisphere)
-27161,Area of pericalcarine (left hemisphere)
-27254,Area of pericalcarine (right hemisphere)
-27162,Area of postcentral (left hemisphere)
-27255,Area of postcentral (right hemisphere)
-27163,Area of posteriorcingulate (left hemisphere)
-27256,Area of posteriorcingulate (right hemisphere)
-27164,Area of precentral (left hemisphere)
-27257,Area of precentral (right hemisphere)
-27165,Area of precuneus (left hemisphere)
-27258,Area of precuneus (right hemisphere)
-27166,Area of rostralanteriorcingulate (left hemisphere)
-27259,Area of rostralanteriorcingulate (right hemisphere)
-27167,Area of rostralmiddlefrontal (left hemisphere)
-27260,Area of rostralmiddlefrontal (right hemisphere)
-27168,Area of superiorfrontal (left hemisphere)
-27261,Area of superiorfrontal (right hemisphere)
-27169,Area of superiorparietal (left hemisphere)
-27262,Area of superiorparietal (right hemisphere)
-27170,Area of superiortemporal (left hemisphere)
-27263,Area of superiortemporal (right hemisphere)
-27171,Area of supramarginal (left hemisphere)
-27264,Area of supramarginal (right hemisphere)
-27172,Area of transversetemporal (left hemisphere)
-27265,Area of transversetemporal (right hemisphere)
-27174,Mean thickness of caudalanteriorcingulate (left hemisphere)
-27267,Mean thickness of caudalanteriorcingulate (right hemisphere)
-27175,Mean thickness of caudalmiddlefrontal (left hemisphere)
-27268,Mean thickness of caudalmiddlefrontal (right hemisphere)
-27176,Mean thickness of cuneus (left hemisphere)
-27269,Mean thickness of cuneus (right hemisphere)
-27177,Mean thickness of entorhinal (left hemisphere)
-27270,Mean thickness of entorhinal (right hemisphere)
-27178,Mean thickness of fusiform (left hemisphere)
-27271,Mean thickness of fusiform (right hemisphere)
-27179,Mean thickness of inferiorparietal (left hemisphere)
-27272,Mean thickness of inferiorparietal (right hemisphere)
-27180,Mean thickness of inferiortemporal (left hemisphere)
-27273,Mean thickness of inferiortemporal (right hemisphere)
-27204,Mean thickness of insula (left hemisphere)
-27297,Mean thickness of insula (right hemisphere)
-27181,Mean thickness of isthmuscingulate (left hemisphere)
-27274,Mean thickness of isthmuscingulate (right hemisphere)
-27182,Mean thickness of lateraloccipital (left hemisphere)
-27275,Mean thickness of lateraloccipital (right hemisphere)
-27183,Mean thickness of lateralorbitofrontal (left hemisphere)
-27276,Mean thickness of lateralorbitofrontal (right hemisphere)
-27184,Mean thickness of lingual (left hemisphere)
-27277,Mean thickness of lingual (right hemisphere)
-27185,Mean thickness of medialorbitofrontal (left hemisphere)
-27278,Mean thickness of medialorbitofrontal (right hemisphere)
-27186,Mean thickness of middletemporal (left hemisphere)
-27279,Mean thickness of middletemporal (right hemisphere)
-27188,Mean thickness of paracentral (left hemisphere)
-27281,Mean thickness of paracentral (right hemisphere)
-27187,Mean thickness of parahippocampal (left hemisphere)
-27280,Mean thickness of parahippocampal (right hemisphere)
-27189,Mean thickness of parsopercularis (left hemisphere)
-27282,Mean thickness of parsopercularis (right hemisphere)
-27190,Mean thickness of parsorbitalis (left hemisphere)
-27283,Mean thickness of parsorbitalis (right hemisphere)
-27191,Mean thickness of parstriangularis (left hemisphere)
-27284,Mean thickness of parstriangularis (right hemisphere)
-27192,Mean thickness of pericalcarine (left hemisphere)
-27285,Mean thickness of pericalcarine (right hemisphere)
-27193,Mean thickness of postcentral (left hemisphere)
-27286,Mean thickness of postcentral (right hemisphere)
-27194,Mean thickness of posteriorcingulate (left hemisphere)
-27287,Mean thickness of posteriorcingulate (right hemisphere)
-27195,Mean thickness of precentral (left hemisphere)
-27288,Mean thickness of precentral (right hemisphere)
-27196,Mean thickness of precuneus (left hemisphere)
-27289,Mean thickness of precuneus (right hemisphere)
-27197,Mean thickness of rostralanteriorcingulate (left hemisphere)
-27290,Mean thickness of rostralanteriorcingulate (right hemisphere)
-27198,Mean thickness of rostralmiddlefrontal (left hemisphere)
-27291,Mean thickness of rostralmiddlefrontal (right hemisphere)
-27199,Mean thickness of superiorfrontal (left hemisphere)
-27292,Mean thickness of superiorfrontal (right hemisphere)
-27200,Mean thickness of superiorparietal (left hemisphere)
-27293,Mean thickness of superiorparietal (right hemisphere)
-27201,Mean thickness of superiortemporal (left hemisphere)
-27294,Mean thickness of superiortemporal (right hemisphere)
-27202,Mean thickness of supramarginal (left hemisphere)
-27295,Mean thickness of supramarginal (right hemisphere)
-27203,Mean thickness of transversetemporal (left hemisphere)
-27296,Mean thickness of transversetemporal (right hemisphere)
-27205,Volume of caudalanteriorcingulate (left hemisphere)
-27298,Volume of caudalanteriorcingulate (right hemisphere)
-27206,Volume of caudalmiddlefrontal (left hemisphere)
-27299,Volume of caudalmiddlefrontal (right hemisphere)
-27207,Volume of cuneus (left hemisphere)
-27300,Volume of cuneus (right hemisphere)
-27208,Volume of entorhinal (left hemisphere)
-27301,Volume of entorhinal (right hemisphere)
-27209,Volume of fusiform (left hemisphere)
-27302,Volume of fusiform (right hemisphere)
-27210,Volume of inferiorparietal (left hemisphere)
-27303,Volume of inferiorparietal (right hemisphere)
-27211,Volume of inferiortemporal (left hemisphere)
-27304,Volume of inferiortemporal (right hemisphere)
-27235,Volume of insula (left hemisphere)
-27328,Volume of insula (right hemisphere)
-27212,Volume of isthmuscingulate (left hemisphere)
-27305,Volume of isthmuscingulate (right hemisphere)
-27213,Volume of lateraloccipital (left hemisphere)
-27306,Volume of lateraloccipital (right hemisphere)
-27214,Volume of lateralorbitofrontal (left hemisphere)
-27307,Volume of lateralorbitofrontal (right hemisphere)
-27215,Volume of lingual (left hemisphere)
-27308,Volume of lingual (right hemisphere)
-27216,Volume of medialorbitofrontal (left hemisphere)
-27309,Volume of medialorbitofrontal (right hemisphere)
-27217,Volume of middletemporal (left hemisphere)
-27310,Volume of middletemporal (right hemisphere)
-27219,Volume of paracentral (left hemisphere)
-27312,Volume of paracentral (right hemisphere)
-27218,Volume of parahippocampal (left hemisphere)
-27311,Volume of parahippocampal (right hemisphere)
-27220,Volume of parsopercularis (left hemisphere)
-27313,Volume of parsopercularis (right hemisphere)
-27221,Volume of parsorbitalis (left hemisphere)
-27314,Volume of parsorbitalis (right hemisphere)
-27222,Volume of parstriangularis (left hemisphere)
-27315,Volume of parstriangularis (right hemisphere)
-27223,Volume of pericalcarine (left hemisphere)
-27316,Volume of pericalcarine (right hemisphere)
-27224,Volume of postcentral (left hemisphere)
-27317,Volume of postcentral (right hemisphere)
-27225,Volume of posteriorcingulate (left hemisphere)
-27318,Volume of posteriorcingulate (right hemisphere)
-27226,Volume of precentral (left hemisphere)
-27319,Volume of precentral (right hemisphere)
-27227,Volume of precuneus (left hemisphere)
-27320,Volume of precuneus (right hemisphere)
-27228,Volume of rostralanteriorcingulate (left hemisphere)
-27321,Volume of rostralanteriorcingulate (right hemisphere)
-27229,Volume of rostralmiddlefrontal (left hemisphere)
-27322,Volume of rostralmiddlefrontal (right hemisphere)
-27230,Volume of superiorfrontal (left hemisphere)
-27323,Volume of superiorfrontal (right hemisphere)
-27231,Volume of superiorparietal (left hemisphere)
-27324,Volume of superiorparietal (right hemisphere)
-27232,Volume of superiortemporal (left hemisphere)
-27325,Volume of superiortemporal (right hemisphere)
-27233,Volume of supramarginal (left hemisphere)
-27326,Volume of supramarginal (right hemisphere)
-27234,Volume of transversetemporal (left hemisphere)
-27327,Volume of transversetemporal (right hemisphere)
-25888,Volume of grey matter in Amygdala (left)
-25889,Volume of grey matter in Amygdala (right)
-25822,Volume of grey matter in Angular Gyrus (left)
-25823,Volume of grey matter in Angular Gyrus (right)
-25892,Volume of grey matter in Brain-Stem
-25880,Volume of grey matter in Caudate (left)
-25881,Volume of grey matter in Caudate (right)
-25864,Volume of grey matter in Central Opercular Cortex (left)
-25865,Volume of grey matter in Central Opercular Cortex (right)
-25838,"Volume of grey matter in Cingulate Gyrus, anterior division (left)"
-25839,"Volume of grey matter in Cingulate Gyrus, anterior division (right)"
-25840,"Volume of grey matter in Cingulate Gyrus, posterior division (left)"
-25841,"Volume of grey matter in Cingulate Gyrus, posterior division (right)"
-25900,Volume of grey matter in Crus I Cerebellum (left)
-25902,Volume of grey matter in Crus I Cerebellum (right)
-25901,Volume of grey matter in Crus I Cerebellum (vermis)
-25903,Volume of grey matter in Crus II Cerebellum (left)
-25905,Volume of grey matter in Crus II Cerebellum (right)
-25904,Volume of grey matter in Crus II Cerebellum (vermis)
-25844,Volume of grey matter in Cuneal Cortex (left)
-25845,Volume of grey matter in Cuneal Cortex (right)
-25830,Volume of grey matter in Frontal Medial Cortex (left)
-25831,Volume of grey matter in Frontal Medial Cortex (right)
-25862,Volume of grey matter in Frontal Operculum Cortex (left)
-25863,Volume of grey matter in Frontal Operculum Cortex (right)
-25846,Volume of grey matter in Frontal Orbital Cortex (left)
-25847,Volume of grey matter in Frontal Orbital Cortex (right)
-25782,Volume of grey matter in Frontal Pole (left)
-25783,Volume of grey matter in Frontal Pole (right)
-25870,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (left)
-25871,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (right)
-25886,Volume of grey matter in Hippocampus (left)
-25887,Volume of grey matter in Hippocampus (right)
-25893,Volume of grey matter in I-IV Cerebellum (left)
-25894,Volume of grey matter in I-IV Cerebellum (right)
-25915,Volume of grey matter in IX Cerebellum (left)
-25917,Volume of grey matter in IX Cerebellum (right)
-25916,Volume of grey matter in IX Cerebellum (vermis)
-25792,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (left)"
-25793,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (right)"
-25790,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (left)"
-25791,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (right)"
-25808,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (left)"
-25809,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (right)"
-25810,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (left)"
-25811,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (right)"
-25812,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (left)"
-25813,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (right)"
-25784,Volume of grey matter in Insular Cortex (left)
-25785,Volume of grey matter in Insular Cortex (right)
-25828,Volume of grey matter in Intracalcarine Cortex (left)
-25829,Volume of grey matter in Intracalcarine Cortex (right)
-25832,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (left)
-25833,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (right)
-25826,"Volume of grey matter in Lateral Occipital Cortex, inferior division (left)"
-25827,"Volume of grey matter in Lateral Occipital Cortex, inferior division (right)"
-25824,"Volume of grey matter in Lateral Occipital Cortex, superior division (left)"
-25825,"Volume of grey matter in Lateral Occipital Cortex, superior division (right)"
-25852,Volume of grey matter in Lingual Gyrus (left)
-25853,Volume of grey matter in Lingual Gyrus (right)
-25788,Volume of grey matter in Middle Frontal Gyrus (left)
-25789,Volume of grey matter in Middle Frontal Gyrus (right)
-25802,"Volume of grey matter in Middle Temporal Gyrus, anterior division (left)"
-25803,"Volume of grey matter in Middle Temporal Gyrus, anterior division (right)"
-25804,"Volume of grey matter in Middle Temporal Gyrus, posterior division (left)"
-25805,"Volume of grey matter in Middle Temporal Gyrus, posterior division (right)"
-25806,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (left)"
-25807,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (right)"
-25860,Volume of grey matter in Occipital Fusiform Gyrus (left)
-25861,Volume of grey matter in Occipital Fusiform Gyrus (right)
-25876,Volume of grey matter in Occipital Pole (left)
-25877,Volume of grey matter in Occipital Pole (right)
-25884,Volume of grey matter in Pallidum (left)
-25885,Volume of grey matter in Pallidum (right)
-25836,Volume of grey matter in Paracingulate Gyrus (left)
-25837,Volume of grey matter in Paracingulate Gyrus (right)
-25848,"Volume of grey matter in Parahippocampal Gyrus, anterior division (left)"
-25849,"Volume of grey matter in Parahippocampal Gyrus, anterior division (right)"
-25850,"Volume of grey matter in Parahippocampal Gyrus, posterior division (left)"
-25851,"Volume of grey matter in Parahippocampal Gyrus, posterior division (right)"
-25866,Volume of grey matter in Parietal Operculum Cortex (left)
-25867,Volume of grey matter in Parietal Operculum Cortex (right)
-25868,Volume of grey matter in Planum Polare (left)
-25869,Volume of grey matter in Planum Polare (right)
-25872,Volume of grey matter in Planum Temporale (left)
-25873,Volume of grey matter in Planum Temporale (right)
-25814,Volume of grey matter in Postcentral Gyrus (left)
-25815,Volume of grey matter in Postcentral Gyrus (right)
-25794,Volume of grey matter in Precentral Gyrus (left)
-25795,Volume of grey matter in Precentral Gyrus (right)
-25842,Volume of grey matter in Precuneous Cortex (left)
-25843,Volume of grey matter in Precuneous Cortex (right)
-25882,Volume of grey matter in Putamen (left)
-25883,Volume of grey matter in Putamen (right)
-25834,Volume of grey matter in Subcallosal Cortex (left)
-25835,Volume of grey matter in Subcallosal Cortex (right)
-25786,Volume of grey matter in Superior Frontal Gyrus (left)
-25787,Volume of grey matter in Superior Frontal Gyrus (right)
-25816,Volume of grey matter in Superior Parietal Lobule (left)
-25817,Volume of grey matter in Superior Parietal Lobule (right)
-25798,"Volume of grey matter in Superior Temporal Gyrus, anterior division (left)"
-25799,"Volume of grey matter in Superior Temporal Gyrus, anterior division (right)"
-25800,"Volume of grey matter in Superior Temporal Gyrus, posterior division (left)"
-25801,"Volume of grey matter in Superior Temporal Gyrus, posterior division (right)"
-25874,Volume of grey matter in Supracalcarine Cortex (left)
-25875,Volume of grey matter in Supracalcarine Cortex (right)
-25818,"Volume of grey matter in Supramarginal Gyrus, anterior division (left)"
-25819,"Volume of grey matter in Supramarginal Gyrus, anterior division (right)"
-25820,"Volume of grey matter in Supramarginal Gyrus, posterior division (left)"
-25821,"Volume of grey matter in Supramarginal Gyrus, posterior division (right)"
-25854,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (left)"
-25855,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (right)"
-25856,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (left)"
-25857,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (right)"
-25858,Volume of grey matter in Temporal Occipital Fusiform Cortex (left)
-25859,Volume of grey matter in Temporal Occipital Fusiform Cortex (right)
-25796,Volume of grey matter in Temporal Pole (left)
-25797,Volume of grey matter in Temporal Pole (right)
-25878,Volume of grey matter in Thalamus (left)
-25879,Volume of grey matter in Thalamus (right)
-25895,Volume of grey matter in V Cerebellum (left)
-25896,Volume of grey matter in V Cerebellum (right)
-25897,Volume of grey matter in VI Cerebellum (left)
-25899,Volume of grey matter in VI Cerebellum (right)
-25898,Volume of grey matter in VI Cerebellum (vermis)
-25909,Volume of grey matter in VIIIa Cerebellum (left)
-25911,Volume of grey matter in VIIIa Cerebellum (right)
-25910,Volume of grey matter in VIIIa Cerebellum (vermis)
-25912,Volume of grey matter in VIIIb Cerebellum (left)
-25914,Volume of grey matter in VIIIb Cerebellum (right)
-25913,Volume of grey matter in VIIIb Cerebellum (vermis)
-25906,Volume of grey matter in VIIb Cerebellum (left)
-25908,Volume of grey matter in VIIb Cerebellum (right)
-25907,Volume of grey matter in VIIb Cerebellum (vermis)
-25890,Volume of grey matter in Ventral Striatum (left)
-25891,Volume of grey matter in Ventral Striatum (right)
-25918,Volume of grey matter in X Cerebellum (left)
-25919,Volume of grey matter in X Cerebellum (vermis)
-25920,Volume of grey matter in X Cerebellum (right)
-25023,Volume of accumbens (left)
-25024,Volume of accumbens (right)
-25021,Volume of amygdala (left)
-25022,Volume of amygdala (right)
-25013,Volume of caudate (left)
-25014,Volume of caudate (right)
-25019,Volume of hippocampus (left)
-25020,Volume of hippocampus (right)
-25017,Volume of pallidum (left)
-25018,Volume of pallidum (right)
-25015,Volume of putamen (left)
-25016,Volume of putamen (right)
-25011,Volume of thalamus (left)
-25012,Volume of thalamus (right)
-26501,Mean intensity of 3rd-Ventricle (whole brain)
-26502,Mean intensity of 4th-Ventricle (whole brain)
-26503,Mean intensity of 5th-Ventricle (whole brain)
-26548,Mean intensity of Accumbens-area (left hemisphere)
-26579,Mean intensity of Accumbens-area (right hemisphere)
-26547,Mean intensity of Amygdala (left hemisphere)
-26578,Mean intensity of Amygdala (right hemisphere)
-26504,Mean intensity of Brain-Stem (whole brain)
-26513,Mean intensity of CC-Anterior (whole brain)
-26511,Mean intensity of CC-Central (whole brain)
-26512,Mean intensity of CC-Mid-Anterior (whole brain)
-26510,Mean intensity of CC-Mid-Posterior (whole brain)
-26509,Mean intensity of CC-Posterior (whole brain)
-26505,Mean intensity of CSF (whole brain)
-26543,Mean intensity of Caudate (left hemisphere)
-26574,Mean intensity of Caudate (right hemisphere)
-26541,Mean intensity of Cerebellum-Cortex (left hemisphere)
-26572,Mean intensity of Cerebellum-Cortex (right hemisphere)
-26540,Mean intensity of Cerebellum-White-Matter (left hemisphere)
-26571,Mean intensity of Cerebellum-White-Matter (right hemisphere)
-26546,Mean intensity of Hippocampus (left hemisphere)
-26577,Mean intensity of Hippocampus (right hemisphere)
-26539,Mean intensity of Inf-Lat-Vent (left hemisphere)
-26570,Mean intensity of Inf-Lat-Vent (right hemisphere)
-26538,Mean intensity of Lateral-Ventricle (left hemisphere)
-26569,Mean intensity of Lateral-Ventricle (right hemisphere)
-26508,Mean intensity of Optic-Chiasm (whole brain)
-26545,Mean intensity of Pallidum (left hemisphere)
-26576,Mean intensity of Pallidum (right hemisphere)
-26544,Mean intensity of Putamen (left hemisphere)
-26575,Mean intensity of Putamen (right hemisphere)
-26542,Mean intensity of Thalamus-Proper (left hemisphere)
-26573,Mean intensity of Thalamus-Proper (right hemisphere)
-26549,Mean intensity of VentralDC (left hemisphere)
-26580,Mean intensity of VentralDC (right hemisphere)
-26506,Mean intensity of WM-hypointensities (whole brain)
-26551,Mean intensity of choroid-plexus (left hemisphere)
-26582,Mean intensity of choroid-plexus (right hemisphere)
-26507,Mean intensity of non-WM-hypointensities (whole brain)
-26550,Mean intensity of vessel (left hemisphere)
-26581,Mean intensity of vessel (right hemisphere)
-26568,Number of HolesBeforeFixing (left hemisphere)
-26599,Number of HolesBeforeFixing (right hemisphere)
-26523,Volume of 3rd-Ventricle (whole brain)
-26524,Volume of 4th-Ventricle (whole brain)
-26525,Volume of 5th-Ventricle (whole brain)
-26564,Volume of Accumbens-area (left hemisphere)
-26595,Volume of Accumbens-area (right hemisphere)
-26563,Volume of Amygdala (left hemisphere)
-26594,Volume of Amygdala (right hemisphere)
-26526,Volume of Brain-Stem (whole brain)
-26514,Volume of BrainSeg (whole brain)
-26515,Volume of BrainSegNotVent (whole brain)
-26516,Volume of BrainSegNotVentSurf (whole brain)
-26535,Volume of CC-Anterior (whole brain)
-26533,Volume of CC-Central (whole brain)
-26534,Volume of CC-Mid-Anterior (whole brain)
-26532,Volume of CC-Mid-Posterior (whole brain)
-26531,Volume of CC-Posterior (whole brain)
-26527,Volume of CSF (whole brain)
-26559,Volume of Caudate (left hemisphere)
-26590,Volume of Caudate (right hemisphere)
-26557,Volume of Cerebellum-Cortex (left hemisphere)
-26588,Volume of Cerebellum-Cortex (right hemisphere)
-26556,Volume of Cerebellum-White-Matter (left hemisphere)
-26587,Volume of Cerebellum-White-Matter (right hemisphere)
-26553,Volume of CerebralWhiteMatter (left hemisphere)
-26584,Volume of CerebralWhiteMatter (right hemisphere)
-26552,Volume of Cortex (left hemisphere)
-26583,Volume of Cortex (right hemisphere)
-26521,Volume of EstimatedTotalIntraCranial (whole brain)
-26562,Volume of Hippocampus (left hemisphere)
-26593,Volume of Hippocampus (right hemisphere)
-26555,Volume of Inf-Lat-Vent (left hemisphere)
-26586,Volume of Inf-Lat-Vent (right hemisphere)
-26554,Volume of Lateral-Ventricle (left hemisphere)
-26585,Volume of Lateral-Ventricle (right hemisphere)
-26530,Volume of Optic-Chiasm (whole brain)
-26561,Volume of Pallidum (left hemisphere)
-26592,Volume of Pallidum (right hemisphere)
-26560,Volume of Putamen (left hemisphere)
-26591,Volume of Putamen (right hemisphere)
-26517,Volume of SubCortGray (whole brain)
-26519,Volume of SupraTentorial (whole brain)
-26520,Volume of SupraTentorialNotVent (whole brain)
-26558,Volume of Thalamus-Proper (left hemisphere)
-26589,Volume of Thalamus-Proper (right hemisphere)
-26518,Volume of TotalGray (whole brain)
-26565,Volume of VentralDC (left hemisphere)
-26596,Volume of VentralDC (right hemisphere)
-26522,Volume of VentricleChoroid (whole brain)
-26528,Volume of WM-hypointensities (whole brain)
-26567,Volume of choroid-plexus (left hemisphere)
-26598,Volume of choroid-plexus (right hemisphere)
-26529,Volume of non-WM-hypointensities (whole brain)
-26566,Volume of vessel (left hemisphere)
-26597,Volume of vessel (right hemisphere)
-26536,Volume-ratio of BrainSegVol-to-eTIV (whole brain)
-26537,Volume-ratio of MaskVol-to-eTIV (whole brain)
-27059,Area of BA1 (left hemisphere)
-27101,Area of BA1 (right hemisphere)
-27060,Area of BA2 (left hemisphere)
-27102,Area of BA2 (right hemisphere)
-27061,Area of BA3a (left hemisphere)
-27103,Area of BA3a (right hemisphere)
-27062,Area of BA3b (left hemisphere)
-27104,Area of BA3b (right hemisphere)
-27066,Area of BA44 (left hemisphere)
-27108,Area of BA44 (right hemisphere)
-27067,Area of BA45 (left hemisphere)
-27109,Area of BA45 (right hemisphere)
-27063,Area of BA4a (left hemisphere)
-27105,Area of BA4a (right hemisphere)
-27064,Area of BA4p (left hemisphere)
-27106,Area of BA4p (right hemisphere)
-27065,Area of BA6 (left hemisphere)
-27107,Area of BA6 (right hemisphere)
-27070,Area of MT (left hemisphere)
-27112,Area of MT (right hemisphere)
-27068,Area of V1 (left hemisphere)
-27110,Area of V1 (right hemisphere)
-27069,Area of V2 (left hemisphere)
-27111,Area of V2 (right hemisphere)
-27072,Area of entorhinal (left hemisphere)
-27114,Area of entorhinal (right hemisphere)
-27071,Area of perirhinal (left hemisphere)
-27113,Area of perirhinal (right hemisphere)
-27073,Mean thickness of BA1 (left hemisphere)
-27115,Mean thickness of BA1 (right hemisphere)
-27074,Mean thickness of BA2 (left hemisphere)
-27116,Mean thickness of BA2 (right hemisphere)
-27075,Mean thickness of BA3a (left hemisphere)
-27117,Mean thickness of BA3a (right hemisphere)
-27076,Mean thickness of BA3b (left hemisphere)
-27118,Mean thickness of BA3b (right hemisphere)
-27080,Mean thickness of BA44 (left hemisphere)
-27122,Mean thickness of BA44 (right hemisphere)
-27081,Mean thickness of BA45 (left hemisphere)
-27123,Mean thickness of BA45 (right hemisphere)
-27077,Mean thickness of BA4a (left hemisphere)
-27119,Mean thickness of BA4a (right hemisphere)
-27078,Mean thickness of BA4p (left hemisphere)
-27120,Mean thickness of BA4p (right hemisphere)
-27079,Mean thickness of BA6 (left hemisphere)
-27121,Mean thickness of BA6 (right hemisphere)
-27084,Mean thickness of MT (left hemisphere)
-27126,Mean thickness of MT (right hemisphere)
-27082,Mean thickness of V1 (left hemisphere)
-27124,Mean thickness of V1 (right hemisphere)
-27083,Mean thickness of V2 (left hemisphere)
-27125,Mean thickness of V2 (right hemisphere)
-27086,Mean thickness of entorhinal (left hemisphere)
-27128,Mean thickness of entorhinal (right hemisphere)
-27085,Mean thickness of perirhinal (left hemisphere)
-27127,Mean thickness of perirhinal (right hemisphere)
-27087,Volume of BA1 (left hemisphere)
-27129,Volume of BA1 (right hemisphere)
-27088,Volume of BA2 (left hemisphere)
-27130,Volume of BA2 (right hemisphere)
-27089,Volume of BA3a (left hemisphere)
-27131,Volume of BA3a (right hemisphere)
-27090,Volume of BA3b (left hemisphere)
-27132,Volume of BA3b (right hemisphere)
-27094,Volume of BA44 (left hemisphere)
-27136,Volume of BA44 (right hemisphere)
-27095,Volume of BA45 (left hemisphere)
-27137,Volume of BA45 (right hemisphere)
-27091,Volume of BA4a (left hemisphere)
-27133,Volume of BA4a (right hemisphere)
-27092,Volume of BA4p (left hemisphere)
-27134,Volume of BA4p (right hemisphere)
-27093,Volume of BA6 (left hemisphere)
-27135,Volume of BA6 (right hemisphere)
-27098,Volume of MT (left hemisphere)
-27140,Volume of MT (right hemisphere)
-27096,Volume of V1 (left hemisphere)
-27138,Volume of V1 (right hemisphere)
-27097,Volume of V2 (left hemisphere)
-27139,Volume of V2 (right hemisphere)
-27100,Volume of entorhinal (left hemisphere)
-27142,Volume of entorhinal (right hemisphere)
-27099,Volume of perirhinal (left hemisphere)
-27141,Volume of perirhinal (right hemisphere)
-27334,Area of G+S-cingul-Ant (left hemisphere)
-27556,Area of G+S-cingul-Ant (right hemisphere)
-27335,Area of G+S-cingul-Mid-Ant (left hemisphere)
-27557,Area of G+S-cingul-Mid-Ant (right hemisphere)
-27336,Area of G+S-cingul-Mid-Post (left hemisphere)
-27558,Area of G+S-cingul-Mid-Post (right hemisphere)
-27329,Area of G+S-frontomargin (left hemisphere)
-27551,Area of G+S-frontomargin (right hemisphere)
-27330,Area of G+S-occipital-inf (left hemisphere)
-27552,Area of G+S-occipital-inf (right hemisphere)
-27331,Area of G+S-paracentral (left hemisphere)
-27553,Area of G+S-paracentral (right hemisphere)
-27332,Area of G+S-subcentral (left hemisphere)
-27554,Area of G+S-subcentral (right hemisphere)
-27333,Area of G+S-transv-frontopol (left hemisphere)
-27555,Area of G+S-transv-frontopol (right hemisphere)
-27345,Area of G-Ins-lg+S-cent-ins (left hemisphere)
-27567,Area of G-Ins-lg+S-cent-ins (right hemisphere)
-27337,Area of G-cingul-Post-dorsal (left hemisphere)
-27559,Area of G-cingul-Post-dorsal (right hemisphere)
-27338,Area of G-cingul-Post-ventral (left hemisphere)
-27560,Area of G-cingul-Post-ventral (right hemisphere)
-27339,Area of G-cuneus (left hemisphere)
-27561,Area of G-cuneus (right hemisphere)
-27340,Area of G-front-inf-Opercular (left hemisphere)
-27562,Area of G-front-inf-Opercular (right hemisphere)
-27341,Area of G-front-inf-Orbital (left hemisphere)
-27563,Area of G-front-inf-Orbital (right hemisphere)
-27342,Area of G-front-inf-Triangul (left hemisphere)
-27564,Area of G-front-inf-Triangul (right hemisphere)
-27343,Area of G-front-middle (left hemisphere)
-27565,Area of G-front-middle (right hemisphere)
-27344,Area of G-front-sup (left hemisphere)
-27566,Area of G-front-sup (right hemisphere)
-27346,Area of G-insular-short (left hemisphere)
-27568,Area of G-insular-short (right hemisphere)
-27349,Area of G-oc-temp-lat-fusifor (left hemisphere)
-27571,Area of G-oc-temp-lat-fusifor (right hemisphere)
-27350,Area of G-oc-temp-med-Lingual (left hemisphere)
-27572,Area of G-oc-temp-med-Lingual (right hemisphere)
-27351,Area of G-oc-temp-med-Parahip (left hemisphere)
-27573,Area of G-oc-temp-med-Parahip (right hemisphere)
-27347,Area of G-occipital-middle (left hemisphere)
-27569,Area of G-occipital-middle (right hemisphere)
-27348,Area of G-occipital-sup (left hemisphere)
-27570,Area of G-occipital-sup (right hemisphere)
-27352,Area of G-orbital (left hemisphere)
-27574,Area of G-orbital (right hemisphere)
-27353,Area of G-pariet-inf-Angular (left hemisphere)
-27575,Area of G-pariet-inf-Angular (right hemisphere)
-27354,Area of G-pariet-inf-Supramar (left hemisphere)
-27576,Area of G-pariet-inf-Supramar (right hemisphere)
-27355,Area of G-parietal-sup (left hemisphere)
-27577,Area of G-parietal-sup (right hemisphere)
-27356,Area of G-postcentral (left hemisphere)
-27578,Area of G-postcentral (right hemisphere)
-27357,Area of G-precentral (left hemisphere)
-27579,Area of G-precentral (right hemisphere)
-27358,Area of G-precuneus (left hemisphere)
-27580,Area of G-precuneus (right hemisphere)
-27359,Area of G-rectus (left hemisphere)
-27581,Area of G-rectus (right hemisphere)
-27360,Area of G-subcallosal (left hemisphere)
-27582,Area of G-subcallosal (right hemisphere)
-27361,Area of G-temp-sup-G-T-transv (left hemisphere)
-27583,Area of G-temp-sup-G-T-transv (right hemisphere)
-27362,Area of G-temp-sup-Lateral (left hemisphere)
-27584,Area of G-temp-sup-Lateral (right hemisphere)
-27363,Area of G-temp-sup-Plan-polar (left hemisphere)
-27585,Area of G-temp-sup-Plan-polar (right hemisphere)
-27364,Area of G-temp-sup-Plan-tempo (left hemisphere)
-27586,Area of G-temp-sup-Plan-tempo (right hemisphere)
-27365,Area of G-temporal-inf (left hemisphere)
-27587,Area of G-temporal-inf (right hemisphere)
-27366,Area of G-temporal-middle (left hemisphere)
-27588,Area of G-temporal-middle (right hemisphere)
-27367,Area of Lat-Fis-ant-Horizont (left hemisphere)
-27589,Area of Lat-Fis-ant-Horizont (right hemisphere)
-27368,Area of Lat-Fis-ant-Vertical (left hemisphere)
-27590,Area of Lat-Fis-ant-Vertical (right hemisphere)
-27369,Area of Lat-Fis-post (left hemisphere)
-27591,Area of Lat-Fis-post (right hemisphere)
-27370,Area of Pole-occipital (left hemisphere)
-27592,Area of Pole-occipital (right hemisphere)
-27371,Area of Pole-temporal (left hemisphere)
-27593,Area of Pole-temporal (right hemisphere)
-27372,Area of S-calcarine (left hemisphere)
-27594,Area of S-calcarine (right hemisphere)
-27373,Area of S-central (left hemisphere)
-27595,Area of S-central (right hemisphere)
-27374,Area of S-cingul-Marginalis (left hemisphere)
-27596,Area of S-cingul-Marginalis (right hemisphere)
-27375,Area of S-circular-insula-ant (left hemisphere)
-27597,Area of S-circular-insula-ant (right hemisphere)
-27376,Area of S-circular-insula-inf (left hemisphere)
-27598,Area of S-circular-insula-inf (right hemisphere)
-27377,Area of S-circular-insula-sup (left hemisphere)
-27599,Area of S-circular-insula-sup (right hemisphere)
-27378,Area of S-collat-transv-ant (left hemisphere)
-27600,Area of S-collat-transv-ant (right hemisphere)
-27379,Area of S-collat-transv-post (left hemisphere)
-27601,Area of S-collat-transv-post (right hemisphere)
-27380,Area of S-front-inf (left hemisphere)
-27602,Area of S-front-inf (right hemisphere)
-27381,Area of S-front-middle (left hemisphere)
-27603,Area of S-front-middle (right hemisphere)
-27382,Area of S-front-sup (left hemisphere)
-27604,Area of S-front-sup (right hemisphere)
-27383,Area of S-interm-prim-Jensen (left hemisphere)
-27605,Area of S-interm-prim-Jensen (right hemisphere)
-27384,Area of S-intrapariet+P-trans (left hemisphere)
-27606,Area of S-intrapariet+P-trans (right hemisphere)
-27385,Area of S-oc-middle+Lunatus (left hemisphere)
-27607,Area of S-oc-middle+Lunatus (right hemisphere)
-27386,Area of S-oc-sup+transversal (left hemisphere)
-27608,Area of S-oc-sup+transversal (right hemisphere)
-27388,Area of S-oc-temp-lat (left hemisphere)
-27610,Area of S-oc-temp-lat (right hemisphere)
-27389,Area of S-oc-temp-med+Lingual (left hemisphere)
-27611,Area of S-oc-temp-med+Lingual (right hemisphere)
-27387,Area of S-occipital-ant (left hemisphere)
-27609,Area of S-occipital-ant (right hemisphere)
-27392,Area of S-orbital-H-Shaped (left hemisphere)
-27614,Area of S-orbital-H-Shaped (right hemisphere)
-27390,Area of S-orbital-lateral (left hemisphere)
-27612,Area of S-orbital-lateral (right hemisphere)
-27391,Area of S-orbital-med-olfact (left hemisphere)
-27613,Area of S-orbital-med-olfact (right hemisphere)
-27393,Area of S-parieto-occipital (left hemisphere)
-27615,Area of S-parieto-occipital (right hemisphere)
-27394,Area of S-pericallosal (left hemisphere)
-27616,Area of S-pericallosal (right hemisphere)
-27395,Area of S-postcentral (left hemisphere)
-27617,Area of S-postcentral (right hemisphere)
-27396,Area of S-precentral-inf-part (left hemisphere)
-27618,Area of S-precentral-inf-part (right hemisphere)
-27397,Area of S-precentral-sup-part (left hemisphere)
-27619,Area of S-precentral-sup-part (right hemisphere)
-27398,Area of S-suborbital (left hemisphere)
-27620,Area of S-suborbital (right hemisphere)
-27399,Area of S-subparietal (left hemisphere)
-27621,Area of S-subparietal (right hemisphere)
-27400,Area of S-temporal-inf (left hemisphere)
-27622,Area of S-temporal-inf (right hemisphere)
-27401,Area of S-temporal-sup (left hemisphere)
-27623,Area of S-temporal-sup (right hemisphere)
-27402,Area of S-temporal-transverse (left hemisphere)
-27624,Area of S-temporal-transverse (right hemisphere)
-27408,Mean thickness of G+S-cingul-Ant (left hemisphere)
-27630,Mean thickness of G+S-cingul-Ant (right hemisphere)
-27409,Mean thickness of G+S-cingul-Mid-Ant (left hemisphere)
-27631,Mean thickness of G+S-cingul-Mid-Ant (right hemisphere)
-27410,Mean thickness of G+S-cingul-Mid-Post (left hemisphere)
-27632,Mean thickness of G+S-cingul-Mid-Post (right hemisphere)
-27403,Mean thickness of G+S-frontomargin (left hemisphere)
-27625,Mean thickness of G+S-frontomargin (right hemisphere)
-27404,Mean thickness of G+S-occipital-inf (left hemisphere)
-27626,Mean thickness of G+S-occipital-inf (right hemisphere)
-27405,Mean thickness of G+S-paracentral (left hemisphere)
-27627,Mean thickness of G+S-paracentral (right hemisphere)
-27406,Mean thickness of G+S-subcentral (left hemisphere)
-27628,Mean thickness of G+S-subcentral (right hemisphere)
-27407,Mean thickness of G+S-transv-frontopol (left hemisphere)
-27629,Mean thickness of G+S-transv-frontopol (right hemisphere)
-27419,Mean thickness of G-Ins-lg+S-cent-ins (left hemisphere)
-27641,Mean thickness of G-Ins-lg+S-cent-ins (right hemisphere)
-27411,Mean thickness of G-cingul-Post-dorsal (left hemisphere)
-27633,Mean thickness of G-cingul-Post-dorsal (right hemisphere)
-27412,Mean thickness of G-cingul-Post-ventral (left hemisphere)
-27634,Mean thickness of G-cingul-Post-ventral (right hemisphere)
-27413,Mean thickness of G-cuneus (left hemisphere)
-27635,Mean thickness of G-cuneus (right hemisphere)
-27414,Mean thickness of G-front-inf-Opercular (left hemisphere)
-27636,Mean thickness of G-front-inf-Opercular (right hemisphere)
-27415,Mean thickness of G-front-inf-Orbital (left hemisphere)
-27637,Mean thickness of G-front-inf-Orbital (right hemisphere)
-27416,Mean thickness of G-front-inf-Triangul (left hemisphere)
-27638,Mean thickness of G-front-inf-Triangul (right hemisphere)
-27417,Mean thickness of G-front-middle (left hemisphere)
-27639,Mean thickness of G-front-middle (right hemisphere)
-27418,Mean thickness of G-front-sup (left hemisphere)
-27640,Mean thickness of G-front-sup (right hemisphere)
-27420,Mean thickness of G-insular-short (left hemisphere)
-27642,Mean thickness of G-insular-short (right hemisphere)
-27423,Mean thickness of G-oc-temp-lat-fusifor (left hemisphere)
-27645,Mean thickness of G-oc-temp-lat-fusifor (right hemisphere)
-27424,Mean thickness of G-oc-temp-med-Lingual (left hemisphere)
-27646,Mean thickness of G-oc-temp-med-Lingual (right hemisphere)
-27425,Mean thickness of G-oc-temp-med-Parahip (left hemisphere)
-27647,Mean thickness of G-oc-temp-med-Parahip (right hemisphere)
-27421,Mean thickness of G-occipital-middle (left hemisphere)
-27643,Mean thickness of G-occipital-middle (right hemisphere)
-27422,Mean thickness of G-occipital-sup (left hemisphere)
-27644,Mean thickness of G-occipital-sup (right hemisphere)
-27426,Mean thickness of G-orbital (left hemisphere)
-27648,Mean thickness of G-orbital (right hemisphere)
-27427,Mean thickness of G-pariet-inf-Angular (left hemisphere)
-27649,Mean thickness of G-pariet-inf-Angular (right hemisphere)
-27428,Mean thickness of G-pariet-inf-Supramar (left hemisphere)
-27650,Mean thickness of G-pariet-inf-Supramar (right hemisphere)
-27429,Mean thickness of G-parietal-sup (left hemisphere)
-27651,Mean thickness of G-parietal-sup (right hemisphere)
-27430,Mean thickness of G-postcentral (left hemisphere)
-27652,Mean thickness of G-postcentral (right hemisphere)
-27431,Mean thickness of G-precentral (left hemisphere)
-27653,Mean thickness of G-precentral (right hemisphere)
-27432,Mean thickness of G-precuneus (left hemisphere)
-27654,Mean thickness of G-precuneus (right hemisphere)
-27433,Mean thickness of G-rectus (left hemisphere)
-27655,Mean thickness of G-rectus (right hemisphere)
-27434,Mean thickness of G-subcallosal (left hemisphere)
-27656,Mean thickness of G-subcallosal (right hemisphere)
-27435,Mean thickness of G-temp-sup-G-T-transv (left hemisphere)
-27657,Mean thickness of G-temp-sup-G-T-transv (right hemisphere)
-27436,Mean thickness of G-temp-sup-Lateral (left hemisphere)
-27658,Mean thickness of G-temp-sup-Lateral (right hemisphere)
-27437,Mean thickness of G-temp-sup-Plan-polar (left hemisphere)
-27659,Mean thickness of G-temp-sup-Plan-polar (right hemisphere)
-27438,Mean thickness of G-temp-sup-Plan-tempo (left hemisphere)
-27660,Mean thickness of G-temp-sup-Plan-tempo (right hemisphere)
-27439,Mean thickness of G-temporal-inf (left hemisphere)
-27661,Mean thickness of G-temporal-inf (right hemisphere)
-27440,Mean thickness of G-temporal-middle (left hemisphere)
-27662,Mean thickness of G-temporal-middle (right hemisphere)
-27441,Mean thickness of Lat-Fis-ant-Horizont (left hemisphere)
-27663,Mean thickness of Lat-Fis-ant-Horizont (right hemisphere)
-27442,Mean thickness of Lat-Fis-ant-Vertical (left hemisphere)
-27664,Mean thickness of Lat-Fis-ant-Vertical (right hemisphere)
-27443,Mean thickness of Lat-Fis-post (left hemisphere)
-27665,Mean thickness of Lat-Fis-post (right hemisphere)
-27444,Mean thickness of Pole-occipital (left hemisphere)
-27666,Mean thickness of Pole-occipital (right hemisphere)
-27445,Mean thickness of Pole-temporal (left hemisphere)
-27667,Mean thickness of Pole-temporal (right hemisphere)
-27446,Mean thickness of S-calcarine (left hemisphere)
-27668,Mean thickness of S-calcarine (right hemisphere)
-27447,Mean thickness of S-central (left hemisphere)
-27669,Mean thickness of S-central (right hemisphere)
-27448,Mean thickness of S-cingul-Marginalis (left hemisphere)
-27670,Mean thickness of S-cingul-Marginalis (right hemisphere)
-27449,Mean thickness of S-circular-insula-ant (left hemisphere)
-27671,Mean thickness of S-circular-insula-ant (right hemisphere)
-27450,Mean thickness of S-circular-insula-inf (left hemisphere)
-27672,Mean thickness of S-circular-insula-inf (right hemisphere)
-27451,Mean thickness of S-circular-insula-sup (left hemisphere)
-27673,Mean thickness of S-circular-insula-sup (right hemisphere)
-27452,Mean thickness of S-collat-transv-ant (left hemisphere)
-27674,Mean thickness of S-collat-transv-ant (right hemisphere)
-27453,Mean thickness of S-collat-transv-post (left hemisphere)
-27675,Mean thickness of S-collat-transv-post (right hemisphere)
-27454,Mean thickness of S-front-inf (left hemisphere)
-27676,Mean thickness of S-front-inf (right hemisphere)
-27455,Mean thickness of S-front-middle (left hemisphere)
-27677,Mean thickness of S-front-middle (right hemisphere)
-27456,Mean thickness of S-front-sup (left hemisphere)
-27678,Mean thickness of S-front-sup (right hemisphere)
-27457,Mean thickness of S-interm-prim-Jensen (left hemisphere)
-27679,Mean thickness of S-interm-prim-Jensen (right hemisphere)
-27458,Mean thickness of S-intrapariet+P-trans (left hemisphere)
-27680,Mean thickness of S-intrapariet+P-trans (right hemisphere)
-27459,Mean thickness of S-oc-middle+Lunatus (left hemisphere)
-27681,Mean thickness of S-oc-middle+Lunatus (right hemisphere)
-27460,Mean thickness of S-oc-sup+transversal (left hemisphere)
-27682,Mean thickness of S-oc-sup+transversal (right hemisphere)
-27462,Mean thickness of S-oc-temp-lat (left hemisphere)
-27684,Mean thickness of S-oc-temp-lat (right hemisphere)
-27463,Mean thickness of S-oc-temp-med+Lingual (left hemisphere)
-27685,Mean thickness of S-oc-temp-med+Lingual (right hemisphere)
-27461,Mean thickness of S-occipital-ant (left hemisphere)
-27683,Mean thickness of S-occipital-ant (right hemisphere)
-27466,Mean thickness of S-orbital-H-Shaped (left hemisphere)
-27688,Mean thickness of S-orbital-H-Shaped (right hemisphere)
-27464,Mean thickness of S-orbital-lateral (left hemisphere)
-27686,Mean thickness of S-orbital-lateral (right hemisphere)
-27465,Mean thickness of S-orbital-med-olfact (left hemisphere)
-27687,Mean thickness of S-orbital-med-olfact (right hemisphere)
-27467,Mean thickness of S-parieto-occipital (left hemisphere)
-27689,Mean thickness of S-parieto-occipital (right hemisphere)
-27468,Mean thickness of S-pericallosal (left hemisphere)
-27690,Mean thickness of S-pericallosal (right hemisphere)
-27469,Mean thickness of S-postcentral (left hemisphere)
-27691,Mean thickness of S-postcentral (right hemisphere)
-27470,Mean thickness of S-precentral-inf-part (left hemisphere)
-27692,Mean thickness of S-precentral-inf-part (right hemisphere)
-27471,Mean thickness of S-precentral-sup-part (left hemisphere)
-27693,Mean thickness of S-precentral-sup-part (right hemisphere)
-27472,Mean thickness of S-suborbital (left hemisphere)
-27694,Mean thickness of S-suborbital (right hemisphere)
-27473,Mean thickness of S-subparietal (left hemisphere)
-27695,Mean thickness of S-subparietal (right hemisphere)
-27474,Mean thickness of S-temporal-inf (left hemisphere)
-27696,Mean thickness of S-temporal-inf (right hemisphere)
-27475,Mean thickness of S-temporal-sup (left hemisphere)
-27697,Mean thickness of S-temporal-sup (right hemisphere)
-27476,Mean thickness of S-temporal-transverse (left hemisphere)
-27698,Mean thickness of S-temporal-transverse (right hemisphere)
-27482,Volume of G+S-cingul-Ant (left hemisphere)
-27704,Volume of G+S-cingul-Ant (right hemisphere)
-27483,Volume of G+S-cingul-Mid-Ant (left hemisphere)
-27705,Volume of G+S-cingul-Mid-Ant (right hemisphere)
-27484,Volume of G+S-cingul-Mid-Post (left hemisphere)
-27706,Volume of G+S-cingul-Mid-Post (right hemisphere)
-27477,Volume of G+S-frontomargin (left hemisphere)
-27699,Volume of G+S-frontomargin (right hemisphere)
-27478,Volume of G+S-occipital-inf (left hemisphere)
-27700,Volume of G+S-occipital-inf (right hemisphere)
-27479,Volume of G+S-paracentral (left hemisphere)
-27701,Volume of G+S-paracentral (right hemisphere)
-27480,Volume of G+S-subcentral (left hemisphere)
-27702,Volume of G+S-subcentral (right hemisphere)
-27481,Volume of G+S-transv-frontopol (left hemisphere)
-27703,Volume of G+S-transv-frontopol (right hemisphere)
-27493,Volume of G-Ins-lg+S-cent-ins (left hemisphere)
-27715,Volume of G-Ins-lg+S-cent-ins (right hemisphere)
-27485,Volume of G-cingul-Post-dorsal (left hemisphere)
-27707,Volume of G-cingul-Post-dorsal (right hemisphere)
-27486,Volume of G-cingul-Post-ventral (left hemisphere)
-27708,Volume of G-cingul-Post-ventral (right hemisphere)
-27487,Volume of G-cuneus (left hemisphere)
-27709,Volume of G-cuneus (right hemisphere)
-27488,Volume of G-front-inf-Opercular (left hemisphere)
-27710,Volume of G-front-inf-Opercular (right hemisphere)
-27489,Volume of G-front-inf-Orbital (left hemisphere)
-27711,Volume of G-front-inf-Orbital (right hemisphere)
-27490,Volume of G-front-inf-Triangul (left hemisphere)
-27712,Volume of G-front-inf-Triangul (right hemisphere)
-27491,Volume of G-front-middle (left hemisphere)
-27713,Volume of G-front-middle (right hemisphere)
-27492,Volume of G-front-sup (left hemisphere)
-27714,Volume of G-front-sup (right hemisphere)
-27494,Volume of G-insular-short (left hemisphere)
-27716,Volume of G-insular-short (right hemisphere)
-27497,Volume of G-oc-temp-lat-fusifor (left hemisphere)
-27719,Volume of G-oc-temp-lat-fusifor (right hemisphere)
-27498,Volume of G-oc-temp-med-Lingual (left hemisphere)
-27720,Volume of G-oc-temp-med-Lingual (right hemisphere)
-27499,Volume of G-oc-temp-med-Parahip (left hemisphere)
-27721,Volume of G-oc-temp-med-Parahip (right hemisphere)
-27495,Volume of G-occipital-middle (left hemisphere)
-27717,Volume of G-occipital-middle (right hemisphere)
-27496,Volume of G-occipital-sup (left hemisphere)
-27718,Volume of G-occipital-sup (right hemisphere)
-27500,Volume of G-orbital (left hemisphere)
-27722,Volume of G-orbital (right hemisphere)
-27501,Volume of G-pariet-inf-Angular (left hemisphere)
-27723,Volume of G-pariet-inf-Angular (right hemisphere)
-27502,Volume of G-pariet-inf-Supramar (left hemisphere)
-27724,Volume of G-pariet-inf-Supramar (right hemisphere)
-27503,Volume of G-parietal-sup (left hemisphere)
-27725,Volume of G-parietal-sup (right hemisphere)
-27504,Volume of G-postcentral (left hemisphere)
-27726,Volume of G-postcentral (right hemisphere)
-27505,Volume of G-precentral (left hemisphere)
-27727,Volume of G-precentral (right hemisphere)
-27506,Volume of G-precuneus (left hemisphere)
-27728,Volume of G-precuneus (right hemisphere)
-27507,Volume of G-rectus (left hemisphere)
-27729,Volume of G-rectus (right hemisphere)
-27508,Volume of G-subcallosal (left hemisphere)
-27730,Volume of G-subcallosal (right hemisphere)
-27509,Volume of G-temp-sup-G-T-transv (left hemisphere)
-27731,Volume of G-temp-sup-G-T-transv (right hemisphere)
-27510,Volume of G-temp-sup-Lateral (left hemisphere)
-27732,Volume of G-temp-sup-Lateral (right hemisphere)
-27511,Volume of G-temp-sup-Plan-polar (left hemisphere)
-27733,Volume of G-temp-sup-Plan-polar (right hemisphere)
-27512,Volume of G-temp-sup-Plan-tempo (left hemisphere)
-27734,Volume of G-temp-sup-Plan-tempo (right hemisphere)
-27513,Volume of G-temporal-inf (left hemisphere)
-27735,Volume of G-temporal-inf (right hemisphere)
-27514,Volume of G-temporal-middle (left hemisphere)
-27736,Volume of G-temporal-middle (right hemisphere)
-27515,Volume of Lat-Fis-ant-Horizont (left hemisphere)
-27737,Volume of Lat-Fis-ant-Horizont (right hemisphere)
-27516,Volume of Lat-Fis-ant-Vertical (left hemisphere)
-27738,Volume of Lat-Fis-ant-Vertical (right hemisphere)
-27517,Volume of Lat-Fis-post (left hemisphere)
-27739,Volume of Lat-Fis-post (right hemisphere)
-27518,Volume of Pole-occipital (left hemisphere)
-27740,Volume of Pole-occipital (right hemisphere)
-27519,Volume of Pole-temporal (left hemisphere)
-27741,Volume of Pole-temporal (right hemisphere)
-27520,Volume of S-calcarine (left hemisphere)
-27742,Volume of S-calcarine (right hemisphere)
-27521,Volume of S-central (left hemisphere)
-27743,Volume of S-central (right hemisphere)
-27522,Volume of S-cingul-Marginalis (left hemisphere)
-27744,Volume of S-cingul-Marginalis (right hemisphere)
-27523,Volume of S-circular-insula-ant (left hemisphere)
-27745,Volume of S-circular-insula-ant (right hemisphere)
-27524,Volume of S-circular-insula-inf (left hemisphere)
-27746,Volume of S-circular-insula-inf (right hemisphere)
-27525,Volume of S-circular-insula-sup (left hemisphere)
-27747,Volume of S-circular-insula-sup (right hemisphere)
-27526,Volume of S-collat-transv-ant (left hemisphere)
-27748,Volume of S-collat-transv-ant (right hemisphere)
-27527,Volume of S-collat-transv-post (left hemisphere)
-27749,Volume of S-collat-transv-post (right hemisphere)
-27528,Volume of S-front-inf (left hemisphere)
-27750,Volume of S-front-inf (right hemisphere)
-27529,Volume of S-front-middle (left hemisphere)
-27751,Volume of S-front-middle (right hemisphere)
-27530,Volume of S-front-sup (left hemisphere)
-27752,Volume of S-front-sup (right hemisphere)
-27531,Volume of S-interm-prim-Jensen (left hemisphere)
-27753,Volume of S-interm-prim-Jensen (right hemisphere)
-27532,Volume of S-intrapariet+P-trans (left hemisphere)
-27754,Volume of S-intrapariet+P-trans (right hemisphere)
-27533,Volume of S-oc-middle+Lunatus (left hemisphere)
-27755,Volume of S-oc-middle+Lunatus (right hemisphere)
-27534,Volume of S-oc-sup+transversal (left hemisphere)
-27756,Volume of S-oc-sup+transversal (right hemisphere)
-27536,Volume of S-oc-temp-lat (left hemisphere)
-27758,Volume of S-oc-temp-lat (right hemisphere)
-27537,Volume of S-oc-temp-med+Lingual (left hemisphere)
-27759,Volume of S-oc-temp-med+Lingual (right hemisphere)
-27535,Volume of S-occipital-ant (left hemisphere)
-27757,Volume of S-occipital-ant (right hemisphere)
-27540,Volume of S-orbital-H-Shaped (left hemisphere)
-27762,Volume of S-orbital-H-Shaped (right hemisphere)
-27538,Volume of S-orbital-lateral (left hemisphere)
-27760,Volume of S-orbital-lateral (right hemisphere)
-27539,Volume of S-orbital-med-olfact (left hemisphere)
-27761,Volume of S-orbital-med-olfact (right hemisphere)
-27541,Volume of S-parieto-occipital (left hemisphere)
-27763,Volume of S-parieto-occipital (right hemisphere)
-27542,Volume of S-pericallosal (left hemisphere)
-27764,Volume of S-pericallosal (right hemisphere)
-27543,Volume of S-postcentral (left hemisphere)
-27765,Volume of S-postcentral (right hemisphere)
-27544,Volume of S-precentral-inf-part (left hemisphere)
-27766,Volume of S-precentral-inf-part (right hemisphere)
-27545,Volume of S-precentral-sup-part (left hemisphere)
-27767,Volume of S-precentral-sup-part (right hemisphere)
-27546,Volume of S-suborbital (left hemisphere)
-27768,Volume of S-suborbital (right hemisphere)
-27547,Volume of S-subparietal (left hemisphere)
-27769,Volume of S-subparietal (right hemisphere)
-27548,Volume of S-temporal-inf (left hemisphere)
-27770,Volume of S-temporal-inf (right hemisphere)
-27549,Volume of S-temporal-sup (left hemisphere)
-27771,Volume of S-temporal-sup (right hemisphere)
-27550,Volume of S-temporal-transverse (left hemisphere)
-27772,Volume of S-temporal-transverse (right hemisphere)
-26990,Grey-white contrast in bankssts (left hemisphere)
-27025,Grey-white contrast in bankssts (right hemisphere)
-26991,Grey-white contrast in caudalanteriorcingulate (left hemisphere)
-27026,Grey-white contrast in caudalanteriorcingulate (right hemisphere)
-26992,Grey-white contrast in caudalmiddlefrontal (left hemisphere)
-27027,Grey-white contrast in caudalmiddlefrontal (right hemisphere)
-26993,Grey-white contrast in cuneus (left hemisphere)
-27028,Grey-white contrast in cuneus (right hemisphere)
-26994,Grey-white contrast in entorhinal (left hemisphere)
-27029,Grey-white contrast in entorhinal (right hemisphere)
-27020,Grey-white contrast in frontalpole (left hemisphere)
-27055,Grey-white contrast in frontalpole (right hemisphere)
-26995,Grey-white contrast in fusiform (left hemisphere)
-27030,Grey-white contrast in fusiform (right hemisphere)
-26996,Grey-white contrast in inferiorparietal (left hemisphere)
-27031,Grey-white contrast in inferiorparietal (right hemisphere)
-26997,Grey-white contrast in inferiortemporal (left hemisphere)
-27032,Grey-white contrast in inferiortemporal (right hemisphere)
-27023,Grey-white contrast in insula (left hemisphere)
-27058,Grey-white contrast in insula (right hemisphere)
-26998,Grey-white contrast in isthmuscingulate (left hemisphere)
-27033,Grey-white contrast in isthmuscingulate (right hemisphere)
-26999,Grey-white contrast in lateraloccipital (left hemisphere)
-27034,Grey-white contrast in lateraloccipital (right hemisphere)
-27000,Grey-white contrast in lateralorbitofrontal (left hemisphere)
-27035,Grey-white contrast in lateralorbitofrontal (right hemisphere)
-27001,Grey-white contrast in lingual (left hemisphere)
-27036,Grey-white contrast in lingual (right hemisphere)
-27002,Grey-white contrast in medialorbitofrontal (left hemisphere)
-27037,Grey-white contrast in medialorbitofrontal (right hemisphere)
-27003,Grey-white contrast in middletemporal (left hemisphere)
-27038,Grey-white contrast in middletemporal (right hemisphere)
-27005,Grey-white contrast in paracentral (left hemisphere)
-27040,Grey-white contrast in paracentral (right hemisphere)
-27004,Grey-white contrast in parahippocampal (left hemisphere)
-27039,Grey-white contrast in parahippocampal (right hemisphere)
-27006,Grey-white contrast in parsopercularis (left hemisphere)
-27041,Grey-white contrast in parsopercularis (right hemisphere)
-27007,Grey-white contrast in parsorbitalis (left hemisphere)
-27042,Grey-white contrast in parsorbitalis (right hemisphere)
-27008,Grey-white contrast in parstriangularis (left hemisphere)
-27043,Grey-white contrast in parstriangularis (right hemisphere)
-27009,Grey-white contrast in pericalcarine (left hemisphere)
-27044,Grey-white contrast in pericalcarine (right hemisphere)
-27010,Grey-white contrast in postcentral (left hemisphere)
-27045,Grey-white contrast in postcentral (right hemisphere)
-27011,Grey-white contrast in posteriorcingulate (left hemisphere)
-27046,Grey-white contrast in posteriorcingulate (right hemisphere)
-27012,Grey-white contrast in precentral (left hemisphere)
-27047,Grey-white contrast in precentral (right hemisphere)
-27013,Grey-white contrast in precuneus (left hemisphere)
-27048,Grey-white contrast in precuneus (right hemisphere)
-27014,Grey-white contrast in rostralanteriorcingulate (left hemisphere)
-27049,Grey-white contrast in rostralanteriorcingulate (right hemisphere)
-27015,Grey-white contrast in rostralmiddlefrontal (left hemisphere)
-27050,Grey-white contrast in rostralmiddlefrontal (right hemisphere)
-27016,Grey-white contrast in superiorfrontal (left hemisphere)
-27051,Grey-white contrast in superiorfrontal (right hemisphere)
-27017,Grey-white contrast in superiorparietal (left hemisphere)
-27052,Grey-white contrast in superiorparietal (right hemisphere)
-27018,Grey-white contrast in superiortemporal (left hemisphere)
-27053,Grey-white contrast in superiortemporal (right hemisphere)
-27019,Grey-white contrast in supramarginal (left hemisphere)
-27054,Grey-white contrast in supramarginal (right hemisphere)
-27021,Grey-white contrast in temporalpole (left hemisphere)
-27056,Grey-white contrast in temporalpole (right hemisphere)
-27022,Grey-white contrast in transversetemporal (left hemisphere)
-27057,Grey-white contrast in transversetemporal (right hemisphere)
-26989,Grey-white contrast in unknown (left hemisphere)
-27024,Grey-white contrast in unknown (right hemisphere)
-26923,Area of TotalSurface (left hemisphere)
-26956,Area of TotalSurface (right hemisphere)
-26924,Area of bankssts (left hemisphere)
-26957,Area of bankssts (right hemisphere)
-26925,Area of caudalanteriorcingulate (left hemisphere)
-26958,Area of caudalanteriorcingulate (right hemisphere)
-26926,Area of caudalmiddlefrontal (left hemisphere)
-26959,Area of caudalmiddlefrontal (right hemisphere)
-26927,Area of cuneus (left hemisphere)
-26960,Area of cuneus (right hemisphere)
-26928,Area of entorhinal (left hemisphere)
-26961,Area of entorhinal (right hemisphere)
-26954,Area of frontalpole (left hemisphere)
-26987,Area of frontalpole (right hemisphere)
-26929,Area of fusiform (left hemisphere)
-26962,Area of fusiform (right hemisphere)
-26930,Area of inferiorparietal (left hemisphere)
-26963,Area of inferiorparietal (right hemisphere)
-26931,Area of inferiortemporal (left hemisphere)
-26964,Area of inferiortemporal (right hemisphere)
-26932,Area of isthmuscingulate (left hemisphere)
-26965,Area of isthmuscingulate (right hemisphere)
-26933,Area of lateraloccipital (left hemisphere)
-26966,Area of lateraloccipital (right hemisphere)
-26934,Area of lateralorbitofrontal (left hemisphere)
-26967,Area of lateralorbitofrontal (right hemisphere)
-26935,Area of lingual (left hemisphere)
-26968,Area of lingual (right hemisphere)
-26936,Area of medialorbitofrontal (left hemisphere)
-26969,Area of medialorbitofrontal (right hemisphere)
-26937,Area of middletemporal (left hemisphere)
-26970,Area of middletemporal (right hemisphere)
-26939,Area of paracentral (left hemisphere)
-26972,Area of paracentral (right hemisphere)
-26938,Area of parahippocampal (left hemisphere)
-26971,Area of parahippocampal (right hemisphere)
-26940,Area of parsopercularis (left hemisphere)
-26973,Area of parsopercularis (right hemisphere)
-26941,Area of parsorbitalis (left hemisphere)
-26974,Area of parsorbitalis (right hemisphere)
-26942,Area of parstriangularis (left hemisphere)
-26975,Area of parstriangularis (right hemisphere)
-26943,Area of pericalcarine (left hemisphere)
-26976,Area of pericalcarine (right hemisphere)
-26944,Area of postcentral (left hemisphere)
-26977,Area of postcentral (right hemisphere)
-26945,Area of posteriorcingulate (left hemisphere)
-26978,Area of posteriorcingulate (right hemisphere)
-26946,Area of precentral (left hemisphere)
-26979,Area of precentral (right hemisphere)
-26947,Area of precuneus (left hemisphere)
-26980,Area of precuneus (right hemisphere)
-26948,Area of rostralanteriorcingulate (left hemisphere)
-26981,Area of rostralanteriorcingulate (right hemisphere)
-26949,Area of rostralmiddlefrontal (left hemisphere)
-26982,Area of rostralmiddlefrontal (right hemisphere)
-26950,Area of superiorfrontal (left hemisphere)
-26983,Area of superiorfrontal (right hemisphere)
-26951,Area of superiorparietal (left hemisphere)
-26984,Area of superiorparietal (right hemisphere)
-26952,Area of superiortemporal (left hemisphere)
-26985,Area of superiortemporal (right hemisphere)
-26953,Area of supramarginal (left hemisphere)
-26986,Area of supramarginal (right hemisphere)
-26955,Area of transversetemporal (left hemisphere)
-26988,Area of transversetemporal (right hemisphere)
-26721,Area of TotalSurface (left hemisphere)
-26822,Area of TotalSurface (right hemisphere)
-26722,Area of bankssts (left hemisphere)
-26823,Area of bankssts (right hemisphere)
-26723,Area of caudalanteriorcingulate (left hemisphere)
-26824,Area of caudalanteriorcingulate (right hemisphere)
-26724,Area of caudalmiddlefrontal (left hemisphere)
-26825,Area of caudalmiddlefrontal (right hemisphere)
-26725,Area of cuneus (left hemisphere)
-26826,Area of cuneus (right hemisphere)
-26726,Area of entorhinal (left hemisphere)
-26827,Area of entorhinal (right hemisphere)
-26752,Area of frontalpole (left hemisphere)
-26853,Area of frontalpole (right hemisphere)
-26727,Area of fusiform (left hemisphere)
-26828,Area of fusiform (right hemisphere)
-26728,Area of inferiorparietal (left hemisphere)
-26829,Area of inferiorparietal (right hemisphere)
-26729,Area of inferiortemporal (left hemisphere)
-26830,Area of inferiortemporal (right hemisphere)
-26754,Area of insula (left hemisphere)
-26855,Area of insula (right hemisphere)
-26730,Area of isthmuscingulate (left hemisphere)
-26831,Area of isthmuscingulate (right hemisphere)
-26731,Area of lateraloccipital (left hemisphere)
-26832,Area of lateraloccipital (right hemisphere)
-26732,Area of lateralorbitofrontal (left hemisphere)
-26833,Area of lateralorbitofrontal (right hemisphere)
-26733,Area of lingual (left hemisphere)
-26834,Area of lingual (right hemisphere)
-26734,Area of medialorbitofrontal (left hemisphere)
-26835,Area of medialorbitofrontal (right hemisphere)
-26735,Area of middletemporal (left hemisphere)
-26836,Area of middletemporal (right hemisphere)
-26737,Area of paracentral (left hemisphere)
-26838,Area of paracentral (right hemisphere)
-26736,Area of parahippocampal (left hemisphere)
-26837,Area of parahippocampal (right hemisphere)
-26738,Area of parsopercularis (left hemisphere)
-26839,Area of parsopercularis (right hemisphere)
-26739,Area of parsorbitalis (left hemisphere)
-26840,Area of parsorbitalis (right hemisphere)
-26740,Area of parstriangularis (left hemisphere)
-26841,Area of parstriangularis (right hemisphere)
-26741,Area of pericalcarine (left hemisphere)
-26842,Area of pericalcarine (right hemisphere)
-26742,Area of postcentral (left hemisphere)
-26843,Area of postcentral (right hemisphere)
-26743,Area of posteriorcingulate (left hemisphere)
-26844,Area of posteriorcingulate (right hemisphere)
-26744,Area of precentral (left hemisphere)
-26845,Area of precentral (right hemisphere)
-26745,Area of precuneus (left hemisphere)
-26846,Area of precuneus (right hemisphere)
-26746,Area of rostralanteriorcingulate (left hemisphere)
-26847,Area of rostralanteriorcingulate (right hemisphere)
-26747,Area of rostralmiddlefrontal (left hemisphere)
-26848,Area of rostralmiddlefrontal (right hemisphere)
-26748,Area of superiorfrontal (left hemisphere)
-26849,Area of superiorfrontal (right hemisphere)
-26749,Area of superiorparietal (left hemisphere)
-26850,Area of superiorparietal (right hemisphere)
-26750,Area of superiortemporal (left hemisphere)
-26851,Area of superiortemporal (right hemisphere)
-26751,Area of supramarginal (left hemisphere)
-26852,Area of supramarginal (right hemisphere)
-26753,Area of transversetemporal (left hemisphere)
-26854,Area of transversetemporal (right hemisphere)
-26755,Mean thickness of GlobalMeanMean thickness (left hemisphere)
-26856,Mean thickness of GlobalMeanMean thickness (right hemisphere)
-26756,Mean thickness of bankssts (left hemisphere)
-26857,Mean thickness of bankssts (right hemisphere)
-26757,Mean thickness of caudalanteriorcingulate (left hemisphere)
-26858,Mean thickness of caudalanteriorcingulate (right hemisphere)
-26758,Mean thickness of caudalmiddlefrontal (left hemisphere)
-26859,Mean thickness of caudalmiddlefrontal (right hemisphere)
-26759,Mean thickness of cuneus (left hemisphere)
-26860,Mean thickness of cuneus (right hemisphere)
-26760,Mean thickness of entorhinal (left hemisphere)
-26861,Mean thickness of entorhinal (right hemisphere)
-26786,Mean thickness of frontalpole (left hemisphere)
-26887,Mean thickness of frontalpole (right hemisphere)
-26761,Mean thickness of fusiform (left hemisphere)
-26862,Mean thickness of fusiform (right hemisphere)
-26762,Mean thickness of inferiorparietal (left hemisphere)
-26863,Mean thickness of inferiorparietal (right hemisphere)
-26763,Mean thickness of inferiortemporal (left hemisphere)
-26864,Mean thickness of inferiortemporal (right hemisphere)
-26788,Mean thickness of insula (left hemisphere)
-26889,Mean thickness of insula (right hemisphere)
-26764,Mean thickness of isthmuscingulate (left hemisphere)
-26865,Mean thickness of isthmuscingulate (right hemisphere)
-26765,Mean thickness of lateraloccipital (left hemisphere)
-26866,Mean thickness of lateraloccipital (right hemisphere)
-26766,Mean thickness of lateralorbitofrontal (left hemisphere)
-26867,Mean thickness of lateralorbitofrontal (right hemisphere)
-26767,Mean thickness of lingual (left hemisphere)
-26868,Mean thickness of lingual (right hemisphere)
-26768,Mean thickness of medialorbitofrontal (left hemisphere)
-26869,Mean thickness of medialorbitofrontal (right hemisphere)
-26769,Mean thickness of middletemporal (left hemisphere)
-26870,Mean thickness of middletemporal (right hemisphere)
-26771,Mean thickness of paracentral (left hemisphere)
-26872,Mean thickness of paracentral (right hemisphere)
-26770,Mean thickness of parahippocampal (left hemisphere)
-26871,Mean thickness of parahippocampal (right hemisphere)
-26772,Mean thickness of parsopercularis (left hemisphere)
-26873,Mean thickness of parsopercularis (right hemisphere)
-26773,Mean thickness of parsorbitalis (left hemisphere)
-26874,Mean thickness of parsorbitalis (right hemisphere)
-26774,Mean thickness of parstriangularis (left hemisphere)
-26875,Mean thickness of parstriangularis (right hemisphere)
-26775,Mean thickness of pericalcarine (left hemisphere)
-26876,Mean thickness of pericalcarine (right hemisphere)
-26776,Mean thickness of postcentral (left hemisphere)
-26877,Mean thickness of postcentral (right hemisphere)
-26777,Mean thickness of posteriorcingulate (left hemisphere)
-26878,Mean thickness of posteriorcingulate (right hemisphere)
-26778,Mean thickness of precentral (left hemisphere)
-26879,Mean thickness of precentral (right hemisphere)
-26779,Mean thickness of precuneus (left hemisphere)
-26880,Mean thickness of precuneus (right hemisphere)
-26780,Mean thickness of rostralanteriorcingulate (left hemisphere)
-26881,Mean thickness of rostralanteriorcingulate (right hemisphere)
-26781,Mean thickness of rostralmiddlefrontal (left hemisphere)
-26882,Mean thickness of rostralmiddlefrontal (right hemisphere)
-26782,Mean thickness of superiorfrontal (left hemisphere)
-26883,Mean thickness of superiorfrontal (right hemisphere)
-26783,Mean thickness of superiorparietal (left hemisphere)
-26884,Mean thickness of superiorparietal (right hemisphere)
-26784,Mean thickness of superiortemporal (left hemisphere)
-26885,Mean thickness of superiortemporal (right hemisphere)
-26785,Mean thickness of supramarginal (left hemisphere)
-26886,Mean thickness of supramarginal (right hemisphere)
-26787,Mean thickness of transversetemporal (left hemisphere)
-26888,Mean thickness of transversetemporal (right hemisphere)
-26789,Volume of bankssts (left hemisphere)
-26890,Volume of bankssts (right hemisphere)
-26790,Volume of caudalanteriorcingulate (left hemisphere)
-26891,Volume of caudalanteriorcingulate (right hemisphere)
-26791,Volume of caudalmiddlefrontal (left hemisphere)
-26892,Volume of caudalmiddlefrontal (right hemisphere)
-26792,Volume of cuneus (left hemisphere)
-26893,Volume of cuneus (right hemisphere)
-26793,Volume of entorhinal (left hemisphere)
-26894,Volume of entorhinal (right hemisphere)
-26819,Volume of frontalpole (left hemisphere)
-26920,Volume of frontalpole (right hemisphere)
-26794,Volume of fusiform (left hemisphere)
-26895,Volume of fusiform (right hemisphere)
-26795,Volume of inferiorparietal (left hemisphere)
-26896,Volume of inferiorparietal (right hemisphere)
-26796,Volume of inferiortemporal (left hemisphere)
-26897,Volume of inferiortemporal (right hemisphere)
-26821,Volume of insula (left hemisphere)
-26922,Volume of insula (right hemisphere)
-26797,Volume of isthmuscingulate (left hemisphere)
-26898,Volume of isthmuscingulate (right hemisphere)
-26798,Volume of lateraloccipital (left hemisphere)
-26899,Volume of lateraloccipital (right hemisphere)
-26799,Volume of lateralorbitofrontal (left hemisphere)
-26900,Volume of lateralorbitofrontal (right hemisphere)
-26800,Volume of lingual (left hemisphere)
-26901,Volume of lingual (right hemisphere)
-26801,Volume of medialorbitofrontal (left hemisphere)
-26902,Volume of medialorbitofrontal (right hemisphere)
-26802,Volume of middletemporal (left hemisphere)
-26903,Volume of middletemporal (right hemisphere)
-26804,Volume of paracentral (left hemisphere)
-26905,Volume of paracentral (right hemisphere)
-26803,Volume of parahippocampal (left hemisphere)
-26904,Volume of parahippocampal (right hemisphere)
-26805,Volume of parsopercularis (left hemisphere)
-26906,Volume of parsopercularis (right hemisphere)
-26806,Volume of parsorbitalis (left hemisphere)
-26907,Volume of parsorbitalis (right hemisphere)
-26807,Volume of parstriangularis (left hemisphere)
-26908,Volume of parstriangularis (right hemisphere)
-26808,Volume of pericalcarine (left hemisphere)
-26909,Volume of pericalcarine (right hemisphere)
-26809,Volume of postcentral (left hemisphere)
-26910,Volume of postcentral (right hemisphere)
-26810,Volume of posteriorcingulate (left hemisphere)
-26911,Volume of posteriorcingulate (right hemisphere)
-26811,Volume of precentral (left hemisphere)
-26912,Volume of precentral (right hemisphere)
-26812,Volume of precuneus (left hemisphere)
-26913,Volume of precuneus (right hemisphere)
-26813,Volume of rostralanteriorcingulate (left hemisphere)
-26914,Volume of rostralanteriorcingulate (right hemisphere)
-26814,Volume of rostralmiddlefrontal (left hemisphere)
-26915,Volume of rostralmiddlefrontal (right hemisphere)
-26815,Volume of superiorfrontal (left hemisphere)
-26916,Volume of superiorfrontal (right hemisphere)
-26816,Volume of superiorparietal (left hemisphere)
-26917,Volume of superiorparietal (right hemisphere)
-26817,Volume of superiortemporal (left hemisphere)
-26918,Volume of superiortemporal (right hemisphere)
-26818,Volume of supramarginal (left hemisphere)
-26919,Volume of supramarginal (right hemisphere)
-26820,Volume of transversetemporal (left hemisphere)
-26921,Volume of transversetemporal (right hemisphere)
-26684,Volume of AV (left hemisphere)
-26710,Volume of AV (right hemisphere)
-26602,Volume of Accessory-Basal-nucleus (left hemisphere)
-26612,Volume of Accessory-Basal-nucleus (right hemisphere)
-26603,Volume of Anterior-amygdaloid-area-AAA (left hemisphere)
-26613,Volume of Anterior-amygdaloid-area-AAA (right hemisphere)
-26601,Volume of Basal-nucleus (left hemisphere)
-26611,Volume of Basal-nucleus (right hemisphere)
-26622,Volume of CA1-body (left hemisphere)
-26644,Volume of CA1-body (right hemisphere)
-26626,Volume of CA1-head (left hemisphere)
-26648,Volume of CA1-head (right hemisphere)
-26632,Volume of CA3-body (left hemisphere)
-26654,Volume of CA3-body (right hemisphere)
-26637,Volume of CA3-head (left hemisphere)
-26659,Volume of CA3-head (right hemisphere)
-26635,Volume of CA4-body (left hemisphere)
-26657,Volume of CA4-body (right hemisphere)
-26634,Volume of CA4-head (left hemisphere)
-26656,Volume of CA4-head (right hemisphere)
-26681,Volume of CL (left hemisphere)
-26706,Volume of CL (right hemisphere)
-26670,Volume of CM (left hemisphere)
-26694,Volume of CM (right hemisphere)
-26677,Volume of CeM (left hemisphere)
-26703,Volume of CeM (right hemisphere)
-26604,Volume of Central-nucleus (left hemisphere)
-26614,Volume of Central-nucleus (right hemisphere)
-26606,Volume of Cortical-nucleus (left hemisphere)
-26616,Volume of Cortical-nucleus (right hemisphere)
-26607,Volume of Corticoamygdaloid-transitio (left hemisphere)
-26617,Volume of Corticoamygdaloid-transitio (right hemisphere)
-26633,Volume of GC-ML-DG-body (left hemisphere)
-26655,Volume of GC-ML-DG-body (right hemisphere)
-26631,Volume of GC-ML-DG-head (left hemisphere)
-26653,Volume of GC-ML-DG-head (right hemisphere)
-26638,Volume of HATA (left hemisphere)
-26660,Volume of HATA (right hemisphere)
-26620,Volume of Hippocampal-tail (left hemisphere)
-26642,Volume of Hippocampal-tail (right hemisphere)
-26668,Volume of L-Sg (left hemisphere)
-26692,Volume of L-Sg (right hemisphere)
-26712,Volume of LD (left hemisphere)
-26713,Volume of LD (right hemisphere)
-26665,Volume of LGN (left hemisphere)
-26688,Volume of LGN (right hemisphere)
-26687,Volume of LP (left hemisphere)
-26711,Volume of LP (right hemisphere)
-26600,Volume of Lateral-nucleus (left hemisphere)
-26610,Volume of Lateral-nucleus (right hemisphere)
-26676,Volume of MDl (left hemisphere)
-26700,Volume of MDl (right hemisphere)
-26673,Volume of MDm (left hemisphere)
-26697,Volume of MDm (right hemisphere)
-26664,Volume of MGN (left hemisphere)
-26689,Volume of MGN (right hemisphere)
-26679,Volume of MV(Re) (left hemisphere)
-26702,Volume of MV(Re) (right hemisphere)
-26605,Volume of Medial-nucleus (left hemisphere)
-26615,Volume of Medial-nucleus (right hemisphere)
-26716,Volume of Medulla (whole brain)
-26719,Volume of Midbrain (whole brain)
-26608,Volume of Paralaminar-nucleus (left hemisphere)
-26618,Volume of Paralaminar-nucleus (right hemisphere)
-26685,Volume of Pc (left hemisphere)
-26708,Volume of Pc (right hemisphere)
-26674,Volume of Pf (left hemisphere)
-26698,Volume of Pf (right hemisphere)
-26717,Volume of Pons (whole brain)
-26683,Volume of Pt (left hemisphere)
-26709,Volume of Pt (right hemisphere)
-26672,Volume of PuA (left hemisphere)
-26696,Volume of PuA (right hemisphere)
-26666,Volume of PuI (left hemisphere)
-26690,Volume of PuI (right hemisphere)
-26682,Volume of PuL (left hemisphere)
-26705,Volume of PuL (right hemisphere)
-26667,Volume of PuM (left hemisphere)
-26691,Volume of PuM (right hemisphere)
-26718,Volume of SCP (whole brain)
-26678,Volume of VA (left hemisphere)
-26701,Volume of VA (right hemisphere)
-26675,Volume of VAmc (left hemisphere)
-26699,Volume of VAmc (right hemisphere)
-26671,Volume of VLa (left hemisphere)
-26695,Volume of VLa (right hemisphere)
-26686,Volume of VLp (left hemisphere)
-26707,Volume of VLp (right hemisphere)
-26680,Volume of VM (left hemisphere)
-26704,Volume of VM (right hemisphere)
-26669,Volume of VPL (left hemisphere)
-26693,Volume of VPL (right hemisphere)
-26609,Volume of Whole-amygdala (left hemisphere)
-26619,Volume of Whole-amygdala (right hemisphere)
-26720,Volume of Whole-brainstem (whole brain)
-26639,Volume of Whole-hippocampal-body (left hemisphere)
-26661,Volume of Whole-hippocampal-body (right hemisphere)
-26640,Volume of Whole-hippocampal-head (left hemisphere)
-26662,Volume of Whole-hippocampal-head (right hemisphere)
-26641,Volume of Whole-hippocampus (left hemisphere)
-26663,Volume of Whole-hippocampus (right hemisphere)
-26714,Volume of Whole-thalamus (left hemisphere)
-26715,Volume of Whole-thalamus (right hemisphere)
-26636,Volume of fimbria (left hemisphere)
-26658,Volume of fimbria (right hemisphere)
-26624,Volume of hippocampal-fissure (left hemisphere)
-26646,Volume of hippocampal-fissure (right hemisphere)
-26630,Volume of molecular-layer-HP-body (left hemisphere)
-26652,Volume of molecular-layer-HP-body (right hemisphere)
-26629,Volume of molecular-layer-HP-head (left hemisphere)
-26651,Volume of molecular-layer-HP-head (right hemisphere)
-26628,Volume of parasubiculum (left hemisphere)
-26650,Volume of parasubiculum (right hemisphere)
-26627,Volume of presubiculum-body (left hemisphere)
-26649,Volume of presubiculum-body (right hemisphere)
-26625,Volume of presubiculum-head (left hemisphere)
-26647,Volume of presubiculum-head (right hemisphere)
-26621,Volume of subiculum-body (left hemisphere)
-26643,Volume of subiculum-body (right hemisphere)
-26623,Volume of subiculum-head (left hemisphere)
-26645,Volume of subiculum-head (right hemisphere)
+Dataset,Description,Category,ID
+27143,Area of caudalanteriorcingulate (left hemisphere),Area,1
+27236,Area of caudalanteriorcingulate (right hemisphere),Area,2
+27144,Area of caudalmiddlefrontal (left hemisphere),Area,3
+27237,Area of caudalmiddlefrontal (right hemisphere),Area,4
+27145,Area of cuneus (left hemisphere),Area,5
+27238,Area of cuneus (right hemisphere),Area,6
+27146,Area of entorhinal (left hemisphere),Area,7
+27239,Area of entorhinal (right hemisphere),Area,8
+27147,Area of fusiform (left hemisphere),Area,9
+27240,Area of fusiform (right hemisphere),Area,10
+27148,Area of inferiorparietal (left hemisphere),Area,11
+27241,Area of inferiorparietal (right hemisphere),Area,12
+27149,Area of inferiortemporal (left hemisphere),Area,13
+27242,Area of inferiortemporal (right hemisphere),Area,14
+27173,Area of insula (left hemisphere),Area,15
+27266,Area of insula (right hemisphere),Area,16
+27150,Area of isthmuscingulate (left hemisphere),Area,17
+27243,Area of isthmuscingulate (right hemisphere),Area,18
+27151,Area of lateraloccipital (left hemisphere),Area,19
+27244,Area of lateraloccipital (right hemisphere),Area,20
+27152,Area of lateralorbitofrontal (left hemisphere),Area,21
+27245,Area of lateralorbitofrontal (right hemisphere),Area,22
+27153,Area of lingual (left hemisphere),Area,23
+27246,Area of lingual (right hemisphere),Area,24
+27154,Area of medialorbitofrontal (left hemisphere),Area,25
+27247,Area of medialorbitofrontal (right hemisphere),Area,26
+27155,Area of middletemporal (left hemisphere),Area,27
+27248,Area of middletemporal (right hemisphere),Area,28
+27157,Area of paracentral (left hemisphere),Area,29
+27250,Area of paracentral (right hemisphere),Area,30
+27156,Area of parahippocampal (left hemisphere),Area,31
+27249,Area of parahippocampal (right hemisphere),Area,32
+27158,Area of parsopercularis (left hemisphere),Area,33
+27251,Area of parsopercularis (right hemisphere),Area,34
+27159,Area of parsorbitalis (left hemisphere),Area,35
+27252,Area of parsorbitalis (right hemisphere),Area,36
+27160,Area of parstriangularis (left hemisphere),Area,37
+27253,Area of parstriangularis (right hemisphere),Area,38
+27161,Area of pericalcarine (left hemisphere),Area,39
+27254,Area of pericalcarine (right hemisphere),Area,40
+27162,Area of postcentral (left hemisphere),Area,41
+27255,Area of postcentral (right hemisphere),Area,42
+27163,Area of posteriorcingulate (left hemisphere),Area,43
+27256,Area of posteriorcingulate (right hemisphere),Area,44
+27164,Area of precentral (left hemisphere),Area,45
+27257,Area of precentral (right hemisphere),Area,46
+27165,Area of precuneus (left hemisphere),Area,47
+27258,Area of precuneus (right hemisphere),Area,48
+27166,Area of rostralanteriorcingulate (left hemisphere),Area,49
+27259,Area of rostralanteriorcingulate (right hemisphere),Area,50
+27167,Area of rostralmiddlefrontal (left hemisphere),Area,51
+27260,Area of rostralmiddlefrontal (right hemisphere),Area,52
+27168,Area of superiorfrontal (left hemisphere),Area,53
+27261,Area of superiorfrontal (right hemisphere),Area,54
+27169,Area of superiorparietal (left hemisphere),Area,55
+27262,Area of superiorparietal (right hemisphere),Area,56
+27170,Area of superiortemporal (left hemisphere),Area,57
+27263,Area of superiortemporal (right hemisphere),Area,58
+27171,Area of supramarginal (left hemisphere),Area,59
+27264,Area of supramarginal (right hemisphere),Area,60
+27172,Area of transversetemporal (left hemisphere),Area,61
+27265,Area of transversetemporal (right hemisphere),Area,62
+27174,Mean thickness of caudalanteriorcingulate (left hemisphere),Mean thickness,63
+27267,Mean thickness of caudalanteriorcingulate (right hemisphere),Mean thickness,64
+27175,Mean thickness of caudalmiddlefrontal (left hemisphere),Mean thickness,65
+27268,Mean thickness of caudalmiddlefrontal (right hemisphere),Mean thickness,66
+27176,Mean thickness of cuneus (left hemisphere),Mean thickness,67
+27269,Mean thickness of cuneus (right hemisphere),Mean thickness,68
+27177,Mean thickness of entorhinal (left hemisphere),Mean thickness,69
+27270,Mean thickness of entorhinal (right hemisphere),Mean thickness,70
+27178,Mean thickness of fusiform (left hemisphere),Mean thickness,71
+27271,Mean thickness of fusiform (right hemisphere),Mean thickness,72
+27179,Mean thickness of inferiorparietal (left hemisphere),Mean thickness,73
+27272,Mean thickness of inferiorparietal (right hemisphere),Mean thickness,74
+27180,Mean thickness of inferiortemporal (left hemisphere),Mean thickness,75
+27273,Mean thickness of inferiortemporal (right hemisphere),Mean thickness,76
+27204,Mean thickness of insula (left hemisphere),Mean thickness,77
+27297,Mean thickness of insula (right hemisphere),Mean thickness,78
+27181,Mean thickness of isthmuscingulate (left hemisphere),Mean thickness,79
+27274,Mean thickness of isthmuscingulate (right hemisphere),Mean thickness,80
+27182,Mean thickness of lateraloccipital (left hemisphere),Mean thickness,81
+27275,Mean thickness of lateraloccipital (right hemisphere),Mean thickness,82
+27183,Mean thickness of lateralorbitofrontal (left hemisphere),Mean thickness,83
+27276,Mean thickness of lateralorbitofrontal (right hemisphere),Mean thickness,84
+27184,Mean thickness of lingual (left hemisphere),Mean thickness,85
+27277,Mean thickness of lingual (right hemisphere),Mean thickness,86
+27185,Mean thickness of medialorbitofrontal (left hemisphere),Mean thickness,87
+27278,Mean thickness of medialorbitofrontal (right hemisphere),Mean thickness,88
+27186,Mean thickness of middletemporal (left hemisphere),Mean thickness,89
+27279,Mean thickness of middletemporal (right hemisphere),Mean thickness,90
+27188,Mean thickness of paracentral (left hemisphere),Mean thickness,91
+27281,Mean thickness of paracentral (right hemisphere),Mean thickness,92
+27187,Mean thickness of parahippocampal (left hemisphere),Mean thickness,93
+27280,Mean thickness of parahippocampal (right hemisphere),Mean thickness,94
+27189,Mean thickness of parsopercularis (left hemisphere),Mean thickness,95
+27282,Mean thickness of parsopercularis (right hemisphere),Mean thickness,96
+27190,Mean thickness of parsorbitalis (left hemisphere),Mean thickness,97
+27283,Mean thickness of parsorbitalis (right hemisphere),Mean thickness,98
+27191,Mean thickness of parstriangularis (left hemisphere),Mean thickness,99
+27284,Mean thickness of parstriangularis (right hemisphere),Mean thickness,100
+27192,Mean thickness of pericalcarine (left hemisphere),Mean thickness,101
+27285,Mean thickness of pericalcarine (right hemisphere),Mean thickness,102
+27193,Mean thickness of postcentral (left hemisphere),Mean thickness,103
+27286,Mean thickness of postcentral (right hemisphere),Mean thickness,104
+27194,Mean thickness of posteriorcingulate (left hemisphere),Mean thickness,105
+27287,Mean thickness of posteriorcingulate (right hemisphere),Mean thickness,106
+27195,Mean thickness of precentral (left hemisphere),Mean thickness,107
+27288,Mean thickness of precentral (right hemisphere),Mean thickness,108
+27196,Mean thickness of precuneus (left hemisphere),Mean thickness,109
+27289,Mean thickness of precuneus (right hemisphere),Mean thickness,110
+27197,Mean thickness of rostralanteriorcingulate (left hemisphere),Mean thickness,111
+27290,Mean thickness of rostralanteriorcingulate (right hemisphere),Mean thickness,112
+27198,Mean thickness of rostralmiddlefrontal (left hemisphere),Mean thickness,113
+27291,Mean thickness of rostralmiddlefrontal (right hemisphere),Mean thickness,114
+27199,Mean thickness of superiorfrontal (left hemisphere),Mean thickness,115
+27292,Mean thickness of superiorfrontal (right hemisphere),Mean thickness,116
+27200,Mean thickness of superiorparietal (left hemisphere),Mean thickness,117
+27293,Mean thickness of superiorparietal (right hemisphere),Mean thickness,118
+27201,Mean thickness of superiortemporal (left hemisphere),Mean thickness,119
+27294,Mean thickness of superiortemporal (right hemisphere),Mean thickness,120
+27202,Mean thickness of supramarginal (left hemisphere),Mean thickness,121
+27295,Mean thickness of supramarginal (right hemisphere),Mean thickness,122
+27203,Mean thickness of transversetemporal (left hemisphere),Mean thickness,123
+27296,Mean thickness of transversetemporal (right hemisphere),Mean thickness,124
+27205,Volume of caudalanteriorcingulate (left hemisphere),Volume,125
+27298,Volume of caudalanteriorcingulate (right hemisphere),Volume,126
+27206,Volume of caudalmiddlefrontal (left hemisphere),Volume,127
+27299,Volume of caudalmiddlefrontal (right hemisphere),Volume,128
+27207,Volume of cuneus (left hemisphere),Volume,129
+27300,Volume of cuneus (right hemisphere),Volume,130
+27208,Volume of entorhinal (left hemisphere),Volume,131
+27301,Volume of entorhinal (right hemisphere),Volume,132
+27209,Volume of fusiform (left hemisphere),Volume,133
+27302,Volume of fusiform (right hemisphere),Volume,134
+27210,Volume of inferiorparietal (left hemisphere),Volume,135
+27303,Volume of inferiorparietal (right hemisphere),Volume,136
+27211,Volume of inferiortemporal (left hemisphere),Volume,137
+27304,Volume of inferiortemporal (right hemisphere),Volume,138
+27235,Volume of insula (left hemisphere),Volume,139
+27328,Volume of insula (right hemisphere),Volume,140
+27212,Volume of isthmuscingulate (left hemisphere),Volume,141
+27305,Volume of isthmuscingulate (right hemisphere),Volume,142
+27213,Volume of lateraloccipital (left hemisphere),Volume,143
+27306,Volume of lateraloccipital (right hemisphere),Volume,144
+27214,Volume of lateralorbitofrontal (left hemisphere),Volume,145
+27307,Volume of lateralorbitofrontal (right hemisphere),Volume,146
+27215,Volume of lingual (left hemisphere),Volume,147
+27308,Volume of lingual (right hemisphere),Volume,148
+27216,Volume of medialorbitofrontal (left hemisphere),Volume,149
+27309,Volume of medialorbitofrontal (right hemisphere),Volume,150
+27217,Volume of middletemporal (left hemisphere),Volume,151
+27310,Volume of middletemporal (right hemisphere),Volume,152
+27219,Volume of paracentral (left hemisphere),Volume,153
+27312,Volume of paracentral (right hemisphere),Volume,154
+27218,Volume of parahippocampal (left hemisphere),Volume,155
+27311,Volume of parahippocampal (right hemisphere),Volume,156
+27220,Volume of parsopercularis (left hemisphere),Volume,157
+27313,Volume of parsopercularis (right hemisphere),Volume,158
+27221,Volume of parsorbitalis (left hemisphere),Volume,159
+27314,Volume of parsorbitalis (right hemisphere),Volume,160
+27222,Volume of parstriangularis (left hemisphere),Volume,161
+27315,Volume of parstriangularis (right hemisphere),Volume,162
+27223,Volume of pericalcarine (left hemisphere),Volume,163
+27316,Volume of pericalcarine (right hemisphere),Volume,164
+27224,Volume of postcentral (left hemisphere),Volume,165
+27317,Volume of postcentral (right hemisphere),Volume,166
+27225,Volume of posteriorcingulate (left hemisphere),Volume,167
+27318,Volume of posteriorcingulate (right hemisphere),Volume,168
+27226,Volume of precentral (left hemisphere),Volume,169
+27319,Volume of precentral (right hemisphere),Volume,170
+27227,Volume of precuneus (left hemisphere),Volume,171
+27320,Volume of precuneus (right hemisphere),Volume,172
+27228,Volume of rostralanteriorcingulate (left hemisphere),Volume,173
+27321,Volume of rostralanteriorcingulate (right hemisphere),Volume,174
+27229,Volume of rostralmiddlefrontal (left hemisphere),Volume,175
+27322,Volume of rostralmiddlefrontal (right hemisphere),Volume,176
+27230,Volume of superiorfrontal (left hemisphere),Volume,177
+27323,Volume of superiorfrontal (right hemisphere),Volume,178
+27231,Volume of superiorparietal (left hemisphere),Volume,179
+27324,Volume of superiorparietal (right hemisphere),Volume,180
+27232,Volume of superiortemporal (left hemisphere),Volume,181
+27325,Volume of superiortemporal (right hemisphere),Volume,182
+27233,Volume of supramarginal (left hemisphere),Volume,183
+27326,Volume of supramarginal (right hemisphere),Volume,184
+27234,Volume of transversetemporal (left hemisphere),Volume,185
+27327,Volume of transversetemporal (right hemisphere),Volume,186
+25888,Volume of grey matter in Amygdala (left),Volume of grey matter,187
+25889,Volume of grey matter in Amygdala (right),Volume of grey matter,188
+25822,Volume of grey matter in Angular Gyrus (left),Volume of grey matter,189
+25823,Volume of grey matter in Angular Gyrus (right),Volume of grey matter,190
+25892,Volume of grey matter in Brain-Stem,Volume of grey matter,191
+25880,Volume of grey matter in Caudate (left),Volume of grey matter,192
+25881,Volume of grey matter in Caudate (right),Volume of grey matter,193
+25864,Volume of grey matter in Central Opercular Cortex (left),Volume of grey matter,194
+25865,Volume of grey matter in Central Opercular Cortex (right),Volume of grey matter,195
+25838,"Volume of grey matter in Cingulate Gyrus, anterior division (left)",Volume of grey matter,196
+25839,"Volume of grey matter in Cingulate Gyrus, anterior division (right)",Volume of grey matter,197
+25840,"Volume of grey matter in Cingulate Gyrus, posterior division (left)",Volume of grey matter,198
+25841,"Volume of grey matter in Cingulate Gyrus, posterior division (right)",Volume of grey matter,199
+25900,Volume of grey matter in Crus I Cerebellum (left),Volume of grey matter,200
+25902,Volume of grey matter in Crus I Cerebellum (right),Volume of grey matter,201
+25901,Volume of grey matter in Crus I Cerebellum (vermis),Volume of grey matter,202
+25903,Volume of grey matter in Crus II Cerebellum (left),Volume of grey matter,203
+25905,Volume of grey matter in Crus II Cerebellum (right),Volume of grey matter,204
+25904,Volume of grey matter in Crus II Cerebellum (vermis),Volume of grey matter,205
+25844,Volume of grey matter in Cuneal Cortex (left),Volume of grey matter,206
+25845,Volume of grey matter in Cuneal Cortex (right),Volume of grey matter,207
+25830,Volume of grey matter in Frontal Medial Cortex (left),Volume of grey matter,208
+25831,Volume of grey matter in Frontal Medial Cortex (right),Volume of grey matter,209
+25862,Volume of grey matter in Frontal Operculum Cortex (left),Volume of grey matter,210
+25863,Volume of grey matter in Frontal Operculum Cortex (right),Volume of grey matter,211
+25846,Volume of grey matter in Frontal Orbital Cortex (left),Volume of grey matter,212
+25847,Volume of grey matter in Frontal Orbital Cortex (right),Volume of grey matter,213
+25782,Volume of grey matter in Frontal Pole (left),Volume of grey matter,214
+25783,Volume of grey matter in Frontal Pole (right),Volume of grey matter,215
+25870,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (left),Volume of grey matter,216
+25871,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (right),Volume of grey matter,217
+25886,Volume of grey matter in Hippocampus (left),Volume of grey matter,218
+25887,Volume of grey matter in Hippocampus (right),Volume of grey matter,219
+25893,Volume of grey matter in I-IV Cerebellum (left),Volume of grey matter,220
+25894,Volume of grey matter in I-IV Cerebellum (right),Volume of grey matter,221
+25915,Volume of grey matter in IX Cerebellum (left),Volume of grey matter,222
+25917,Volume of grey matter in IX Cerebellum (right),Volume of grey matter,223
+25916,Volume of grey matter in IX Cerebellum (vermis),Volume of grey matter,224
+25792,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (left)",Volume of grey matter,225
+25793,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (right)",Volume of grey matter,226
+25790,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (left)",Volume of grey matter,227
+25791,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (right)",Volume of grey matter,228
+25808,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (left)",Volume of grey matter,229
+25809,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (right)",Volume of grey matter,230
+25810,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (left)",Volume of grey matter,231
+25811,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (right)",Volume of grey matter,232
+25812,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (left)",Volume of grey matter,233
+25813,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (right)",Volume of grey matter,234
+25784,Volume of grey matter in Insular Cortex (left),Volume of grey matter,235
+25785,Volume of grey matter in Insular Cortex (right),Volume of grey matter,236
+25828,Volume of grey matter in Intracalcarine Cortex (left),Volume of grey matter,237
+25829,Volume of grey matter in Intracalcarine Cortex (right),Volume of grey matter,238
+25832,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (left),Volume of grey matter,239
+25833,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (right),Volume of grey matter,240
+25826,"Volume of grey matter in Lateral Occipital Cortex, inferior division (left)",Volume of grey matter,241
+25827,"Volume of grey matter in Lateral Occipital Cortex, inferior division (right)",Volume of grey matter,242
+25824,"Volume of grey matter in Lateral Occipital Cortex, superior division (left)",Volume of grey matter,243
+25825,"Volume of grey matter in Lateral Occipital Cortex, superior division (right)",Volume of grey matter,244
+25852,Volume of grey matter in Lingual Gyrus (left),Volume of grey matter,245
+25853,Volume of grey matter in Lingual Gyrus (right),Volume of grey matter,246
+25788,Volume of grey matter in Middle Frontal Gyrus (left),Volume of grey matter,247
+25789,Volume of grey matter in Middle Frontal Gyrus (right),Volume of grey matter,248
+25802,"Volume of grey matter in Middle Temporal Gyrus, anterior division (left)",Volume of grey matter,249
+25803,"Volume of grey matter in Middle Temporal Gyrus, anterior division (right)",Volume of grey matter,250
+25804,"Volume of grey matter in Middle Temporal Gyrus, posterior division (left)",Volume of grey matter,251
+25805,"Volume of grey matter in Middle Temporal Gyrus, posterior division (right)",Volume of grey matter,252
+25806,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (left)",Volume of grey matter,253
+25807,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (right)",Volume of grey matter,254
+25860,Volume of grey matter in Occipital Fusiform Gyrus (left),Volume of grey matter,255
+25861,Volume of grey matter in Occipital Fusiform Gyrus (right),Volume of grey matter,256
+25876,Volume of grey matter in Occipital Pole (left),Volume of grey matter,257
+25877,Volume of grey matter in Occipital Pole (right),Volume of grey matter,258
+25884,Volume of grey matter in Pallidum (left),Volume of grey matter,259
+25885,Volume of grey matter in Pallidum (right),Volume of grey matter,260
+25836,Volume of grey matter in Paracingulate Gyrus (left),Volume of grey matter,261
+25837,Volume of grey matter in Paracingulate Gyrus (right),Volume of grey matter,262
+25848,"Volume of grey matter in Parahippocampal Gyrus, anterior division (left)",Volume of grey matter,263
+25849,"Volume of grey matter in Parahippocampal Gyrus, anterior division (right)",Volume of grey matter,264
+25850,"Volume of grey matter in Parahippocampal Gyrus, posterior division (left)",Volume of grey matter,265
+25851,"Volume of grey matter in Parahippocampal Gyrus, posterior division (right)",Volume of grey matter,266
+25866,Volume of grey matter in Parietal Operculum Cortex (left),Volume of grey matter,267
+25867,Volume of grey matter in Parietal Operculum Cortex (right),Volume of grey matter,268
+25868,Volume of grey matter in Planum Polare (left),Volume of grey matter,269
+25869,Volume of grey matter in Planum Polare (right),Volume of grey matter,270
+25872,Volume of grey matter in Planum Temporale (left),Volume of grey matter,271
+25873,Volume of grey matter in Planum Temporale (right),Volume of grey matter,272
+25814,Volume of grey matter in Postcentral Gyrus (left),Volume of grey matter,273
+25815,Volume of grey matter in Postcentral Gyrus (right),Volume of grey matter,274
+25794,Volume of grey matter in Precentral Gyrus (left),Volume of grey matter,275
+25795,Volume of grey matter in Precentral Gyrus (right),Volume of grey matter,276
+25842,Volume of grey matter in Precuneous Cortex (left),Volume of grey matter,277
+25843,Volume of grey matter in Precuneous Cortex (right),Volume of grey matter,278
+25882,Volume of grey matter in Putamen (left),Volume of grey matter,279
+25883,Volume of grey matter in Putamen (right),Volume of grey matter,280
+25834,Volume of grey matter in Subcallosal Cortex (left),Volume of grey matter,281
+25835,Volume of grey matter in Subcallosal Cortex (right),Volume of grey matter,282
+25786,Volume of grey matter in Superior Frontal Gyrus (left),Volume of grey matter,283
+25787,Volume of grey matter in Superior Frontal Gyrus (right),Volume of grey matter,284
+25816,Volume of grey matter in Superior Parietal Lobule (left),Volume of grey matter,285
+25817,Volume of grey matter in Superior Parietal Lobule (right),Volume of grey matter,286
+25798,"Volume of grey matter in Superior Temporal Gyrus, anterior division (left)",Volume of grey matter,287
+25799,"Volume of grey matter in Superior Temporal Gyrus, anterior division (right)",Volume of grey matter,288
+25800,"Volume of grey matter in Superior Temporal Gyrus, posterior division (left)",Volume of grey matter,289
+25801,"Volume of grey matter in Superior Temporal Gyrus, posterior division (right)",Volume of grey matter,290
+25874,Volume of grey matter in Supracalcarine Cortex (left),Volume of grey matter,291
+25875,Volume of grey matter in Supracalcarine Cortex (right),Volume of grey matter,292
+25818,"Volume of grey matter in Supramarginal Gyrus, anterior division (left)",Volume of grey matter,293
+25819,"Volume of grey matter in Supramarginal Gyrus, anterior division (right)",Volume of grey matter,294
+25820,"Volume of grey matter in Supramarginal Gyrus, posterior division (left)",Volume of grey matter,295
+25821,"Volume of grey matter in Supramarginal Gyrus, posterior division (right)",Volume of grey matter,296
+25854,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (left)",Volume of grey matter,297
+25855,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (right)",Volume of grey matter,298
+25856,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (left)",Volume of grey matter,299
+25857,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (right)",Volume of grey matter,300
+25858,Volume of grey matter in Temporal Occipital Fusiform Cortex (left),Volume of grey matter,301
+25859,Volume of grey matter in Temporal Occipital Fusiform Cortex (right),Volume of grey matter,302
+25796,Volume of grey matter in Temporal Pole (left),Volume of grey matter,303
+25797,Volume of grey matter in Temporal Pole (right),Volume of grey matter,304
+25878,Volume of grey matter in Thalamus (left),Volume of grey matter,305
+25879,Volume of grey matter in Thalamus (right),Volume of grey matter,306
+25895,Volume of grey matter in V Cerebellum (left),Volume of grey matter,307
+25896,Volume of grey matter in V Cerebellum (right),Volume of grey matter,308
+25897,Volume of grey matter in VI Cerebellum (left),Volume of grey matter,309
+25899,Volume of grey matter in VI Cerebellum (right),Volume of grey matter,310
+25898,Volume of grey matter in VI Cerebellum (vermis),Volume of grey matter,311
+25909,Volume of grey matter in VIIIa Cerebellum (left),Volume of grey matter,312
+25911,Volume of grey matter in VIIIa Cerebellum (right),Volume of grey matter,313
+25910,Volume of grey matter in VIIIa Cerebellum (vermis),Volume of grey matter,314
+25912,Volume of grey matter in VIIIb Cerebellum (left),Volume of grey matter,315
+25914,Volume of grey matter in VIIIb Cerebellum (right),Volume of grey matter,316
+25913,Volume of grey matter in VIIIb Cerebellum (vermis),Volume of grey matter,317
+25906,Volume of grey matter in VIIb Cerebellum (left),Volume of grey matter,318
+25908,Volume of grey matter in VIIb Cerebellum (right),Volume of grey matter,319
+25907,Volume of grey matter in VIIb Cerebellum (vermis),Volume of grey matter,320
+25890,Volume of grey matter in Ventral Striatum (left),Volume of grey matter,321
+25891,Volume of grey matter in Ventral Striatum (right),Volume of grey matter,322
+25918,Volume of grey matter in X Cerebellum (left),Volume of grey matter,323
+25919,Volume of grey matter in X Cerebellum (vermis),Volume of grey matter,324
+25920,Volume of grey matter in X Cerebellum (right),Volume of grey matter,325
+25023,Volume of accumbens (left),Volume,326
+25024,Volume of accumbens (right),Volume,327
+25021,Volume of amygdala (left),Volume,328
+25022,Volume of amygdala (right),Volume,329
+25013,Volume of caudate (left),Volume,330
+25014,Volume of caudate (right),Volume,331
+25019,Volume of hippocampus (left),Volume,332
+25020,Volume of hippocampus (right),Volume,333
+25017,Volume of pallidum (left),Volume,334
+25018,Volume of pallidum (right),Volume,335
+25015,Volume of putamen (left),Volume,336
+25016,Volume of putamen (right),Volume,337
+25011,Volume of thalamus (left),Volume,338
+25012,Volume of thalamus (right),Volume,339
+26501,Mean intensity of 3rd-Ventricle (whole brain),Mean intensity,340
+26502,Mean intensity of 4th-Ventricle (whole brain),Mean intensity,341
+26503,Mean intensity of 5th-Ventricle (whole brain),Mean intensity,342
+26548,Mean intensity of Accumbens-area (left hemisphere),Mean intensity,343
+26579,Mean intensity of Accumbens-area (right hemisphere),Mean intensity,344
+26547,Mean intensity of Amygdala (left hemisphere),Mean intensity,345
+26578,Mean intensity of Amygdala (right hemisphere),Mean intensity,346
+26504,Mean intensity of Brain-Stem (whole brain),Mean intensity,347
+26513,Mean intensity of CC-Anterior (whole brain),Mean intensity,348
+26511,Mean intensity of CC-Central (whole brain),Mean intensity,349
+26512,Mean intensity of CC-Mid-Anterior (whole brain),Mean intensity,350
+26510,Mean intensity of CC-Mid-Posterior (whole brain),Mean intensity,351
+26509,Mean intensity of CC-Posterior (whole brain),Mean intensity,352
+26505,Mean intensity of CSF (whole brain),Mean intensity,353
+26543,Mean intensity of Caudate (left hemisphere),Mean intensity,354
+26574,Mean intensity of Caudate (right hemisphere),Mean intensity,355
+26541,Mean intensity of Cerebellum-Cortex (left hemisphere),Mean intensity,356
+26572,Mean intensity of Cerebellum-Cortex (right hemisphere),Mean intensity,357
+26540,Mean intensity of Cerebellum-White-Matter (left hemisphere),Mean intensity,358
+26571,Mean intensity of Cerebellum-White-Matter (right hemisphere),Mean intensity,359
+26546,Mean intensity of Hippocampus (left hemisphere),Mean intensity,360
+26577,Mean intensity of Hippocampus (right hemisphere),Mean intensity,361
+26539,Mean intensity of Inf-Lat-Vent (left hemisphere),Mean intensity,362
+26570,Mean intensity of Inf-Lat-Vent (right hemisphere),Mean intensity,363
+26538,Mean intensity of Lateral-Ventricle (left hemisphere),Mean intensity,364
+26569,Mean intensity of Lateral-Ventricle (right hemisphere),Mean intensity,365
+26508,Mean intensity of Optic-Chiasm (whole brain),Mean intensity,366
+26545,Mean intensity of Pallidum (left hemisphere),Mean intensity,367
+26576,Mean intensity of Pallidum (right hemisphere),Mean intensity,368
+26544,Mean intensity of Putamen (left hemisphere),Mean intensity,369
+26575,Mean intensity of Putamen (right hemisphere),Mean intensity,370
+26542,Mean intensity of Thalamus-Proper (left hemisphere),Mean intensity,371
+26573,Mean intensity of Thalamus-Proper (right hemisphere),Mean intensity,372
+26549,Mean intensity of VentralDC (left hemisphere),Mean intensity,373
+26580,Mean intensity of VentralDC (right hemisphere),Mean intensity,374
+26506,Mean intensity of WM-hypointensities (whole brain),Mean intensity,375
+26551,Mean intensity of choroid-plexus (left hemisphere),Mean intensity,376
+26582,Mean intensity of choroid-plexus (right hemisphere),Mean intensity,377
+26507,Mean intensity of non-WM-hypointensities (whole brain),Mean intensity,378
+26550,Mean intensity of vessel (left hemisphere),Mean intensity,379
+26581,Mean intensity of vessel (right hemisphere),Mean intensity,380
+26568,Number of HolesBeforeFixing (left hemisphere),Number of HolesBeforeFixing,381
+26599,Number of HolesBeforeFixing (right hemisphere),Number of HolesBeforeFixing,382
+26523,Volume of 3rd-Ventricle (whole brain),Volume,383
+26524,Volume of 4th-Ventricle (whole brain),Volume,384
+26525,Volume of 5th-Ventricle (whole brain),Volume,385
+26564,Volume of Accumbens-area (left hemisphere),Volume,386
+26595,Volume of Accumbens-area (right hemisphere),Volume,387
+26563,Volume of Amygdala (left hemisphere),Volume,388
+26594,Volume of Amygdala (right hemisphere),Volume,389
+26526,Volume of Brain-Stem (whole brain),Volume,390
+26514,Volume of BrainSeg (whole brain),Volume,391
+26515,Volume of BrainSegNotVent (whole brain),Volume,392
+26516,Volume of BrainSegNotVentSurf (whole brain),Volume,393
+26535,Volume of CC-Anterior (whole brain),Volume,394
+26533,Volume of CC-Central (whole brain),Volume,395
+26534,Volume of CC-Mid-Anterior (whole brain),Volume,396
+26532,Volume of CC-Mid-Posterior (whole brain),Volume,397
+26531,Volume of CC-Posterior (whole brain),Volume,398
+26527,Volume of CSF (whole brain),Volume,399
+26559,Volume of Caudate (left hemisphere),Volume,400
+26590,Volume of Caudate (right hemisphere),Volume,401
+26557,Volume of Cerebellum-Cortex (left hemisphere),Volume,402
+26588,Volume of Cerebellum-Cortex (right hemisphere),Volume,403
+26556,Volume of Cerebellum-White-Matter (left hemisphere),Volume,404
+26587,Volume of Cerebellum-White-Matter (right hemisphere),Volume,405
+26553,Volume of CerebralWhiteMatter (left hemisphere),Volume,406
+26584,Volume of CerebralWhiteMatter (right hemisphere),Volume,407
+26552,Volume of Cortex (left hemisphere),Volume,408
+26583,Volume of Cortex (right hemisphere),Volume,409
+26521,Volume of EstimatedTotalIntraCranial (whole brain),Volume,410
+26562,Volume of Hippocampus (left hemisphere),Volume,411
+26593,Volume of Hippocampus (right hemisphere),Volume,412
+26555,Volume of Inf-Lat-Vent (left hemisphere),Volume,413
+26586,Volume of Inf-Lat-Vent (right hemisphere),Volume,414
+26554,Volume of Lateral-Ventricle (left hemisphere),Volume,415
+26585,Volume of Lateral-Ventricle (right hemisphere),Volume,416
+26530,Volume of Optic-Chiasm (whole brain),Volume,417
+26561,Volume of Pallidum (left hemisphere),Volume,418
+26592,Volume of Pallidum (right hemisphere),Volume,419
+26560,Volume of Putamen (left hemisphere),Volume,420
+26591,Volume of Putamen (right hemisphere),Volume,421
+26517,Volume of SubCortGray (whole brain),Volume,422
+26519,Volume of SupraTentorial (whole brain),Volume,423
+26520,Volume of SupraTentorialNotVent (whole brain),Volume,424
+26558,Volume of Thalamus-Proper (left hemisphere),Volume,425
+26589,Volume of Thalamus-Proper (right hemisphere),Volume,426
+26518,Volume of TotalGray (whole brain),Volume,427
+26565,Volume of VentralDC (left hemisphere),Volume,428
+26596,Volume of VentralDC (right hemisphere),Volume,429
+26522,Volume of VentricleChoroid (whole brain),Volume,430
+26528,Volume of WM-hypointensities (whole brain),Volume,431
+26567,Volume of choroid-plexus (left hemisphere),Volume,432
+26598,Volume of choroid-plexus (right hemisphere),Volume,433
+26529,Volume of non-WM-hypointensities (whole brain),Volume,434
+26566,Volume of vessel (left hemisphere),Volume,435
+26597,Volume of vessel (right hemisphere),Volume,436
+26536,Volume-ratio of BrainSegVol-to-eTIV (whole brain),Volume-ratio,437
+26537,Volume-ratio of MaskVol-to-eTIV (whole brain),Volume-ratio,438
+27059,Area of BA1 (left hemisphere),Area,439
+27101,Area of BA1 (right hemisphere),Area,440
+27060,Area of BA2 (left hemisphere),Area,441
+27102,Area of BA2 (right hemisphere),Area,442
+27061,Area of BA3a (left hemisphere),Area,443
+27103,Area of BA3a (right hemisphere),Area,444
+27062,Area of BA3b (left hemisphere),Area,445
+27104,Area of BA3b (right hemisphere),Area,446
+27066,Area of BA44 (left hemisphere),Area,447
+27108,Area of BA44 (right hemisphere),Area,448
+27067,Area of BA45 (left hemisphere),Area,449
+27109,Area of BA45 (right hemisphere),Area,450
+27063,Area of BA4a (left hemisphere),Area,451
+27105,Area of BA4a (right hemisphere),Area,452
+27064,Area of BA4p (left hemisphere),Area,453
+27106,Area of BA4p (right hemisphere),Area,454
+27065,Area of BA6 (left hemisphere),Area,455
+27107,Area of BA6 (right hemisphere),Area,456
+27070,Area of MT (left hemisphere),Area,457
+27112,Area of MT (right hemisphere),Area,458
+27068,Area of V1 (left hemisphere),Area,459
+27110,Area of V1 (right hemisphere),Area,460
+27069,Area of V2 (left hemisphere),Area,461
+27111,Area of V2 (right hemisphere),Area,462
+27072,Area of entorhinal (left hemisphere),Area,463
+27114,Area of entorhinal (right hemisphere),Area,464
+27071,Area of perirhinal (left hemisphere),Area,465
+27113,Area of perirhinal (right hemisphere),Area,466
+27073,Mean thickness of BA1 (left hemisphere),Mean thickness,467
+27115,Mean thickness of BA1 (right hemisphere),Mean thickness,468
+27074,Mean thickness of BA2 (left hemisphere),Mean thickness,469
+27116,Mean thickness of BA2 (right hemisphere),Mean thickness,470
+27075,Mean thickness of BA3a (left hemisphere),Mean thickness,471
+27117,Mean thickness of BA3a (right hemisphere),Mean thickness,472
+27076,Mean thickness of BA3b (left hemisphere),Mean thickness,473
+27118,Mean thickness of BA3b (right hemisphere),Mean thickness,474
+27080,Mean thickness of BA44 (left hemisphere),Mean thickness,475
+27122,Mean thickness of BA44 (right hemisphere),Mean thickness,476
+27081,Mean thickness of BA45 (left hemisphere),Mean thickness,477
+27123,Mean thickness of BA45 (right hemisphere),Mean thickness,478
+27077,Mean thickness of BA4a (left hemisphere),Mean thickness,479
+27119,Mean thickness of BA4a (right hemisphere),Mean thickness,480
+27078,Mean thickness of BA4p (left hemisphere),Mean thickness,481
+27120,Mean thickness of BA4p (right hemisphere),Mean thickness,482
+27079,Mean thickness of BA6 (left hemisphere),Mean thickness,483
+27121,Mean thickness of BA6 (right hemisphere),Mean thickness,484
+27084,Mean thickness of MT (left hemisphere),Mean thickness,485
+27126,Mean thickness of MT (right hemisphere),Mean thickness,486
+27082,Mean thickness of V1 (left hemisphere),Mean thickness,487
+27124,Mean thickness of V1 (right hemisphere),Mean thickness,488
+27083,Mean thickness of V2 (left hemisphere),Mean thickness,489
+27125,Mean thickness of V2 (right hemisphere),Mean thickness,490
+27086,Mean thickness of entorhinal (left hemisphere),Mean thickness,491
+27128,Mean thickness of entorhinal (right hemisphere),Mean thickness,492
+27085,Mean thickness of perirhinal (left hemisphere),Mean thickness,493
+27127,Mean thickness of perirhinal (right hemisphere),Mean thickness,494
+27087,Volume of BA1 (left hemisphere),Volume,495
+27129,Volume of BA1 (right hemisphere),Volume,496
+27088,Volume of BA2 (left hemisphere),Volume,497
+27130,Volume of BA2 (right hemisphere),Volume,498
+27089,Volume of BA3a (left hemisphere),Volume,499
+27131,Volume of BA3a (right hemisphere),Volume,500
+27090,Volume of BA3b (left hemisphere),Volume,501
+27132,Volume of BA3b (right hemisphere),Volume,502
+27094,Volume of BA44 (left hemisphere),Volume,503
+27136,Volume of BA44 (right hemisphere),Volume,504
+27095,Volume of BA45 (left hemisphere),Volume,505
+27137,Volume of BA45 (right hemisphere),Volume,506
+27091,Volume of BA4a (left hemisphere),Volume,507
+27133,Volume of BA4a (right hemisphere),Volume,508
+27092,Volume of BA4p (left hemisphere),Volume,509
+27134,Volume of BA4p (right hemisphere),Volume,510
+27093,Volume of BA6 (left hemisphere),Volume,511
+27135,Volume of BA6 (right hemisphere),Volume,512
+27098,Volume of MT (left hemisphere),Volume,513
+27140,Volume of MT (right hemisphere),Volume,514
+27096,Volume of V1 (left hemisphere),Volume,515
+27138,Volume of V1 (right hemisphere),Volume,516
+27097,Volume of V2 (left hemisphere),Volume,517
+27139,Volume of V2 (right hemisphere),Volume,518
+27100,Volume of entorhinal (left hemisphere),Volume,519
+27142,Volume of entorhinal (right hemisphere),Volume,520
+27099,Volume of perirhinal (left hemisphere),Volume,521
+27141,Volume of perirhinal (right hemisphere),Volume,522
+27334,Area of G+S-cingul-Ant (left hemisphere),Area,523
+27556,Area of G+S-cingul-Ant (right hemisphere),Area,524
+27335,Area of G+S-cingul-Mid-Ant (left hemisphere),Area,525
+27557,Area of G+S-cingul-Mid-Ant (right hemisphere),Area,526
+27336,Area of G+S-cingul-Mid-Post (left hemisphere),Area,527
+27558,Area of G+S-cingul-Mid-Post (right hemisphere),Area,528
+27329,Area of G+S-frontomargin (left hemisphere),Area,529
+27551,Area of G+S-frontomargin (right hemisphere),Area,530
+27330,Area of G+S-occipital-inf (left hemisphere),Area,531
+27552,Area of G+S-occipital-inf (right hemisphere),Area,532
+27331,Area of G+S-paracentral (left hemisphere),Area,533
+27553,Area of G+S-paracentral (right hemisphere),Area,534
+27332,Area of G+S-subcentral (left hemisphere),Area,535
+27554,Area of G+S-subcentral (right hemisphere),Area,536
+27333,Area of G+S-transv-frontopol (left hemisphere),Area,537
+27555,Area of G+S-transv-frontopol (right hemisphere),Area,538
+27345,Area of G-Ins-lg+S-cent-ins (left hemisphere),Area,539
+27567,Area of G-Ins-lg+S-cent-ins (right hemisphere),Area,540
+27337,Area of G-cingul-Post-dorsal (left hemisphere),Area,541
+27559,Area of G-cingul-Post-dorsal (right hemisphere),Area,542
+27338,Area of G-cingul-Post-ventral (left hemisphere),Area,543
+27560,Area of G-cingul-Post-ventral (right hemisphere),Area,544
+27339,Area of G-cuneus (left hemisphere),Area,545
+27561,Area of G-cuneus (right hemisphere),Area,546
+27340,Area of G-front-inf-Opercular (left hemisphere),Area,547
+27562,Area of G-front-inf-Opercular (right hemisphere),Area,548
+27341,Area of G-front-inf-Orbital (left hemisphere),Area,549
+27563,Area of G-front-inf-Orbital (right hemisphere),Area,550
+27342,Area of G-front-inf-Triangul (left hemisphere),Area,551
+27564,Area of G-front-inf-Triangul (right hemisphere),Area,552
+27343,Area of G-front-middle (left hemisphere),Area,553
+27565,Area of G-front-middle (right hemisphere),Area,554
+27344,Area of G-front-sup (left hemisphere),Area,555
+27566,Area of G-front-sup (right hemisphere),Area,556
+27346,Area of G-insular-short (left hemisphere),Area,557
+27568,Area of G-insular-short (right hemisphere),Area,558
+27349,Area of G-oc-temp-lat-fusifor (left hemisphere),Area,559
+27571,Area of G-oc-temp-lat-fusifor (right hemisphere),Area,560
+27350,Area of G-oc-temp-med-Lingual (left hemisphere),Area,561
+27572,Area of G-oc-temp-med-Lingual (right hemisphere),Area,562
+27351,Area of G-oc-temp-med-Parahip (left hemisphere),Area,563
+27573,Area of G-oc-temp-med-Parahip (right hemisphere),Area,564
+27347,Area of G-occipital-middle (left hemisphere),Area,565
+27569,Area of G-occipital-middle (right hemisphere),Area,566
+27348,Area of G-occipital-sup (left hemisphere),Area,567
+27570,Area of G-occipital-sup (right hemisphere),Area,568
+27352,Area of G-orbital (left hemisphere),Area,569
+27574,Area of G-orbital (right hemisphere),Area,570
+27353,Area of G-pariet-inf-Angular (left hemisphere),Area,571
+27575,Area of G-pariet-inf-Angular (right hemisphere),Area,572
+27354,Area of G-pariet-inf-Supramar (left hemisphere),Area,573
+27576,Area of G-pariet-inf-Supramar (right hemisphere),Area,574
+27355,Area of G-parietal-sup (left hemisphere),Area,575
+27577,Area of G-parietal-sup (right hemisphere),Area,576
+27356,Area of G-postcentral (left hemisphere),Area,577
+27578,Area of G-postcentral (right hemisphere),Area,578
+27357,Area of G-precentral (left hemisphere),Area,579
+27579,Area of G-precentral (right hemisphere),Area,580
+27358,Area of G-precuneus (left hemisphere),Area,581
+27580,Area of G-precuneus (right hemisphere),Area,582
+27359,Area of G-rectus (left hemisphere),Area,583
+27581,Area of G-rectus (right hemisphere),Area,584
+27360,Area of G-subcallosal (left hemisphere),Area,585
+27582,Area of G-subcallosal (right hemisphere),Area,586
+27361,Area of G-temp-sup-G-T-transv (left hemisphere),Area,587
+27583,Area of G-temp-sup-G-T-transv (right hemisphere),Area,588
+27362,Area of G-temp-sup-Lateral (left hemisphere),Area,589
+27584,Area of G-temp-sup-Lateral (right hemisphere),Area,590
+27363,Area of G-temp-sup-Plan-polar (left hemisphere),Area,591
+27585,Area of G-temp-sup-Plan-polar (right hemisphere),Area,592
+27364,Area of G-temp-sup-Plan-tempo (left hemisphere),Area,593
+27586,Area of G-temp-sup-Plan-tempo (right hemisphere),Area,594
+27365,Area of G-temporal-inf (left hemisphere),Area,595
+27587,Area of G-temporal-inf (right hemisphere),Area,596
+27366,Area of G-temporal-middle (left hemisphere),Area,597
+27588,Area of G-temporal-middle (right hemisphere),Area,598
+27367,Area of Lat-Fis-ant-Horizont (left hemisphere),Area,599
+27589,Area of Lat-Fis-ant-Horizont (right hemisphere),Area,600
+27368,Area of Lat-Fis-ant-Vertical (left hemisphere),Area,601
+27590,Area of Lat-Fis-ant-Vertical (right hemisphere),Area,602
+27369,Area of Lat-Fis-post (left hemisphere),Area,603
+27591,Area of Lat-Fis-post (right hemisphere),Area,604
+27370,Area of Pole-occipital (left hemisphere),Area,605
+27592,Area of Pole-occipital (right hemisphere),Area,606
+27371,Area of Pole-temporal (left hemisphere),Area,607
+27593,Area of Pole-temporal (right hemisphere),Area,608
+27372,Area of S-calcarine (left hemisphere),Area,609
+27594,Area of S-calcarine (right hemisphere),Area,610
+27373,Area of S-central (left hemisphere),Area,611
+27595,Area of S-central (right hemisphere),Area,612
+27374,Area of S-cingul-Marginalis (left hemisphere),Area,613
+27596,Area of S-cingul-Marginalis (right hemisphere),Area,614
+27375,Area of S-circular-insula-ant (left hemisphere),Area,615
+27597,Area of S-circular-insula-ant (right hemisphere),Area,616
+27376,Area of S-circular-insula-inf (left hemisphere),Area,617
+27598,Area of S-circular-insula-inf (right hemisphere),Area,618
+27377,Area of S-circular-insula-sup (left hemisphere),Area,619
+27599,Area of S-circular-insula-sup (right hemisphere),Area,620
+27378,Area of S-collat-transv-ant (left hemisphere),Area,621
+27600,Area of S-collat-transv-ant (right hemisphere),Area,622
+27379,Area of S-collat-transv-post (left hemisphere),Area,623
+27601,Area of S-collat-transv-post (right hemisphere),Area,624
+27380,Area of S-front-inf (left hemisphere),Area,625
+27602,Area of S-front-inf (right hemisphere),Area,626
+27381,Area of S-front-middle (left hemisphere),Area,627
+27603,Area of S-front-middle (right hemisphere),Area,628
+27382,Area of S-front-sup (left hemisphere),Area,629
+27604,Area of S-front-sup (right hemisphere),Area,630
+27383,Area of S-interm-prim-Jensen (left hemisphere),Area,631
+27605,Area of S-interm-prim-Jensen (right hemisphere),Area,632
+27384,Area of S-intrapariet+P-trans (left hemisphere),Area,633
+27606,Area of S-intrapariet+P-trans (right hemisphere),Area,634
+27385,Area of S-oc-middle+Lunatus (left hemisphere),Area,635
+27607,Area of S-oc-middle+Lunatus (right hemisphere),Area,636
+27386,Area of S-oc-sup+transversal (left hemisphere),Area,637
+27608,Area of S-oc-sup+transversal (right hemisphere),Area,638
+27388,Area of S-oc-temp-lat (left hemisphere),Area,639
+27610,Area of S-oc-temp-lat (right hemisphere),Area,640
+27389,Area of S-oc-temp-med+Lingual (left hemisphere),Area,641
+27611,Area of S-oc-temp-med+Lingual (right hemisphere),Area,642
+27387,Area of S-occipital-ant (left hemisphere),Area,643
+27609,Area of S-occipital-ant (right hemisphere),Area,644
+27392,Area of S-orbital-H-Shaped (left hemisphere),Area,645
+27614,Area of S-orbital-H-Shaped (right hemisphere),Area,646
+27390,Area of S-orbital-lateral (left hemisphere),Area,647
+27612,Area of S-orbital-lateral (right hemisphere),Area,648
+27391,Area of S-orbital-med-olfact (left hemisphere),Area,649
+27613,Area of S-orbital-med-olfact (right hemisphere),Area,650
+27393,Area of S-parieto-occipital (left hemisphere),Area,651
+27615,Area of S-parieto-occipital (right hemisphere),Area,652
+27394,Area of S-pericallosal (left hemisphere),Area,653
+27616,Area of S-pericallosal (right hemisphere),Area,654
+27395,Area of S-postcentral (left hemisphere),Area,655
+27617,Area of S-postcentral (right hemisphere),Area,656
+27396,Area of S-precentral-inf-part (left hemisphere),Area,657
+27618,Area of S-precentral-inf-part (right hemisphere),Area,658
+27397,Area of S-precentral-sup-part (left hemisphere),Area,659
+27619,Area of S-precentral-sup-part (right hemisphere),Area,660
+27398,Area of S-suborbital (left hemisphere),Area,661
+27620,Area of S-suborbital (right hemisphere),Area,662
+27399,Area of S-subparietal (left hemisphere),Area,663
+27621,Area of S-subparietal (right hemisphere),Area,664
+27400,Area of S-temporal-inf (left hemisphere),Area,665
+27622,Area of S-temporal-inf (right hemisphere),Area,666
+27401,Area of S-temporal-sup (left hemisphere),Area,667
+27623,Area of S-temporal-sup (right hemisphere),Area,668
+27402,Area of S-temporal-transverse (left hemisphere),Area,669
+27624,Area of S-temporal-transverse (right hemisphere),Area,670
+27408,Mean thickness of G+S-cingul-Ant (left hemisphere),Mean thickness,671
+27630,Mean thickness of G+S-cingul-Ant (right hemisphere),Mean thickness,672
+27409,Mean thickness of G+S-cingul-Mid-Ant (left hemisphere),Mean thickness,673
+27631,Mean thickness of G+S-cingul-Mid-Ant (right hemisphere),Mean thickness,674
+27410,Mean thickness of G+S-cingul-Mid-Post (left hemisphere),Mean thickness,675
+27632,Mean thickness of G+S-cingul-Mid-Post (right hemisphere),Mean thickness,676
+27403,Mean thickness of G+S-frontomargin (left hemisphere),Mean thickness,677
+27625,Mean thickness of G+S-frontomargin (right hemisphere),Mean thickness,678
+27404,Mean thickness of G+S-occipital-inf (left hemisphere),Mean thickness,679
+27626,Mean thickness of G+S-occipital-inf (right hemisphere),Mean thickness,680
+27405,Mean thickness of G+S-paracentral (left hemisphere),Mean thickness,681
+27627,Mean thickness of G+S-paracentral (right hemisphere),Mean thickness,682
+27406,Mean thickness of G+S-subcentral (left hemisphere),Mean thickness,683
+27628,Mean thickness of G+S-subcentral (right hemisphere),Mean thickness,684
+27407,Mean thickness of G+S-transv-frontopol (left hemisphere),Mean thickness,685
+27629,Mean thickness of G+S-transv-frontopol (right hemisphere),Mean thickness,686
+27419,Mean thickness of G-Ins-lg+S-cent-ins (left hemisphere),Mean thickness,687
+27641,Mean thickness of G-Ins-lg+S-cent-ins (right hemisphere),Mean thickness,688
+27411,Mean thickness of G-cingul-Post-dorsal (left hemisphere),Mean thickness,689
+27633,Mean thickness of G-cingul-Post-dorsal (right hemisphere),Mean thickness,690
+27412,Mean thickness of G-cingul-Post-ventral (left hemisphere),Mean thickness,691
+27634,Mean thickness of G-cingul-Post-ventral (right hemisphere),Mean thickness,692
+27413,Mean thickness of G-cuneus (left hemisphere),Mean thickness,693
+27635,Mean thickness of G-cuneus (right hemisphere),Mean thickness,694
+27414,Mean thickness of G-front-inf-Opercular (left hemisphere),Mean thickness,695
+27636,Mean thickness of G-front-inf-Opercular (right hemisphere),Mean thickness,696
+27415,Mean thickness of G-front-inf-Orbital (left hemisphere),Mean thickness,697
+27637,Mean thickness of G-front-inf-Orbital (right hemisphere),Mean thickness,698
+27416,Mean thickness of G-front-inf-Triangul (left hemisphere),Mean thickness,699
+27638,Mean thickness of G-front-inf-Triangul (right hemisphere),Mean thickness,700
+27417,Mean thickness of G-front-middle (left hemisphere),Mean thickness,701
+27639,Mean thickness of G-front-middle (right hemisphere),Mean thickness,702
+27418,Mean thickness of G-front-sup (left hemisphere),Mean thickness,703
+27640,Mean thickness of G-front-sup (right hemisphere),Mean thickness,704
+27420,Mean thickness of G-insular-short (left hemisphere),Mean thickness,705
+27642,Mean thickness of G-insular-short (right hemisphere),Mean thickness,706
+27423,Mean thickness of G-oc-temp-lat-fusifor (left hemisphere),Mean thickness,707
+27645,Mean thickness of G-oc-temp-lat-fusifor (right hemisphere),Mean thickness,708
+27424,Mean thickness of G-oc-temp-med-Lingual (left hemisphere),Mean thickness,709
+27646,Mean thickness of G-oc-temp-med-Lingual (right hemisphere),Mean thickness,710
+27425,Mean thickness of G-oc-temp-med-Parahip (left hemisphere),Mean thickness,711
+27647,Mean thickness of G-oc-temp-med-Parahip (right hemisphere),Mean thickness,712
+27421,Mean thickness of G-occipital-middle (left hemisphere),Mean thickness,713
+27643,Mean thickness of G-occipital-middle (right hemisphere),Mean thickness,714
+27422,Mean thickness of G-occipital-sup (left hemisphere),Mean thickness,715
+27644,Mean thickness of G-occipital-sup (right hemisphere),Mean thickness,716
+27426,Mean thickness of G-orbital (left hemisphere),Mean thickness,717
+27648,Mean thickness of G-orbital (right hemisphere),Mean thickness,718
+27427,Mean thickness of G-pariet-inf-Angular (left hemisphere),Mean thickness,719
+27649,Mean thickness of G-pariet-inf-Angular (right hemisphere),Mean thickness,720
+27428,Mean thickness of G-pariet-inf-Supramar (left hemisphere),Mean thickness,721
+27650,Mean thickness of G-pariet-inf-Supramar (right hemisphere),Mean thickness,722
+27429,Mean thickness of G-parietal-sup (left hemisphere),Mean thickness,723
+27651,Mean thickness of G-parietal-sup (right hemisphere),Mean thickness,724
+27430,Mean thickness of G-postcentral (left hemisphere),Mean thickness,725
+27652,Mean thickness of G-postcentral (right hemisphere),Mean thickness,726
+27431,Mean thickness of G-precentral (left hemisphere),Mean thickness,727
+27653,Mean thickness of G-precentral (right hemisphere),Mean thickness,728
+27432,Mean thickness of G-precuneus (left hemisphere),Mean thickness,729
+27654,Mean thickness of G-precuneus (right hemisphere),Mean thickness,730
+27433,Mean thickness of G-rectus (left hemisphere),Mean thickness,731
+27655,Mean thickness of G-rectus (right hemisphere),Mean thickness,732
+27434,Mean thickness of G-subcallosal (left hemisphere),Mean thickness,733
+27656,Mean thickness of G-subcallosal (right hemisphere),Mean thickness,734
+27435,Mean thickness of G-temp-sup-G-T-transv (left hemisphere),Mean thickness,735
+27657,Mean thickness of G-temp-sup-G-T-transv (right hemisphere),Mean thickness,736
+27436,Mean thickness of G-temp-sup-Lateral (left hemisphere),Mean thickness,737
+27658,Mean thickness of G-temp-sup-Lateral (right hemisphere),Mean thickness,738
+27437,Mean thickness of G-temp-sup-Plan-polar (left hemisphere),Mean thickness,739
+27659,Mean thickness of G-temp-sup-Plan-polar (right hemisphere),Mean thickness,740
+27438,Mean thickness of G-temp-sup-Plan-tempo (left hemisphere),Mean thickness,741
+27660,Mean thickness of G-temp-sup-Plan-tempo (right hemisphere),Mean thickness,742
+27439,Mean thickness of G-temporal-inf (left hemisphere),Mean thickness,743
+27661,Mean thickness of G-temporal-inf (right hemisphere),Mean thickness,744
+27440,Mean thickness of G-temporal-middle (left hemisphere),Mean thickness,745
+27662,Mean thickness of G-temporal-middle (right hemisphere),Mean thickness,746
+27441,Mean thickness of Lat-Fis-ant-Horizont (left hemisphere),Mean thickness,747
+27663,Mean thickness of Lat-Fis-ant-Horizont (right hemisphere),Mean thickness,748
+27442,Mean thickness of Lat-Fis-ant-Vertical (left hemisphere),Mean thickness,749
+27664,Mean thickness of Lat-Fis-ant-Vertical (right hemisphere),Mean thickness,750
+27443,Mean thickness of Lat-Fis-post (left hemisphere),Mean thickness,751
+27665,Mean thickness of Lat-Fis-post (right hemisphere),Mean thickness,752
+27444,Mean thickness of Pole-occipital (left hemisphere),Mean thickness,753
+27666,Mean thickness of Pole-occipital (right hemisphere),Mean thickness,754
+27445,Mean thickness of Pole-temporal (left hemisphere),Mean thickness,755
+27667,Mean thickness of Pole-temporal (right hemisphere),Mean thickness,756
+27446,Mean thickness of S-calcarine (left hemisphere),Mean thickness,757
+27668,Mean thickness of S-calcarine (right hemisphere),Mean thickness,758
+27447,Mean thickness of S-central (left hemisphere),Mean thickness,759
+27669,Mean thickness of S-central (right hemisphere),Mean thickness,760
+27448,Mean thickness of S-cingul-Marginalis (left hemisphere),Mean thickness,761
+27670,Mean thickness of S-cingul-Marginalis (right hemisphere),Mean thickness,762
+27449,Mean thickness of S-circular-insula-ant (left hemisphere),Mean thickness,763
+27671,Mean thickness of S-circular-insula-ant (right hemisphere),Mean thickness,764
+27450,Mean thickness of S-circular-insula-inf (left hemisphere),Mean thickness,765
+27672,Mean thickness of S-circular-insula-inf (right hemisphere),Mean thickness,766
+27451,Mean thickness of S-circular-insula-sup (left hemisphere),Mean thickness,767
+27673,Mean thickness of S-circular-insula-sup (right hemisphere),Mean thickness,768
+27452,Mean thickness of S-collat-transv-ant (left hemisphere),Mean thickness,769
+27674,Mean thickness of S-collat-transv-ant (right hemisphere),Mean thickness,770
+27453,Mean thickness of S-collat-transv-post (left hemisphere),Mean thickness,771
+27675,Mean thickness of S-collat-transv-post (right hemisphere),Mean thickness,772
+27454,Mean thickness of S-front-inf (left hemisphere),Mean thickness,773
+27676,Mean thickness of S-front-inf (right hemisphere),Mean thickness,774
+27455,Mean thickness of S-front-middle (left hemisphere),Mean thickness,775
+27677,Mean thickness of S-front-middle (right hemisphere),Mean thickness,776
+27456,Mean thickness of S-front-sup (left hemisphere),Mean thickness,777
+27678,Mean thickness of S-front-sup (right hemisphere),Mean thickness,778
+27457,Mean thickness of S-interm-prim-Jensen (left hemisphere),Mean thickness,779
+27679,Mean thickness of S-interm-prim-Jensen (right hemisphere),Mean thickness,780
+27458,Mean thickness of S-intrapariet+P-trans (left hemisphere),Mean thickness,781
+27680,Mean thickness of S-intrapariet+P-trans (right hemisphere),Mean thickness,782
+27459,Mean thickness of S-oc-middle+Lunatus (left hemisphere),Mean thickness,783
+27681,Mean thickness of S-oc-middle+Lunatus (right hemisphere),Mean thickness,784
+27460,Mean thickness of S-oc-sup+transversal (left hemisphere),Mean thickness,785
+27682,Mean thickness of S-oc-sup+transversal (right hemisphere),Mean thickness,786
+27462,Mean thickness of S-oc-temp-lat (left hemisphere),Mean thickness,787
+27684,Mean thickness of S-oc-temp-lat (right hemisphere),Mean thickness,788
+27463,Mean thickness of S-oc-temp-med+Lingual (left hemisphere),Mean thickness,789
+27685,Mean thickness of S-oc-temp-med+Lingual (right hemisphere),Mean thickness,790
+27461,Mean thickness of S-occipital-ant (left hemisphere),Mean thickness,791
+27683,Mean thickness of S-occipital-ant (right hemisphere),Mean thickness,792
+27466,Mean thickness of S-orbital-H-Shaped (left hemisphere),Mean thickness,793
+27688,Mean thickness of S-orbital-H-Shaped (right hemisphere),Mean thickness,794
+27464,Mean thickness of S-orbital-lateral (left hemisphere),Mean thickness,795
+27686,Mean thickness of S-orbital-lateral (right hemisphere),Mean thickness,796
+27465,Mean thickness of S-orbital-med-olfact (left hemisphere),Mean thickness,797
+27687,Mean thickness of S-orbital-med-olfact (right hemisphere),Mean thickness,798
+27467,Mean thickness of S-parieto-occipital (left hemisphere),Mean thickness,799
+27689,Mean thickness of S-parieto-occipital (right hemisphere),Mean thickness,800
+27468,Mean thickness of S-pericallosal (left hemisphere),Mean thickness,801
+27690,Mean thickness of S-pericallosal (right hemisphere),Mean thickness,802
+27469,Mean thickness of S-postcentral (left hemisphere),Mean thickness,803
+27691,Mean thickness of S-postcentral (right hemisphere),Mean thickness,804
+27470,Mean thickness of S-precentral-inf-part (left hemisphere),Mean thickness,805
+27692,Mean thickness of S-precentral-inf-part (right hemisphere),Mean thickness,806
+27471,Mean thickness of S-precentral-sup-part (left hemisphere),Mean thickness,807
+27693,Mean thickness of S-precentral-sup-part (right hemisphere),Mean thickness,808
+27472,Mean thickness of S-suborbital (left hemisphere),Mean thickness,809
+27694,Mean thickness of S-suborbital (right hemisphere),Mean thickness,810
+27473,Mean thickness of S-subparietal (left hemisphere),Mean thickness,811
+27695,Mean thickness of S-subparietal (right hemisphere),Mean thickness,812
+27474,Mean thickness of S-temporal-inf (left hemisphere),Mean thickness,813
+27696,Mean thickness of S-temporal-inf (right hemisphere),Mean thickness,814
+27475,Mean thickness of S-temporal-sup (left hemisphere),Mean thickness,815
+27697,Mean thickness of S-temporal-sup (right hemisphere),Mean thickness,816
+27476,Mean thickness of S-temporal-transverse (left hemisphere),Mean thickness,817
+27698,Mean thickness of S-temporal-transverse (right hemisphere),Mean thickness,818
+27482,Volume of G+S-cingul-Ant (left hemisphere),Volume,819
+27704,Volume of G+S-cingul-Ant (right hemisphere),Volume,820
+27483,Volume of G+S-cingul-Mid-Ant (left hemisphere),Volume,821
+27705,Volume of G+S-cingul-Mid-Ant (right hemisphere),Volume,822
+27484,Volume of G+S-cingul-Mid-Post (left hemisphere),Volume,823
+27706,Volume of G+S-cingul-Mid-Post (right hemisphere),Volume,824
+27477,Volume of G+S-frontomargin (left hemisphere),Volume,825
+27699,Volume of G+S-frontomargin (right hemisphere),Volume,826
+27478,Volume of G+S-occipital-inf (left hemisphere),Volume,827
+27700,Volume of G+S-occipital-inf (right hemisphere),Volume,828
+27479,Volume of G+S-paracentral (left hemisphere),Volume,829
+27701,Volume of G+S-paracentral (right hemisphere),Volume,830
+27480,Volume of G+S-subcentral (left hemisphere),Volume,831
+27702,Volume of G+S-subcentral (right hemisphere),Volume,832
+27481,Volume of G+S-transv-frontopol (left hemisphere),Volume,833
+27703,Volume of G+S-transv-frontopol (right hemisphere),Volume,834
+27493,Volume of G-Ins-lg+S-cent-ins (left hemisphere),Volume,835
+27715,Volume of G-Ins-lg+S-cent-ins (right hemisphere),Volume,836
+27485,Volume of G-cingul-Post-dorsal (left hemisphere),Volume,837
+27707,Volume of G-cingul-Post-dorsal (right hemisphere),Volume,838
+27486,Volume of G-cingul-Post-ventral (left hemisphere),Volume,839
+27708,Volume of G-cingul-Post-ventral (right hemisphere),Volume,840
+27487,Volume of G-cuneus (left hemisphere),Volume,841
+27709,Volume of G-cuneus (right hemisphere),Volume,842
+27488,Volume of G-front-inf-Opercular (left hemisphere),Volume,843
+27710,Volume of G-front-inf-Opercular (right hemisphere),Volume,844
+27489,Volume of G-front-inf-Orbital (left hemisphere),Volume,845
+27711,Volume of G-front-inf-Orbital (right hemisphere),Volume,846
+27490,Volume of G-front-inf-Triangul (left hemisphere),Volume,847
+27712,Volume of G-front-inf-Triangul (right hemisphere),Volume,848
+27491,Volume of G-front-middle (left hemisphere),Volume,849
+27713,Volume of G-front-middle (right hemisphere),Volume,850
+27492,Volume of G-front-sup (left hemisphere),Volume,851
+27714,Volume of G-front-sup (right hemisphere),Volume,852
+27494,Volume of G-insular-short (left hemisphere),Volume,853
+27716,Volume of G-insular-short (right hemisphere),Volume,854
+27497,Volume of G-oc-temp-lat-fusifor (left hemisphere),Volume,855
+27719,Volume of G-oc-temp-lat-fusifor (right hemisphere),Volume,856
+27498,Volume of G-oc-temp-med-Lingual (left hemisphere),Volume,857
+27720,Volume of G-oc-temp-med-Lingual (right hemisphere),Volume,858
+27499,Volume of G-oc-temp-med-Parahip (left hemisphere),Volume,859
+27721,Volume of G-oc-temp-med-Parahip (right hemisphere),Volume,860
+27495,Volume of G-occipital-middle (left hemisphere),Volume,861
+27717,Volume of G-occipital-middle (right hemisphere),Volume,862
+27496,Volume of G-occipital-sup (left hemisphere),Volume,863
+27718,Volume of G-occipital-sup (right hemisphere),Volume,864
+27500,Volume of G-orbital (left hemisphere),Volume,865
+27722,Volume of G-orbital (right hemisphere),Volume,866
+27501,Volume of G-pariet-inf-Angular (left hemisphere),Volume,867
+27723,Volume of G-pariet-inf-Angular (right hemisphere),Volume,868
+27502,Volume of G-pariet-inf-Supramar (left hemisphere),Volume,869
+27724,Volume of G-pariet-inf-Supramar (right hemisphere),Volume,870
+27503,Volume of G-parietal-sup (left hemisphere),Volume,871
+27725,Volume of G-parietal-sup (right hemisphere),Volume,872
+27504,Volume of G-postcentral (left hemisphere),Volume,873
+27726,Volume of G-postcentral (right hemisphere),Volume,874
+27505,Volume of G-precentral (left hemisphere),Volume,875
+27727,Volume of G-precentral (right hemisphere),Volume,876
+27506,Volume of G-precuneus (left hemisphere),Volume,877
+27728,Volume of G-precuneus (right hemisphere),Volume,878
+27507,Volume of G-rectus (left hemisphere),Volume,879
+27729,Volume of G-rectus (right hemisphere),Volume,880
+27508,Volume of G-subcallosal (left hemisphere),Volume,881
+27730,Volume of G-subcallosal (right hemisphere),Volume,882
+27509,Volume of G-temp-sup-G-T-transv (left hemisphere),Volume,883
+27731,Volume of G-temp-sup-G-T-transv (right hemisphere),Volume,884
+27510,Volume of G-temp-sup-Lateral (left hemisphere),Volume,885
+27732,Volume of G-temp-sup-Lateral (right hemisphere),Volume,886
+27511,Volume of G-temp-sup-Plan-polar (left hemisphere),Volume,887
+27733,Volume of G-temp-sup-Plan-polar (right hemisphere),Volume,888
+27512,Volume of G-temp-sup-Plan-tempo (left hemisphere),Volume,889
+27734,Volume of G-temp-sup-Plan-tempo (right hemisphere),Volume,890
+27513,Volume of G-temporal-inf (left hemisphere),Volume,891
+27735,Volume of G-temporal-inf (right hemisphere),Volume,892
+27514,Volume of G-temporal-middle (left hemisphere),Volume,893
+27736,Volume of G-temporal-middle (right hemisphere),Volume,894
+27515,Volume of Lat-Fis-ant-Horizont (left hemisphere),Volume,895
+27737,Volume of Lat-Fis-ant-Horizont (right hemisphere),Volume,896
+27516,Volume of Lat-Fis-ant-Vertical (left hemisphere),Volume,897
+27738,Volume of Lat-Fis-ant-Vertical (right hemisphere),Volume,898
+27517,Volume of Lat-Fis-post (left hemisphere),Volume,899
+27739,Volume of Lat-Fis-post (right hemisphere),Volume,900
+27518,Volume of Pole-occipital (left hemisphere),Volume,901
+27740,Volume of Pole-occipital (right hemisphere),Volume,902
+27519,Volume of Pole-temporal (left hemisphere),Volume,903
+27741,Volume of Pole-temporal (right hemisphere),Volume,904
+27520,Volume of S-calcarine (left hemisphere),Volume,905
+27742,Volume of S-calcarine (right hemisphere),Volume,906
+27521,Volume of S-central (left hemisphere),Volume,907
+27743,Volume of S-central (right hemisphere),Volume,908
+27522,Volume of S-cingul-Marginalis (left hemisphere),Volume,909
+27744,Volume of S-cingul-Marginalis (right hemisphere),Volume,910
+27523,Volume of S-circular-insula-ant (left hemisphere),Volume,911
+27745,Volume of S-circular-insula-ant (right hemisphere),Volume,912
+27524,Volume of S-circular-insula-inf (left hemisphere),Volume,913
+27746,Volume of S-circular-insula-inf (right hemisphere),Volume,914
+27525,Volume of S-circular-insula-sup (left hemisphere),Volume,915
+27747,Volume of S-circular-insula-sup (right hemisphere),Volume,916
+27526,Volume of S-collat-transv-ant (left hemisphere),Volume,917
+27748,Volume of S-collat-transv-ant (right hemisphere),Volume,918
+27527,Volume of S-collat-transv-post (left hemisphere),Volume,919
+27749,Volume of S-collat-transv-post (right hemisphere),Volume,920
+27528,Volume of S-front-inf (left hemisphere),Volume,921
+27750,Volume of S-front-inf (right hemisphere),Volume,922
+27529,Volume of S-front-middle (left hemisphere),Volume,923
+27751,Volume of S-front-middle (right hemisphere),Volume,924
+27530,Volume of S-front-sup (left hemisphere),Volume,925
+27752,Volume of S-front-sup (right hemisphere),Volume,926
+27531,Volume of S-interm-prim-Jensen (left hemisphere),Volume,927
+27753,Volume of S-interm-prim-Jensen (right hemisphere),Volume,928
+27532,Volume of S-intrapariet+P-trans (left hemisphere),Volume,929
+27754,Volume of S-intrapariet+P-trans (right hemisphere),Volume,930
+27533,Volume of S-oc-middle+Lunatus (left hemisphere),Volume,931
+27755,Volume of S-oc-middle+Lunatus (right hemisphere),Volume,932
+27534,Volume of S-oc-sup+transversal (left hemisphere),Volume,933
+27756,Volume of S-oc-sup+transversal (right hemisphere),Volume,934
+27536,Volume of S-oc-temp-lat (left hemisphere),Volume,935
+27758,Volume of S-oc-temp-lat (right hemisphere),Volume,936
+27537,Volume of S-oc-temp-med+Lingual (left hemisphere),Volume,937
+27759,Volume of S-oc-temp-med+Lingual (right hemisphere),Volume,938
+27535,Volume of S-occipital-ant (left hemisphere),Volume,939
+27757,Volume of S-occipital-ant (right hemisphere),Volume,940
+27540,Volume of S-orbital-H-Shaped (left hemisphere),Volume,941
+27762,Volume of S-orbital-H-Shaped (right hemisphere),Volume,942
+27538,Volume of S-orbital-lateral (left hemisphere),Volume,943
+27760,Volume of S-orbital-lateral (right hemisphere),Volume,944
+27539,Volume of S-orbital-med-olfact (left hemisphere),Volume,945
+27761,Volume of S-orbital-med-olfact (right hemisphere),Volume,946
+27541,Volume of S-parieto-occipital (left hemisphere),Volume,947
+27763,Volume of S-parieto-occipital (right hemisphere),Volume,948
+27542,Volume of S-pericallosal (left hemisphere),Volume,949
+27764,Volume of S-pericallosal (right hemisphere),Volume,950
+27543,Volume of S-postcentral (left hemisphere),Volume,951
+27765,Volume of S-postcentral (right hemisphere),Volume,952
+27544,Volume of S-precentral-inf-part (left hemisphere),Volume,953
+27766,Volume of S-precentral-inf-part (right hemisphere),Volume,954
+27545,Volume of S-precentral-sup-part (left hemisphere),Volume,955
+27767,Volume of S-precentral-sup-part (right hemisphere),Volume,956
+27546,Volume of S-suborbital (left hemisphere),Volume,957
+27768,Volume of S-suborbital (right hemisphere),Volume,958
+27547,Volume of S-subparietal (left hemisphere),Volume,959
+27769,Volume of S-subparietal (right hemisphere),Volume,960
+27548,Volume of S-temporal-inf (left hemisphere),Volume,961
+27770,Volume of S-temporal-inf (right hemisphere),Volume,962
+27549,Volume of S-temporal-sup (left hemisphere),Volume,963
+27771,Volume of S-temporal-sup (right hemisphere),Volume,964
+27550,Volume of S-temporal-transverse (left hemisphere),Volume,965
+27772,Volume of S-temporal-transverse (right hemisphere),Volume,966
+26990,Grey-white contrast in bankssts (left hemisphere),Grey-white contrast,967
+27025,Grey-white contrast in bankssts (right hemisphere),Grey-white contrast,968
+26991,Grey-white contrast in caudalanteriorcingulate (left hemisphere),Grey-white contrast,969
+27026,Grey-white contrast in caudalanteriorcingulate (right hemisphere),Grey-white contrast,970
+26992,Grey-white contrast in caudalmiddlefrontal (left hemisphere),Grey-white contrast,971
+27027,Grey-white contrast in caudalmiddlefrontal (right hemisphere),Grey-white contrast,972
+26993,Grey-white contrast in cuneus (left hemisphere),Grey-white contrast,973
+27028,Grey-white contrast in cuneus (right hemisphere),Grey-white contrast,974
+26994,Grey-white contrast in entorhinal (left hemisphere),Grey-white contrast,975
+27029,Grey-white contrast in entorhinal (right hemisphere),Grey-white contrast,976
+27020,Grey-white contrast in frontalpole (left hemisphere),Grey-white contrast,977
+27055,Grey-white contrast in frontalpole (right hemisphere),Grey-white contrast,978
+26995,Grey-white contrast in fusiform (left hemisphere),Grey-white contrast,979
+27030,Grey-white contrast in fusiform (right hemisphere),Grey-white contrast,980
+26996,Grey-white contrast in inferiorparietal (left hemisphere),Grey-white contrast,981
+27031,Grey-white contrast in inferiorparietal (right hemisphere),Grey-white contrast,982
+26997,Grey-white contrast in inferiortemporal (left hemisphere),Grey-white contrast,983
+27032,Grey-white contrast in inferiortemporal (right hemisphere),Grey-white contrast,984
+27023,Grey-white contrast in insula (left hemisphere),Grey-white contrast,985
+27058,Grey-white contrast in insula (right hemisphere),Grey-white contrast,986
+26998,Grey-white contrast in isthmuscingulate (left hemisphere),Grey-white contrast,987
+27033,Grey-white contrast in isthmuscingulate (right hemisphere),Grey-white contrast,988
+26999,Grey-white contrast in lateraloccipital (left hemisphere),Grey-white contrast,989
+27034,Grey-white contrast in lateraloccipital (right hemisphere),Grey-white contrast,990
+27000,Grey-white contrast in lateralorbitofrontal (left hemisphere),Grey-white contrast,991
+27035,Grey-white contrast in lateralorbitofrontal (right hemisphere),Grey-white contrast,992
+27001,Grey-white contrast in lingual (left hemisphere),Grey-white contrast,993
+27036,Grey-white contrast in lingual (right hemisphere),Grey-white contrast,994
+27002,Grey-white contrast in medialorbitofrontal (left hemisphere),Grey-white contrast,995
+27037,Grey-white contrast in medialorbitofrontal (right hemisphere),Grey-white contrast,996
+27003,Grey-white contrast in middletemporal (left hemisphere),Grey-white contrast,997
+27038,Grey-white contrast in middletemporal (right hemisphere),Grey-white contrast,998
+27005,Grey-white contrast in paracentral (left hemisphere),Grey-white contrast,999
+27040,Grey-white contrast in paracentral (right hemisphere),Grey-white contrast,1000
+27004,Grey-white contrast in parahippocampal (left hemisphere),Grey-white contrast,1001
+27039,Grey-white contrast in parahippocampal (right hemisphere),Grey-white contrast,1002
+27006,Grey-white contrast in parsopercularis (left hemisphere),Grey-white contrast,1003
+27041,Grey-white contrast in parsopercularis (right hemisphere),Grey-white contrast,1004
+27007,Grey-white contrast in parsorbitalis (left hemisphere),Grey-white contrast,1005
+27042,Grey-white contrast in parsorbitalis (right hemisphere),Grey-white contrast,1006
+27008,Grey-white contrast in parstriangularis (left hemisphere),Grey-white contrast,1007
+27043,Grey-white contrast in parstriangularis (right hemisphere),Grey-white contrast,1008
+27009,Grey-white contrast in pericalcarine (left hemisphere),Grey-white contrast,1009
+27044,Grey-white contrast in pericalcarine (right hemisphere),Grey-white contrast,1010
+27010,Grey-white contrast in postcentral (left hemisphere),Grey-white contrast,1011
+27045,Grey-white contrast in postcentral (right hemisphere),Grey-white contrast,1012
+27011,Grey-white contrast in posteriorcingulate (left hemisphere),Grey-white contrast,1013
+27046,Grey-white contrast in posteriorcingulate (right hemisphere),Grey-white contrast,1014
+27012,Grey-white contrast in precentral (left hemisphere),Grey-white contrast,1015
+27047,Grey-white contrast in precentral (right hemisphere),Grey-white contrast,1016
+27013,Grey-white contrast in precuneus (left hemisphere),Grey-white contrast,1017
+27048,Grey-white contrast in precuneus (right hemisphere),Grey-white contrast,1018
+27014,Grey-white contrast in rostralanteriorcingulate (left hemisphere),Grey-white contrast,1019
+27049,Grey-white contrast in rostralanteriorcingulate (right hemisphere),Grey-white contrast,1020
+27015,Grey-white contrast in rostralmiddlefrontal (left hemisphere),Grey-white contrast,1021
+27050,Grey-white contrast in rostralmiddlefrontal (right hemisphere),Grey-white contrast,1022
+27016,Grey-white contrast in superiorfrontal (left hemisphere),Grey-white contrast,1023
+27051,Grey-white contrast in superiorfrontal (right hemisphere),Grey-white contrast,1024
+27017,Grey-white contrast in superiorparietal (left hemisphere),Grey-white contrast,1025
+27052,Grey-white contrast in superiorparietal (right hemisphere),Grey-white contrast,1026
+27018,Grey-white contrast in superiortemporal (left hemisphere),Grey-white contrast,1027
+27053,Grey-white contrast in superiortemporal (right hemisphere),Grey-white contrast,1028
+27019,Grey-white contrast in supramarginal (left hemisphere),Grey-white contrast,1029
+27054,Grey-white contrast in supramarginal (right hemisphere),Grey-white contrast,1030
+27021,Grey-white contrast in temporalpole (left hemisphere),Grey-white contrast,1031
+27056,Grey-white contrast in temporalpole (right hemisphere),Grey-white contrast,1032
+27022,Grey-white contrast in transversetemporal (left hemisphere),Grey-white contrast,1033
+27057,Grey-white contrast in transversetemporal (right hemisphere),Grey-white contrast,1034
+26989,Grey-white contrast in unknown (left hemisphere),Grey-white contrast,1035
+27024,Grey-white contrast in unknown (right hemisphere),Grey-white contrast,1036
+26923,Area of TotalSurface (left hemisphere),Area,1037
+26956,Area of TotalSurface (right hemisphere),Area,1038
+26924,Area of bankssts (left hemisphere),Area,1039
+26957,Area of bankssts (right hemisphere),Area,1040
+26925,Area of caudalanteriorcingulate (left hemisphere),Area,1041
+26958,Area of caudalanteriorcingulate (right hemisphere),Area,1042
+26926,Area of caudalmiddlefrontal (left hemisphere),Area,1043
+26959,Area of caudalmiddlefrontal (right hemisphere),Area,1044
+26927,Area of cuneus (left hemisphere),Area,1045
+26960,Area of cuneus (right hemisphere),Area,1046
+26928,Area of entorhinal (left hemisphere),Area,1047
+26961,Area of entorhinal (right hemisphere),Area,1048
+26954,Area of frontalpole (left hemisphere),Area,1049
+26987,Area of frontalpole (right hemisphere),Area,1050
+26929,Area of fusiform (left hemisphere),Area,1051
+26962,Area of fusiform (right hemisphere),Area,1052
+26930,Area of inferiorparietal (left hemisphere),Area,1053
+26963,Area of inferiorparietal (right hemisphere),Area,1054
+26931,Area of inferiortemporal (left hemisphere),Area,1055
+26964,Area of inferiortemporal (right hemisphere),Area,1056
+26932,Area of isthmuscingulate (left hemisphere),Area,1057
+26965,Area of isthmuscingulate (right hemisphere),Area,1058
+26933,Area of lateraloccipital (left hemisphere),Area,1059
+26966,Area of lateraloccipital (right hemisphere),Area,1060
+26934,Area of lateralorbitofrontal (left hemisphere),Area,1061
+26967,Area of lateralorbitofrontal (right hemisphere),Area,1062
+26935,Area of lingual (left hemisphere),Area,1063
+26968,Area of lingual (right hemisphere),Area,1064
+26936,Area of medialorbitofrontal (left hemisphere),Area,1065
+26969,Area of medialorbitofrontal (right hemisphere),Area,1066
+26937,Area of middletemporal (left hemisphere),Area,1067
+26970,Area of middletemporal (right hemisphere),Area,1068
+26939,Area of paracentral (left hemisphere),Area,1069
+26972,Area of paracentral (right hemisphere),Area,1070
+26938,Area of parahippocampal (left hemisphere),Area,1071
+26971,Area of parahippocampal (right hemisphere),Area,1072
+26940,Area of parsopercularis (left hemisphere),Area,1073
+26973,Area of parsopercularis (right hemisphere),Area,1074
+26941,Area of parsorbitalis (left hemisphere),Area,1075
+26974,Area of parsorbitalis (right hemisphere),Area,1076
+26942,Area of parstriangularis (left hemisphere),Area,1077
+26975,Area of parstriangularis (right hemisphere),Area,1078
+26943,Area of pericalcarine (left hemisphere),Area,1079
+26976,Area of pericalcarine (right hemisphere),Area,1080
+26944,Area of postcentral (left hemisphere),Area,1081
+26977,Area of postcentral (right hemisphere),Area,1082
+26945,Area of posteriorcingulate (left hemisphere),Area,1083
+26978,Area of posteriorcingulate (right hemisphere),Area,1084
+26946,Area of precentral (left hemisphere),Area,1085
+26979,Area of precentral (right hemisphere),Area,1086
+26947,Area of precuneus (left hemisphere),Area,1087
+26980,Area of precuneus (right hemisphere),Area,1088
+26948,Area of rostralanteriorcingulate (left hemisphere),Area,1089
+26981,Area of rostralanteriorcingulate (right hemisphere),Area,1090
+26949,Area of rostralmiddlefrontal (left hemisphere),Area,1091
+26982,Area of rostralmiddlefrontal (right hemisphere),Area,1092
+26950,Area of superiorfrontal (left hemisphere),Area,1093
+26983,Area of superiorfrontal (right hemisphere),Area,1094
+26951,Area of superiorparietal (left hemisphere),Area,1095
+26984,Area of superiorparietal (right hemisphere),Area,1096
+26952,Area of superiortemporal (left hemisphere),Area,1097
+26985,Area of superiortemporal (right hemisphere),Area,1098
+26953,Area of supramarginal (left hemisphere),Area,1099
+26986,Area of supramarginal (right hemisphere),Area,1100
+26955,Area of transversetemporal (left hemisphere),Area,1101
+26988,Area of transversetemporal (right hemisphere),Area,1102
+26721,Area of TotalSurface (left hemisphere),Area,1103
+26822,Area of TotalSurface (right hemisphere),Area,1104
+26722,Area of bankssts (left hemisphere),Area,1105
+26823,Area of bankssts (right hemisphere),Area,1106
+26723,Area of caudalanteriorcingulate (left hemisphere),Area,1107
+26824,Area of caudalanteriorcingulate (right hemisphere),Area,1108
+26724,Area of caudalmiddlefrontal (left hemisphere),Area,1109
+26825,Area of caudalmiddlefrontal (right hemisphere),Area,1110
+26725,Area of cuneus (left hemisphere),Area,1111
+26826,Area of cuneus (right hemisphere),Area,1112
+26726,Area of entorhinal (left hemisphere),Area,1113
+26827,Area of entorhinal (right hemisphere),Area,1114
+26752,Area of frontalpole (left hemisphere),Area,1115
+26853,Area of frontalpole (right hemisphere),Area,1116
+26727,Area of fusiform (left hemisphere),Area,1117
+26828,Area of fusiform (right hemisphere),Area,1118
+26728,Area of inferiorparietal (left hemisphere),Area,1119
+26829,Area of inferiorparietal (right hemisphere),Area,1120
+26729,Area of inferiortemporal (left hemisphere),Area,1121
+26830,Area of inferiortemporal (right hemisphere),Area,1122
+26754,Area of insula (left hemisphere),Area,1123
+26855,Area of insula (right hemisphere),Area,1124
+26730,Area of isthmuscingulate (left hemisphere),Area,1125
+26831,Area of isthmuscingulate (right hemisphere),Area,1126
+26731,Area of lateraloccipital (left hemisphere),Area,1127
+26832,Area of lateraloccipital (right hemisphere),Area,1128
+26732,Area of lateralorbitofrontal (left hemisphere),Area,1129
+26833,Area of lateralorbitofrontal (right hemisphere),Area,1130
+26733,Area of lingual (left hemisphere),Area,1131
+26834,Area of lingual (right hemisphere),Area,1132
+26734,Area of medialorbitofrontal (left hemisphere),Area,1133
+26835,Area of medialorbitofrontal (right hemisphere),Area,1134
+26735,Area of middletemporal (left hemisphere),Area,1135
+26836,Area of middletemporal (right hemisphere),Area,1136
+26737,Area of paracentral (left hemisphere),Area,1137
+26838,Area of paracentral (right hemisphere),Area,1138
+26736,Area of parahippocampal (left hemisphere),Area,1139
+26837,Area of parahippocampal (right hemisphere),Area,1140
+26738,Area of parsopercularis (left hemisphere),Area,1141
+26839,Area of parsopercularis (right hemisphere),Area,1142
+26739,Area of parsorbitalis (left hemisphere),Area,1143
+26840,Area of parsorbitalis (right hemisphere),Area,1144
+26740,Area of parstriangularis (left hemisphere),Area,1145
+26841,Area of parstriangularis (right hemisphere),Area,1146
+26741,Area of pericalcarine (left hemisphere),Area,1147
+26842,Area of pericalcarine (right hemisphere),Area,1148
+26742,Area of postcentral (left hemisphere),Area,1149
+26843,Area of postcentral (right hemisphere),Area,1150
+26743,Area of posteriorcingulate (left hemisphere),Area,1151
+26844,Area of posteriorcingulate (right hemisphere),Area,1152
+26744,Area of precentral (left hemisphere),Area,1153
+26845,Area of precentral (right hemisphere),Area,1154
+26745,Area of precuneus (left hemisphere),Area,1155
+26846,Area of precuneus (right hemisphere),Area,1156
+26746,Area of rostralanteriorcingulate (left hemisphere),Area,1157
+26847,Area of rostralanteriorcingulate (right hemisphere),Area,1158
+26747,Area of rostralmiddlefrontal (left hemisphere),Area,1159
+26848,Area of rostralmiddlefrontal (right hemisphere),Area,1160
+26748,Area of superiorfrontal (left hemisphere),Area,1161
+26849,Area of superiorfrontal (right hemisphere),Area,1162
+26749,Area of superiorparietal (left hemisphere),Area,1163
+26850,Area of superiorparietal (right hemisphere),Area,1164
+26750,Area of superiortemporal (left hemisphere),Area,1165
+26851,Area of superiortemporal (right hemisphere),Area,1166
+26751,Area of supramarginal (left hemisphere),Area,1167
+26852,Area of supramarginal (right hemisphere),Area,1168
+26753,Area of transversetemporal (left hemisphere),Area,1169
+26854,Area of transversetemporal (right hemisphere),Area,1170
+26755,Mean thickness of GlobalMeanMean thickness (left hemisphere),Mean thickness,1171
+26856,Mean thickness of GlobalMeanMean thickness (right hemisphere),Mean thickness,1172
+26756,Mean thickness of bankssts (left hemisphere),Mean thickness,1173
+26857,Mean thickness of bankssts (right hemisphere),Mean thickness,1174
+26757,Mean thickness of caudalanteriorcingulate (left hemisphere),Mean thickness,1175
+26858,Mean thickness of caudalanteriorcingulate (right hemisphere),Mean thickness,1176
+26758,Mean thickness of caudalmiddlefrontal (left hemisphere),Mean thickness,1177
+26859,Mean thickness of caudalmiddlefrontal (right hemisphere),Mean thickness,1178
+26759,Mean thickness of cuneus (left hemisphere),Mean thickness,1179
+26860,Mean thickness of cuneus (right hemisphere),Mean thickness,1180
+26760,Mean thickness of entorhinal (left hemisphere),Mean thickness,1181
+26861,Mean thickness of entorhinal (right hemisphere),Mean thickness,1182
+26786,Mean thickness of frontalpole (left hemisphere),Mean thickness,1183
+26887,Mean thickness of frontalpole (right hemisphere),Mean thickness,1184
+26761,Mean thickness of fusiform (left hemisphere),Mean thickness,1185
+26862,Mean thickness of fusiform (right hemisphere),Mean thickness,1186
+26762,Mean thickness of inferiorparietal (left hemisphere),Mean thickness,1187
+26863,Mean thickness of inferiorparietal (right hemisphere),Mean thickness,1188
+26763,Mean thickness of inferiortemporal (left hemisphere),Mean thickness,1189
+26864,Mean thickness of inferiortemporal (right hemisphere),Mean thickness,1190
+26788,Mean thickness of insula (left hemisphere),Mean thickness,1191
+26889,Mean thickness of insula (right hemisphere),Mean thickness,1192
+26764,Mean thickness of isthmuscingulate (left hemisphere),Mean thickness,1193
+26865,Mean thickness of isthmuscingulate (right hemisphere),Mean thickness,1194
+26765,Mean thickness of lateraloccipital (left hemisphere),Mean thickness,1195
+26866,Mean thickness of lateraloccipital (right hemisphere),Mean thickness,1196
+26766,Mean thickness of lateralorbitofrontal (left hemisphere),Mean thickness,1197
+26867,Mean thickness of lateralorbitofrontal (right hemisphere),Mean thickness,1198
+26767,Mean thickness of lingual (left hemisphere),Mean thickness,1199
+26868,Mean thickness of lingual (right hemisphere),Mean thickness,1200
+26768,Mean thickness of medialorbitofrontal (left hemisphere),Mean thickness,1201
+26869,Mean thickness of medialorbitofrontal (right hemisphere),Mean thickness,1202
+26769,Mean thickness of middletemporal (left hemisphere),Mean thickness,1203
+26870,Mean thickness of middletemporal (right hemisphere),Mean thickness,1204
+26771,Mean thickness of paracentral (left hemisphere),Mean thickness,1205
+26872,Mean thickness of paracentral (right hemisphere),Mean thickness,1206
+26770,Mean thickness of parahippocampal (left hemisphere),Mean thickness,1207
+26871,Mean thickness of parahippocampal (right hemisphere),Mean thickness,1208
+26772,Mean thickness of parsopercularis (left hemisphere),Mean thickness,1209
+26873,Mean thickness of parsopercularis (right hemisphere),Mean thickness,1210
+26773,Mean thickness of parsorbitalis (left hemisphere),Mean thickness,1211
+26874,Mean thickness of parsorbitalis (right hemisphere),Mean thickness,1212
+26774,Mean thickness of parstriangularis (left hemisphere),Mean thickness,1213
+26875,Mean thickness of parstriangularis (right hemisphere),Mean thickness,1214
+26775,Mean thickness of pericalcarine (left hemisphere),Mean thickness,1215
+26876,Mean thickness of pericalcarine (right hemisphere),Mean thickness,1216
+26776,Mean thickness of postcentral (left hemisphere),Mean thickness,1217
+26877,Mean thickness of postcentral (right hemisphere),Mean thickness,1218
+26777,Mean thickness of posteriorcingulate (left hemisphere),Mean thickness,1219
+26878,Mean thickness of posteriorcingulate (right hemisphere),Mean thickness,1220
+26778,Mean thickness of precentral (left hemisphere),Mean thickness,1221
+26879,Mean thickness of precentral (right hemisphere),Mean thickness,1222
+26779,Mean thickness of precuneus (left hemisphere),Mean thickness,1223
+26880,Mean thickness of precuneus (right hemisphere),Mean thickness,1224
+26780,Mean thickness of rostralanteriorcingulate (left hemisphere),Mean thickness,1225
+26881,Mean thickness of rostralanteriorcingulate (right hemisphere),Mean thickness,1226
+26781,Mean thickness of rostralmiddlefrontal (left hemisphere),Mean thickness,1227
+26882,Mean thickness of rostralmiddlefrontal (right hemisphere),Mean thickness,1228
+26782,Mean thickness of superiorfrontal (left hemisphere),Mean thickness,1229
+26883,Mean thickness of superiorfrontal (right hemisphere),Mean thickness,1230
+26783,Mean thickness of superiorparietal (left hemisphere),Mean thickness,1231
+26884,Mean thickness of superiorparietal (right hemisphere),Mean thickness,1232
+26784,Mean thickness of superiortemporal (left hemisphere),Mean thickness,1233
+26885,Mean thickness of superiortemporal (right hemisphere),Mean thickness,1234
+26785,Mean thickness of supramarginal (left hemisphere),Mean thickness,1235
+26886,Mean thickness of supramarginal (right hemisphere),Mean thickness,1236
+26787,Mean thickness of transversetemporal (left hemisphere),Mean thickness,1237
+26888,Mean thickness of transversetemporal (right hemisphere),Mean thickness,1238
+26789,Volume of bankssts (left hemisphere),Volume,1239
+26890,Volume of bankssts (right hemisphere),Volume,1240
+26790,Volume of caudalanteriorcingulate (left hemisphere),Volume,1241
+26891,Volume of caudalanteriorcingulate (right hemisphere),Volume,1242
+26791,Volume of caudalmiddlefrontal (left hemisphere),Volume,1243
+26892,Volume of caudalmiddlefrontal (right hemisphere),Volume,1244
+26792,Volume of cuneus (left hemisphere),Volume,1245
+26893,Volume of cuneus (right hemisphere),Volume,1246
+26793,Volume of entorhinal (left hemisphere),Volume,1247
+26894,Volume of entorhinal (right hemisphere),Volume,1248
+26819,Volume of frontalpole (left hemisphere),Volume,1249
+26920,Volume of frontalpole (right hemisphere),Volume,1250
+26794,Volume of fusiform (left hemisphere),Volume,1251
+26895,Volume of fusiform (right hemisphere),Volume,1252
+26795,Volume of inferiorparietal (left hemisphere),Volume,1253
+26896,Volume of inferiorparietal (right hemisphere),Volume,1254
+26796,Volume of inferiortemporal (left hemisphere),Volume,1255
+26897,Volume of inferiortemporal (right hemisphere),Volume,1256
+26821,Volume of insula (left hemisphere),Volume,1257
+26922,Volume of insula (right hemisphere),Volume,1258
+26797,Volume of isthmuscingulate (left hemisphere),Volume,1259
+26898,Volume of isthmuscingulate (right hemisphere),Volume,1260
+26798,Volume of lateraloccipital (left hemisphere),Volume,1261
+26899,Volume of lateraloccipital (right hemisphere),Volume,1262
+26799,Volume of lateralorbitofrontal (left hemisphere),Volume,1263
+26900,Volume of lateralorbitofrontal (right hemisphere),Volume,1264
+26800,Volume of lingual (left hemisphere),Volume,1265
+26901,Volume of lingual (right hemisphere),Volume,1266
+26801,Volume of medialorbitofrontal (left hemisphere),Volume,1267
+26902,Volume of medialorbitofrontal (right hemisphere),Volume,1268
+26802,Volume of middletemporal (left hemisphere),Volume,1269
+26903,Volume of middletemporal (right hemisphere),Volume,1270
+26804,Volume of paracentral (left hemisphere),Volume,1271
+26905,Volume of paracentral (right hemisphere),Volume,1272
+26803,Volume of parahippocampal (left hemisphere),Volume,1273
+26904,Volume of parahippocampal (right hemisphere),Volume,1274
+26805,Volume of parsopercularis (left hemisphere),Volume,1275
+26906,Volume of parsopercularis (right hemisphere),Volume,1276
+26806,Volume of parsorbitalis (left hemisphere),Volume,1277
+26907,Volume of parsorbitalis (right hemisphere),Volume,1278
+26807,Volume of parstriangularis (left hemisphere),Volume,1279
+26908,Volume of parstriangularis (right hemisphere),Volume,1280
+26808,Volume of pericalcarine (left hemisphere),Volume,1281
+26909,Volume of pericalcarine (right hemisphere),Volume,1282
+26809,Volume of postcentral (left hemisphere),Volume,1283
+26910,Volume of postcentral (right hemisphere),Volume,1284
+26810,Volume of posteriorcingulate (left hemisphere),Volume,1285
+26911,Volume of posteriorcingulate (right hemisphere),Volume,1286
+26811,Volume of precentral (left hemisphere),Volume,1287
+26912,Volume of precentral (right hemisphere),Volume,1288
+26812,Volume of precuneus (left hemisphere),Volume,1289
+26913,Volume of precuneus (right hemisphere),Volume,1290
+26813,Volume of rostralanteriorcingulate (left hemisphere),Volume,1291
+26914,Volume of rostralanteriorcingulate (right hemisphere),Volume,1292
+26814,Volume of rostralmiddlefrontal (left hemisphere),Volume,1293
+26915,Volume of rostralmiddlefrontal (right hemisphere),Volume,1294
+26815,Volume of superiorfrontal (left hemisphere),Volume,1295
+26916,Volume of superiorfrontal (right hemisphere),Volume,1296
+26816,Volume of superiorparietal (left hemisphere),Volume,1297
+26917,Volume of superiorparietal (right hemisphere),Volume,1298
+26817,Volume of superiortemporal (left hemisphere),Volume,1299
+26918,Volume of superiortemporal (right hemisphere),Volume,1300
+26818,Volume of supramarginal (left hemisphere),Volume,1301
+26919,Volume of supramarginal (right hemisphere),Volume,1302
+26820,Volume of transversetemporal (left hemisphere),Volume,1303
+26921,Volume of transversetemporal (right hemisphere),Volume,1304
+26684,Volume of AV (left hemisphere),Volume,1305
+26710,Volume of AV (right hemisphere),Volume,1306
+26602,Volume of Accessory-Basal-nucleus (left hemisphere),Volume,1307
+26612,Volume of Accessory-Basal-nucleus (right hemisphere),Volume,1308
+26603,Volume of Anterior-amygdaloid-area-AAA (left hemisphere),Volume,1309
+26613,Volume of Anterior-amygdaloid-area-AAA (right hemisphere),Volume,1310
+26601,Volume of Basal-nucleus (left hemisphere),Volume,1311
+26611,Volume of Basal-nucleus (right hemisphere),Volume,1312
+26622,Volume of CA1-body (left hemisphere),Volume,1313
+26644,Volume of CA1-body (right hemisphere),Volume,1314
+26626,Volume of CA1-head (left hemisphere),Volume,1315
+26648,Volume of CA1-head (right hemisphere),Volume,1316
+26632,Volume of CA3-body (left hemisphere),Volume,1317
+26654,Volume of CA3-body (right hemisphere),Volume,1318
+26637,Volume of CA3-head (left hemisphere),Volume,1319
+26659,Volume of CA3-head (right hemisphere),Volume,1320
+26635,Volume of CA4-body (left hemisphere),Volume,1321
+26657,Volume of CA4-body (right hemisphere),Volume,1322
+26634,Volume of CA4-head (left hemisphere),Volume,1323
+26656,Volume of CA4-head (right hemisphere),Volume,1324
+26681,Volume of CL (left hemisphere),Volume,1325
+26706,Volume of CL (right hemisphere),Volume,1326
+26670,Volume of CM (left hemisphere),Volume,1327
+26694,Volume of CM (right hemisphere),Volume,1328
+26677,Volume of CeM (left hemisphere),Volume,1329
+26703,Volume of CeM (right hemisphere),Volume,1330
+26604,Volume of Central-nucleus (left hemisphere),Volume,1331
+26614,Volume of Central-nucleus (right hemisphere),Volume,1332
+26606,Volume of Cortical-nucleus (left hemisphere),Volume,1333
+26616,Volume of Cortical-nucleus (right hemisphere),Volume,1334
+26607,Volume of Corticoamygdaloid-transitio (left hemisphere),Volume,1335
+26617,Volume of Corticoamygdaloid-transitio (right hemisphere),Volume,1336
+26633,Volume of GC-ML-DG-body (left hemisphere),Volume,1337
+26655,Volume of GC-ML-DG-body (right hemisphere),Volume,1338
+26631,Volume of GC-ML-DG-head (left hemisphere),Volume,1339
+26653,Volume of GC-ML-DG-head (right hemisphere),Volume,1340
+26638,Volume of HATA (left hemisphere),Volume,1341
+26660,Volume of HATA (right hemisphere),Volume,1342
+26620,Volume of Hippocampal-tail (left hemisphere),Volume,1343
+26642,Volume of Hippocampal-tail (right hemisphere),Volume,1344
+26668,Volume of L-Sg (left hemisphere),Volume,1345
+26692,Volume of L-Sg (right hemisphere),Volume,1346
+26712,Volume of LD (left hemisphere),Volume,1347
+26713,Volume of LD (right hemisphere),Volume,1348
+26665,Volume of LGN (left hemisphere),Volume,1349
+26688,Volume of LGN (right hemisphere),Volume,1350
+26687,Volume of LP (left hemisphere),Volume,1351
+26711,Volume of LP (right hemisphere),Volume,1352
+26600,Volume of Lateral-nucleus (left hemisphere),Volume,1353
+26610,Volume of Lateral-nucleus (right hemisphere),Volume,1354
+26676,Volume of MDl (left hemisphere),Volume,1355
+26700,Volume of MDl (right hemisphere),Volume,1356
+26673,Volume of MDm (left hemisphere),Volume,1357
+26697,Volume of MDm (right hemisphere),Volume,1358
+26664,Volume of MGN (left hemisphere),Volume,1359
+26689,Volume of MGN (right hemisphere),Volume,1360
+26679,Volume of MV(Re) (left hemisphere),Volume,1361
+26702,Volume of MV(Re) (right hemisphere),Volume,1362
+26605,Volume of Medial-nucleus (left hemisphere),Volume,1363
+26615,Volume of Medial-nucleus (right hemisphere),Volume,1364
+26716,Volume of Medulla (whole brain),Volume,1365
+26719,Volume of Midbrain (whole brain),Volume,1366
+26608,Volume of Paralaminar-nucleus (left hemisphere),Volume,1367
+26618,Volume of Paralaminar-nucleus (right hemisphere),Volume,1368
+26685,Volume of Pc (left hemisphere),Volume,1369
+26708,Volume of Pc (right hemisphere),Volume,1370
+26674,Volume of Pf (left hemisphere),Volume,1371
+26698,Volume of Pf (right hemisphere),Volume,1372
+26717,Volume of Pons (whole brain),Volume,1373
+26683,Volume of Pt (left hemisphere),Volume,1374
+26709,Volume of Pt (right hemisphere),Volume,1375
+26672,Volume of PuA (left hemisphere),Volume,1376
+26696,Volume of PuA (right hemisphere),Volume,1377
+26666,Volume of PuI (left hemisphere),Volume,1378
+26690,Volume of PuI (right hemisphere),Volume,1379
+26682,Volume of PuL (left hemisphere),Volume,1380
+26705,Volume of PuL (right hemisphere),Volume,1381
+26667,Volume of PuM (left hemisphere),Volume,1382
+26691,Volume of PuM (right hemisphere),Volume,1383
+26718,Volume of SCP (whole brain),Volume,1384
+26678,Volume of VA (left hemisphere),Volume,1385
+26701,Volume of VA (right hemisphere),Volume,1386
+26675,Volume of VAmc (left hemisphere),Volume,1387
+26699,Volume of VAmc (right hemisphere),Volume,1388
+26671,Volume of VLa (left hemisphere),Volume,1389
+26695,Volume of VLa (right hemisphere),Volume,1390
+26686,Volume of VLp (left hemisphere),Volume,1391
+26707,Volume of VLp (right hemisphere),Volume,1392
+26680,Volume of VM (left hemisphere),Volume,1393
+26704,Volume of VM (right hemisphere),Volume,1394
+26669,Volume of VPL (left hemisphere),Volume,1395
+26693,Volume of VPL (right hemisphere),Volume,1396
+26609,Volume of Whole-amygdala (left hemisphere),Volume,1397
+26619,Volume of Whole-amygdala (right hemisphere),Volume,1398
+26720,Volume of Whole-brainstem (whole brain),Volume,1399
+26639,Volume of Whole-hippocampal-body (left hemisphere),Volume,1400
+26661,Volume of Whole-hippocampal-body (right hemisphere),Volume,1401
+26640,Volume of Whole-hippocampal-head (left hemisphere),Volume,1402
+26662,Volume of Whole-hippocampal-head (right hemisphere),Volume,1403
+26641,Volume of Whole-hippocampus (left hemisphere),Volume,1404
+26663,Volume of Whole-hippocampus (right hemisphere),Volume,1405
+26714,Volume of Whole-thalamus (left hemisphere),Volume,1406
+26715,Volume of Whole-thalamus (right hemisphere),Volume,1407
+26636,Volume of fimbria (left hemisphere),Volume,1408
+26658,Volume of fimbria (right hemisphere),Volume,1409
+26624,Volume of hippocampal-fissure (left hemisphere),Volume,1410
+26646,Volume of hippocampal-fissure (right hemisphere),Volume,1411
+26630,Volume of molecular-layer-HP-body (left hemisphere),Volume,1412
+26652,Volume of molecular-layer-HP-body (right hemisphere),Volume,1413
+26629,Volume of molecular-layer-HP-head (left hemisphere),Volume,1414
+26651,Volume of molecular-layer-HP-head (right hemisphere),Volume,1415
+26628,Volume of parasubiculum (left hemisphere),Volume,1416
+26650,Volume of parasubiculum (right hemisphere),Volume,1417
+26627,Volume of presubiculum-body (left hemisphere),Volume,1418
+26649,Volume of presubiculum-body (right hemisphere),Volume,1419
+26625,Volume of presubiculum-head (left hemisphere),Volume,1420
+26647,Volume of presubiculum-head (right hemisphere),Volume,1421
+26621,Volume of subiculum-body (left hemisphere),Volume,1422
+26643,Volume of subiculum-body (right hemisphere),Volume,1423
+26623,Volume of subiculum-head (left hemisphere),Volume,1424
+26645,Volume of subiculum-head (right hemisphere),Volume,1425
