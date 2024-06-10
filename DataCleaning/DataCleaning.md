@@ -1,9 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
-# IWAS
 
 ## Data obtaining
 **1. [GWAS summary statistics on 3,935 Imaging Derived Phenotypes (IDPs)](https://open.win.ox.ac.uk/ukbiobank/big40/)**
