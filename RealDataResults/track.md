@@ -1,7 +1,7 @@
 # Work track
 0. Data location
    * Results located in: `/gpfs/fs0/scratch/j/junpark/junpark/MV_VC_IWAS`
-   * IDP id and category data located in: `/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category`
+   * IDP id, description and category data located in: `/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category/IDP_description.csv`
      structural MRI ID: 1-1451, diffusion MRI ID: 1452-2126
    * Stage 2 final pvalue read in from: `/gpfs/fs0/scratch/j/junpark/junpark/MV_VC_IWAS/IGAP_results`
    * Stage 1 IDPs being included in Stage 2 analysis read in: `/gpfs/fs0/scratch/j/junpark/junpark/UKBB_reprocess/imgGenet_coefMat/`
