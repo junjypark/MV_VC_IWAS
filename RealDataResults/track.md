@@ -7,8 +7,7 @@
    * Stage 1 IDPs being included in Stage 2 analysis read in: `/gpfs/fs0/scratch/j/junpark/junpark/UKBB_reprocess/imgGenet_coefMat/`
 
 1. `IDP_results.R`
-   Obtain MRI IDP ID, category, MRI significance results
-
+   Obtain MRI IDP ID, category, MRI significance results, results located in `/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category` by chr
 
 # Current questions
   **Not sure if the category I created for IDP is too general**
