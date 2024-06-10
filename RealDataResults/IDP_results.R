@@ -1,7 +1,6 @@
 
 # read in IDP id and category data
-dMRI <- read.csv("/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category/dMRI_reprocess.csv", header = T)
-sMRI <- read.csv("/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category/sMRI_reprocess.csv", header = T)
+MRIIDP <- read.csv("/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category/IDP_description.csv", header = T)
 
 # for each Chr and each gene
 for (chr in 1:22) {
@@ -15,9 +14,12 @@ for (chr in 1:22) {
   chr_D_results <- chr_D_results[, -c(6:8)]
   chr_F_results <- chr_F_results[, -c(6:8)]
   
+  # chr gene length read in
   hg19_chr <- readRDS(paste0("/gpfs/fs0/scratch/j/junpark/junpark/UKBB_reprocess/UKBB_ImgSampleGenotype/hg19info/hg19_chr", chr, ".rds"))
-  chr_IDP_results <- list()
-  for (gene in 1:nrow(chr_S_results)) {
+  chr_IDP_results <- vector("list", length = nrow(hg19_chr))
+  
+  
+  for (gene in 1:nrow(hg19_chr)) {
     tryCatch({
       
       # Stage 1 IDPs being included in Stage 2 analysis read in
@@ -26,11 +28,11 @@ for (chr in 1:22) {
       
       # Structural MRI IDP ID and category
       gene_S_colns <- as.numeric(colnames(stage1_coef$S))
-      gene_S_colns <- rbind(sMRI$Category[which(sMRI$ID %in% gene_S_colns)], gene_S_colns)
+      gene_S_colns <- rbind(MRIIDP$Category.name[which(MRIIDP$Pheno %in% gene_S_colns)], gene_S_colns)
       
       # Diffusion MRI IDP ID and category
       gene_D_colns <- as.numeric(colnames(stage1_coef$D))
-      gene_D_colns <- rbind(dMRI$Category[which(dMRI$ID %in% gene_D_colns)], gene_D_colns)
+      gene_D_colns <- rbind(MRIIDP$Category.name[which(MRIIDP$Pheno %in% gene_D_colns)], gene_D_colns)
       
       # Functional MRI IDP ID and category
       gene_F_colns <- as.numeric(colnames(stage1_coef$F))
@@ -42,10 +44,9 @@ for (chr in 1:22) {
       chr_IDP_results[[gene]] <- gene_IDP
     }, error = function(e) {
       print(paste0("gene", gene, " failed"))
-      chr_IDP_results[[gene]] <- NA
     })
   }  
     
-  saveRDS(chr_S, file = paste0("/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category/chr", chr, "IDP_results.rds"))
+  saveRDS(chr_IDP_results, file = paste0("/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category/chr", chr, "_IDP_results.rds"))
 }
 
