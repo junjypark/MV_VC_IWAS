@@ -1,14 +1,8 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
-# IWAS
 
 ## Data obtaining
 **1. [GWAS summary statistics on 3,935 Imaging Derived Phenotypes (IDPs)](https://open.win.ox.ac.uk/ukbiobank/big40/)**
 
-1.1 **download** located in: /gpfs/fs0/scratch/j/junpark/tianyu47/UKBB_IDP
+1.1 **download** located in: `/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB_IDP`
 ```
   cd /gpfs/fs0/scratch/j/junpark/tianyu47/UKBB_IDP
   for i in {0001..3935}; do
@@ -183,9 +177,9 @@ e.g. chr22
 
 **11. Intersect clumped 1000G, IGAP and UKB by chr, IDP, and gene**
 
-Use *intersection_0.5.R* and *intersection_0.5.sh* in
+Use `intersection_0.5.R` and `intersection_0.5.sh` in
 
-*/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_snplist_0.5*
+`/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_snplist_0.5`
 ```
   cd /gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_snplist_0.5
   for set in {1..168}; do
@@ -404,9 +398,9 @@ Use *intersection_0.5.R* and *intersection_0.5.sh* in
 
 **16. UKB summary data by chr, gene, IDP**
 
-Use *UKBGWAS_0.5.R* and *UKBGWAS_0.5.sh* in
+Use `UKBGWAS_0.5.R` and `UKBGWAS_0.5.sh` in
 
-*/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_UKBGWAS_0.5*
+`/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_UKBGWAS_0.5`
 
 ```
   cd /gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_UKBGWAS_0.5
@@ -529,7 +523,7 @@ Use *UKBGWAS_0.5.R* and *UKBGWAS_0.5.sh* in
 ### UKB GWAS
 
 **21. Calculate GWAS statistics for all SNPs in UKB by gene**
-Use *UKBGWAS.R*
+Use `UKBGWAS.R`
 
 ```
 library(dplyr)
@@ -654,27 +648,27 @@ for (chr in 1:22) {
 
 **25. Check if snps are consistent in all sets**
 
-Use *datacheck.R*
+Use `datacheck.R`
 
 ## Final data
 
 **26. UKB IDP GWAS**
 
-located in */gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_UKBGWAS_0.5*, by chr, gene and IDP
+located in `/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_UKBGWAS_0.5`, by chr, gene and IDP
 
 
 **27. 1000G LD**
 
-located in */gpfs/fs0/scratch/j/junpark/tianyu47/1000G/R_LD_0.5*, by chr and gene
+located in `/gpfs/fs0/scratch/j/junpark/tianyu47/1000G/R_LD_0.5`, by chr and gene
 
 **28. IGAP data**
 
-located in */gpfs/fs0/scratch/j/junpark/tianyu47/IGAP/IGAP_0.5_bygene/*, by chr and gene
+located in `/gpfs/fs0/scratch/j/junpark/tianyu47/IGAP/IGAP_0.5_bygene/`, by chr and gene
 
 **29. IGAP snpset UKB GWAS**
 
-located in */gpfs/fs0/scratch/j/junpark/tianyu47/UKB_ADGWAS/UKB_IGAPset_ADGWAS*, by chr and gene
+located in `/gpfs/fs0/scratch/j/junpark/tianyu47/UKB_ADGWAS/UKB_IGAPset_ADGWAS`, by chr and gene
 
 **29. UKB only version UKB GWAS**
 
-located in */gpfs/fs0/scratch/j/junpark/tianyu47/UKB_ADGWAS/UKB_1000Gset_ADGWAS*, by chr and gene
+located in `/gpfs/fs0/scratch/j/junpark/tianyu47/UKB_ADGWAS/UKB_1000Gset_ADGWAS`, by chr and gene
