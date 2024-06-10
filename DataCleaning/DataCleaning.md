@@ -179,7 +179,7 @@ e.g. chr22
 
 Use *intersection_0.5.R* and *intersection_0.5.sh* in
 
-*/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_snplist_0.5*
+`/gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_snplist_0.5`
 ```
   cd /gpfs/fs0/scratch/j/junpark/tianyu47/UKBB/UKBB_IGAP_1000G_snplist_0.5
   for set in {1..168}; do
