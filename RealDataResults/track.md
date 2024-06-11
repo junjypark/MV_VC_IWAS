@@ -9,6 +9,9 @@
 1. `IDP_results.R`
    Obtain MRI IDP ID, category, MRI significance results, results located in `/gpfs/fs0/scratch/j/junpark/tianyu47/MV_VC_IWAS/IDP_category` by chr
 
+# Significant IDP categories
+1. Structural MRI are categorized to regional and tissue volume (647), cortical area (372), cortical thickness (306), cortical grey-white contrast (70), regional and tissue intensity (41). Difussion MRI are categorized to white matter hyperintensity volume (1), regional T2* (14), WM tract FA (75), WM tract MO (75), WM tract diffusivity (300), WM tract ICVF (75), WM tract OD (75), WM tract ISOVF (75)
+
 # Current questions
   **Not sure if the category I created for IDP is too general**
   
