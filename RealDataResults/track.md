@@ -18,8 +18,8 @@
 6. In Chr 19 for diffusion MRI, 38 genes tested positive through WM tract FA, 38 genes tested positive through WM tract diffusivity, 38 genes tested positive through WM tract ICVF, 38 genes tested positive through WM tract OD, 38 genes tested positive through WM tract ISOVF
 
 # No adjustment for other MRI
-1. UKB diffusion: found 3 significant genes in Chr 22 but no gene significant in Chr 8
-2. IGAP diffusion: found 8 significant genes in Chr 1, 9 significant genes in Chr 2, 41 significant genes in Chr 19; IGAP structural: 39 significant genes in Chr 19
+1. UKB diffusion: found 3 significant genes in Chr 22, but no gene significant in Chr 8
+2. IGAP diffusion: found 8 significant genes in Chr 1, 9 significant genes in Chr 2, 41 significant genes in Chr 19, but no gene significant in Chr 8; IGAP structural: 39 significant genes in Chr 19, but no gene significant in Chr 8
 
 
 # Current questions
