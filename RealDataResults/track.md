@@ -12,6 +12,7 @@
 # Significant IDP categories
 1. Structural MRI are categorized to regional and tissue volume (647), cortical area (372), cortical thickness (306), cortical grey-white contrast (70), regional and tissue intensity (41).
 2. Difussion MRI are categorized to white matter hyperintensity volume (1), regional T2* (14), WM tract FA (75), WM tract MO (75), WM tract diffusivity (300), WM tract ICVF (75), WM tract OD (75), WM tract ISOVF (75)
+3. In Chr 8, 5 gene tested positive through regional and tissue volume IDPS, 5 gene tested positive through cortical area, 5 gene tested positive through  cortical thickness, 1 gene tested positive through cortical grey-white contrast, 1 gene tested positive through regional and tissue intensity
 
 # Current questions
   **Not sure if the category I created for IDP is too general**
