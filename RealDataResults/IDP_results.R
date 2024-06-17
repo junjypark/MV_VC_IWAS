@@ -29,10 +29,12 @@ for (chr in 1:22) {
       # Structural MRI IDP ID and category
       gene_S_colns <- as.numeric(colnames(stage1_coef$S))
       gene_S_colns <- rbind(MRIIDP$Category.name[which(MRIIDP$Pheno %in% gene_S_colns)], gene_S_colns)
+      gene_S_colns <- rbind(MRIIDP$IDP.description[which(MRIIDP$Pheno %in% gene_S_colns)], gene_S_colns)
       
       # Diffusion MRI IDP ID and category
       gene_D_colns <- as.numeric(colnames(stage1_coef$D))
       gene_D_colns <- rbind(MRIIDP$Category.name[which(MRIIDP$Pheno %in% gene_D_colns)], gene_D_colns)
+      gene_D_colns <- rbind(MRIIDP$IDP.description[which(MRIIDP$Pheno %in% gene_D_colns)], gene_D_colns)
       
       # Functional MRI IDP ID and category
       gene_F_colns <- as.numeric(colnames(stage1_coef$F))

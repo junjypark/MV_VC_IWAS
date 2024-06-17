@@ -125,6 +125,8 @@ don_d <- IGAP_d %>%
   mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(IGAP_d))), "yes", "no"))
 
+IGAP_gene_chr19_d <- don_d$Gene[don_d$CHR == 19 & don_d$is_annotate == "yes"]
+
 # Prepare X axis
 axisdf_d <- don_d %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
 
@@ -188,6 +190,10 @@ don_s <- IGAP_s %>%
   # Add highlight and annotation information
   mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(IGAP_s))), "yes", "no"))
+
+
+table(don_s$is_annotate, don_s$CHR)
+IGAPnoadj_gene_chr19_s <- don_s$Gene[don_s$CHR == 19 & don_s$is_annotate == "yes"]
 
 # Prepare X axis
 axisdf_s <- don_s %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )

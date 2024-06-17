@@ -124,6 +124,10 @@ don_d <- UKB_d %>%
   mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(UKB_d))), "yes", "no"))
 
+table(don_d$is_annotate, don_d$CHR)
+UKBadj_gene_chr8_d <- don_d$Gene[don_d$CHR == 8 & don_d$is_annotate == "yes"]
+UKBadj_gene_chr19_d <- don_d$Gene[don_d$CHR == 19 & don_d$is_annotate == "yes"]
+
 # Prepare X axis
 axisdf_d <- don_d %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
 
@@ -187,6 +191,10 @@ don_s <- UKB_s %>%
   # Add highlight and annotation information
   mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(UKB_s))), "yes", "no"))
+
+table(don_s$is_annotate, don_s$CHR)
+UKBadj_gene_chr19_s <- don_s$Gene[don_s$CHR == 19 & don_s$is_annotate == "yes"]
+
 
 # Prepare X axis
 axisdf_s <- don_s %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
@@ -361,3 +369,6 @@ p <- ggplot() +
 print(p)
 
 ggsave("venn_plot_UKB19.png", plot = p, width = 6, height = 4, dpi = 300)
+
+UKB_genes <- list(UKBadj_gene_chr8_d = UKBadj_gene_chr8_d, UKBadj_gene_chr19_d = UKBadj_gene_chr19_d, UKBadj_gene_chr19_s = UKBadj_gene_chr19_s)
+saveRDS(UKB_genes, "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene resultsUKB_genes.rds")
