@@ -19,7 +19,7 @@
 
 # No adjustment for other MRI
 1. UKB diffusion: found 3 significant genes in Chr 22, but no gene significant in Chr 8
-2. IGAP diffusion: found 8 significant genes in Chr 1, 9 significant genes in Chr 2, 41 significant genes in Chr 19, but no gene significant in Chr 8; IGAP structural: 39 significant genes in Chr 19, but no gene significant in Chr 8
+2. IGAP diffusion: found 8 significant genes in Chr 1, 9 significant genes in Chr 2, 41 significant genes in Chr 19 (ZNF227, ZNF233, ZNF235 were not significant with adjustment), but no gene significant in Chr 8; IGAP structural: 39 significant genes in Chr 19, but no gene significant in Chr 8
 
 
 # Current questions
