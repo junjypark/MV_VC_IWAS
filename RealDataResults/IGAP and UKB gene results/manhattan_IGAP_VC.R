@@ -114,15 +114,15 @@ don_d <- IGAP_d %>%
   summarise(chr_len=max(BP)) %>%
   # Calculate cumulative position of each chromosome
   mutate(tot=cumsum(chr_len)-chr_len) %>%
-  select(-chr_len) %>%
+  dplyr::select(-chr_len) %>%
   # Add this info to the initial dataset
-  left_join(IGAP_d, ., by=c("CHR"="CHR")) %>%
+  dplyr::left_join(IGAP_d, ., by=c("CHR"="CHR")) %>%
   # Add a cumulative position of each Gene
-  arrange(CHR, BP) %>%
-  mutate( BPcum=BP+tot) %>%
+  dplyr::arrange(CHR, BP) %>%
+  dplyr::mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
-  mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(IGAP_d))), "yes", "no"))
+  dplyr::mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
+  dplyr::mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(IGAP_d))), "yes", "no"))
 
 # Prepare X axis
 axisdf_d <- don_d %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
