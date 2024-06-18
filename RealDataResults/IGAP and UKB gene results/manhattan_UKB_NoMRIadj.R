@@ -293,7 +293,7 @@ ggsave("manhattan_plot_UKB_f_NoAdj.png", plot = p_f, width = 12, height = 5, dpi
 
 
 ################################################
-# IGAP chr8 overlap
+# UKB chr8 overlap
 ################################################
 
 chr8_d <- don_d$Gene[which(don_d$is_annotate == "yes" & don_d$CHR == "8")]
@@ -325,7 +325,7 @@ print(p)
 ggsave("venn_plot_UKB8_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
 
 ################################################
-# IGAP chr19 overlap
+# UKB chr19 overlap
 ################################################
 
 chr19_d <- don_d$Gene[which(don_d$is_annotate == "yes" & don_d$CHR == "19")]
@@ -362,3 +362,8 @@ p <- ggplot() +
 print(p)
 
 ggsave("venn_plot_UKB19_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
+
+
+table(don_s$is_annotate, don_s$CHR)
+table(don_d$is_annotate, don_d$CHR)
+chr19_d <- don_d$Gene[which(don_d$is_annotate == "yes" & don_d$CHR == "19")]
