@@ -21,6 +21,9 @@
 1. UKB diffusion: found 3 significant genes in Chr 22, but no gene significant in Chr 8, 20 genes in Chr 19, all in adjusted
 2. IGAP diffusion: found 8 significant genes in Chr 1, 9 significant genes in Chr 2, 41 significant genes in Chr 19 (ZNF227, ZNF233, ZNF235 were not significant with adjustment), but no gene significant in Chr 8; IGAP structural: 9 significant genes in Chr 2, 39 significant genes in Chr 19 (DKFZp434J0226, IGFL2 in adjustment but not here, PPP1R13L here is not significant in adjustment), but no gene significant in Chr 8
 
+# Overlapping genes
+1. Chr 19 PPAN and PPAN-P2RY11, PPP5D1 and PNMAL2
+2. Chr 8, none
 
 # Current questions
   **Not sure if the category I created for IDP is too general**
