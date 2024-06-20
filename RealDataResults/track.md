@@ -22,7 +22,7 @@
 2. IGAP diffusion: found 8 significant genes in Chr 1, 9 significant genes in Chr 2, 41 significant genes in Chr 19 (ZNF227, ZNF233, ZNF235 were not significant with adjustment), but no gene significant in Chr 8; IGAP structural: 9 significant genes in Chr 2, 39 significant genes in Chr 19 (DKFZp434J0226, IGFL2 in adjustment but not here, PPP1R13L here is not significant in adjustment), but no gene significant in Chr 8
 
 # Overlapping genes
-1. Chr 19 PPAN and PPAN-P2RY11, PPP5D1 and PNMAL2
+1. Chr 19 PVR and MIR4531; BCL3 and MIR8085; APOC4-APOC2; APOC2 and APOC4 overlaps; KLC3 overlaps ERCC2
 2. Chr 8, none
 
 # Current questions
