@@ -26,6 +26,6 @@
 2. Chr 8, none
 
 # To discuss
-1. MIR4287 has negative pvalue for sMRI when using Davies, but fixed when switched to Liu
+1. MIR4287 has negative pvalue for sMRI when using Davies, but fixed when switched to Liu, currently I replace the pvalue by NA
 2. IDP region
 3. MV-IWAS but used our method, do we want to use MVIWAS summary statistics version
