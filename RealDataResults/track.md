@@ -25,9 +25,7 @@
 1. Chr 19 PVR and MIR4531; BCL3 and MIR8085; APOC4-APOC2; APOC2 and APOC4 overlaps; KLC3 overlaps ERCC2
 2. Chr 8, none
 
-# Current questions
-  **Not sure if the category I created for IDP is too general**
-  
-  **dMRI_reprocess.csv seems not correct**: max diffusion MRI ID should be 2100 according to the current dMRI_reprocess.csv and sMRI_reprocess.csv file. But for Chr1, gene 1, diffusion MRI IDP include ID 2110
-
-   **Need to check if gene index match**: Also have some concern that if gene number in Stage 1 IDPs being included in Stage 2 analysis read in: `/gpfs/fs0/scratch/j/junpark/junpark/UKBB_reprocess/imgGenet_coefMat/` match the gene names in Stage 2 final pvalue read in from: `/gpfs/fs0/scratch/j/junpark/junpark/MV_VC_IWAS/IGAP_results`
+# To discuss
+1. MIR4287 has negative pvalue for sMRI
+2. IDP region
+3. MV-IWAS but used our method, do we want to use MVIWAS summary statistics version
