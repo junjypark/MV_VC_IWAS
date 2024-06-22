@@ -27,6 +27,7 @@ for (gene in 1:nrow(hg)){
     for (IDPi in 1:ncol(coef$F)){
       tryCatch({
         A1=as.matrix(cbind(coef$F))
+        IDPnames <- colnames(A1)
         A1=as.matrix(A1[, IDPi])
         A2=as.matrix(cbind(coef$F[, -IDPi], coef$D, coef$S))
         
@@ -47,6 +48,10 @@ for (gene in 1:nrow(hg)){
         pvecs2_gene[IDPi]=mv_vc_iwas(tstats,LD,A1,A2=NULL)
         pvecs3_gene[IDPi]=mv_vc_iwas(tstats,LD,A1,A2=NULL, egger = F)
         pvecs4_gene[IDPi]=mv_vc_iwas(tstats,LD,A1,A2, egger=F)
+        names(pvecs_gene)[IDPi]=IDPnames[IDPi]
+        names(pvecs2_gene)[IDPi]=IDPnames[IDPi]
+        names(pvecs3_gene)[IDPi]=IDPnames[IDPi]
+        names(pvecs4_gene)[IDPi]=IDPnames[IDPi]
       }, error = function(e) {print("error")})
     }
     

@@ -10,11 +10,7 @@ source("/gpfs/fs0/scratch/j/junpark/junpark/MV_VC_IWAS/files/method.R")
 
 hg=readRDS(paste0("/gpfs/fs0/scratch/j/junpark/junpark/UKBB_reprocess/UKBB_ImgSampleGenotype/hg19info/hg19_chr",chr,".rds"))
 pvecs = pvecs2 = pvecs3 = pvecs4 = vector("list", nrow(hg))
-for (gene in 1:nrow(hg)){
-  pvecs[[gene]]=NA
-  pvecs2[[gene]]=NA
-  pvecs3[[gene]]=NA
-  pvecs4[[gene]]=NA
+for (gene in 1:nrow(hg)){ # nrow(hg)
   tryCatch({
     #Load coefficients
     setwd(paste0("/gpfs/fs0/scratch/j/junpark/junpark/UKBB_reprocess/imgGenet_coefMat/chr",chr))
@@ -27,6 +23,7 @@ for (gene in 1:nrow(hg)){
     for (IDPi in 1:ncol(coef$D)){
       tryCatch({
         A1=as.matrix(cbind(coef$D))
+        IDPnames <- colnames(A1)
         A1=as.matrix(A1[, IDPi])
         A2=as.matrix(cbind(coef$D[, -IDPi], coef$S, coef$F))
         
@@ -47,6 +44,10 @@ for (gene in 1:nrow(hg)){
         pvecs2_gene[IDPi]=mv_vc_iwas(tstats,LD,A1,A2=NULL)
         pvecs3_gene[IDPi]=mv_vc_iwas(tstats,LD,A1,A2=NULL, egger = F)
         pvecs4_gene[IDPi]=mv_vc_iwas(tstats,LD,A1,A2, egger=F)
+        names(pvecs_gene)[IDPi]=IDPnames[IDPi]
+        names(pvecs2_gene)[IDPi]=IDPnames[IDPi]
+        names(pvecs3_gene)[IDPi]=IDPnames[IDPi]
+        names(pvecs4_gene)[IDPi]=IDPnames[IDPi]
       }, error = function(e) {print("error")})
     }
     
@@ -54,7 +55,12 @@ for (gene in 1:nrow(hg)){
     pvecs2[[gene]]=pvecs2_gene
     pvecs3[[gene]]=pvecs3_gene
     pvecs4[[gene]]=pvecs4_gene
-  }, error = function(e) {print(gene)})
+  }, error = function(e) {
+    pvecs[[gene]]=NA
+    pvecs2[[gene]]=NA
+    pvecs3[[gene]]=NA
+    pvecs4[[gene]]=NA
+  })
 }
 
 pvalues <- list(pvecs=pvecs, pvecs2=pvecs2, pvecs3=pvecs3, pvecs4=pvecs4)

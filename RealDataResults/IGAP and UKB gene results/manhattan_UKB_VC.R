@@ -168,7 +168,10 @@ p_d <- ggplot(don_d, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_UKB_d.png", plot = p_d, width = 12, height = 5, dpi = 300)
+p_d
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_UKB_VC_d.png", 
+       plot = p_d, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -236,7 +239,10 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_UKB_s.png", plot = p_s, width = 12, height = 5, dpi = 300)
+p_s
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_UKB_VC_s.png", 
+       plot = p_s, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -296,7 +302,10 @@ p_f <- ggplot(don_f, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_UKB_f.png", plot = p_f, width = 12, height = 5, dpi = 300)
+p_f
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_UKB_VC_f.png", 
+       plot = p_f, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -329,7 +338,8 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_UKB8.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_UKB8_VC.png", 
+       plot = p, width = 6, height = 4, dpi = 300)
 
 ################################################
 # IGAP chr19 overlap
@@ -368,7 +378,8 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_UKB19.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_UKB19_VC.png", 
+       plot = p, width = 6, height = 4, dpi = 300)
 
-UKB_genes <- list(UKBadj_gene_chr8_d = UKBadj_gene_chr8_d, UKBadj_gene_chr19_d = UKBadj_gene_chr19_d, UKBadj_gene_chr19_s = UKBadj_gene_chr19_s)
-saveRDS(UKB_genes, "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene resultsUKB_genes.rds")
+# UKB_genes <- list(UKBadj_gene_chr8_d = UKBadj_gene_chr8_d, UKBadj_gene_chr19_d = UKBadj_gene_chr19_d, UKBadj_gene_chr19_s = UKBadj_gene_chr19_s)
+# saveRDS(UKB_genes, "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene resultsUKB_genes.rds")

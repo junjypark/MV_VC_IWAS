@@ -1,10 +1,11 @@
 ############################################################################################################################################
-setwd("/Users/tianyuan/Desktop/UoT/Research/UKBB/May 21 results/IGAP_results")
+setwd("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/results/IGAP")
 
 library(qqman)
 library(dplyr)
 library(ggrepel)
 library(ggplot2)
+library(ggforce)
 
 ################################################
 # IGAP diffusion data
@@ -29,6 +30,7 @@ IGAP_d$BP <- (IGAP_d$POS1 + IGAP_d$POS2) / 2
 # remove POS1 and POS2
 IGAP_d <- IGAP_d[, -c(2:3)]
 # remove row with NAs in P
+IGAP_d$P[which(IGAP_d$P < 0)] <- NA
 IGAP_d <- IGAP_d[!is.na(IGAP_d$P), ]
 IGAP_d$CHR <- factor(IGAP_d$CHR, levels = 1:22)
 min(IGAP_d$P[which(IGAP_d$P != 0)])
@@ -60,6 +62,7 @@ IGAP_s$BP <- (IGAP_s$POS1 + IGAP_s$POS2) / 2
 # remove POS1 and POS2
 IGAP_s <- IGAP_s[, -c(2:3)]
 # remove row with NAs in P
+IGAP_s$P[which(IGAP_s$P < 0)] <- NA
 IGAP_s <- IGAP_s[!is.na(IGAP_s$P), ]
 IGAP_s$CHR <- factor(IGAP_s$CHR, levels = 1:22)
 min(IGAP_s$P[which(IGAP_s$P != 0)])
@@ -93,6 +96,7 @@ IGAP_f$BP <- (IGAP_f$POS1 + IGAP_f$POS2) / 2
 # remove POS1 and POS2
 IGAP_f <- IGAP_f[, -c(2:3)]
 # remove row with NAs in P
+IGAP_f$P[which(IGAP_f$P < 0)] <- NA
 IGAP_f <- IGAP_f[!is.na(IGAP_f$P), ]
 IGAP_f$CHR <- factor(IGAP_f$CHR, levels = 1:22)
 min(IGAP_f$P[which(IGAP_f$P != 0)])
@@ -164,7 +168,9 @@ p_d <- ggplot(don_d, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_IGAP_d.png", plot = p_d, width = 12, height = 5, dpi = 300)
+p_d <- suppressMessages(p_d)
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_VC_d.png", plot = p_d, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -228,7 +234,8 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_IGAP_s.png", plot = p_s, width = 12, height = 5, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_VC_s.png", 
+       plot = p_s, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -288,7 +295,8 @@ p_f <- ggplot(don_f, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_IGAP_f.png", plot = p_f, width = 12, height = 5, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_VC_f.png", 
+       plot = p_f, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -321,7 +329,8 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_IGAP8.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_IGAP8_VC.png", 
+       plot = p, width = 6, height = 4, dpi = 300)
 
 ################################################
 # IGAP chr19 overlap
@@ -360,4 +369,21 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_IGAP19.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_IGAP19_VC.png", 
+       plot = p, width = 6, height = 4, dpi = 300)
+
+
+# check gene overlapping region
+for (i in 1:22) {
+  file_name <- paste0("chr", i, "_results_D.rds")
+  data <- readRDS(file_name)
+  if (i == 1) {
+    IGAP_d <- data
+  } else {
+    IGAP_d <- rbind(IGAP_d, data)
+  }
+}
+# remove column 5-7
+IGAP_d <- IGAP_d[, -c(6:8)]
+colnames(IGAP_d) <- c("CHR", "POS1", "POS2", "Gene", "P")
+sig_S <- IGAP_d[which(IGAP_d$Gene %in% c(chr19_s, chr19_d)), ]

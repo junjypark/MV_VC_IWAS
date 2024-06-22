@@ -182,26 +182,20 @@ for (chr in 1:22) {
 MRIIDP <- read.csv("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP_description.csv", header = T)
 MRIIDP <- as.data.frame(MRIIDP)
 
+############################################################################################################
 # chr8
+############################################################################################################
+
+############################################################################################################
+# structural
 chr <- 8
 chr_S <- readRDS(paste0("chr", chr, "_S.rds"))
 chr_S <- as.data.frame(chr_S)
-
 chr_S$gene[which(chr_S[, 7] == T)]
 chr_S$gene[which(chr_S[, 8] == T)]
 chr_S$gene[which(chr_S[, 9] == T)]
 chr_S$gene[which(chr_S[, 10] == T)]
 chr_S$gene[which(chr_S[, 11] == T)]
-chr_D <- readRDS(paste0("chr", chr, "_D.rds"))
-chr_D <- as.data.frame(chr_D)
-chr_S$gene[which(chr_D[, 10] == T)]
-chr_S$gene[which(chr_D[, 11] == T)]
-chr_S$gene[which(chr_D[, 12] == T)]
-chr_S$gene[which(chr_D[, 13] == T)]
-chr_S$gene[which(chr_D[, 14] == T)]
-chr_S$gene[which(chr_D[, 15] == T)]
-chr_S$gene[which(chr_D[, 16] == T)]
-chr_S$gene[which(chr_D[, 17] == T)]
 
 # chr8 IDP description
 des_S <- readRDS(paste0("chr", chr, "_S_description.rds"))
@@ -215,6 +209,48 @@ for (i in 1:length(des_S_gene)) {
 des_S_gene <- cbind(des_S[[2]], des_S_gene)
 colnames(des_S_gene) <- c("gene", "description")
 write.csv(des_S_gene, file = "chr8_sMRI_IDP_description.csv", row.names = F)
+
+# chr8 region
+chr_hg <- readRDS(paste0("hg19_chr", chr, ".rds"))
+chr_result <- readRDS(paste0("chr", chr, "_IDP_results.rds"))
+# obtain $sig_S from each element of the list
+chr_sig_S <- lapply(chr_result, function(x) x$sig_S)
+# replace NULLs with NAs
+chr_sig_S <- lapply(chr_sig_S, function(x) if (is.null(x)) NA else x)
+chr_sig_S <- unlist(chr_sig_S)
+chr_hg <- cbind(chr_hg, chr_sig_S)
+# remove NAs in chr_hg[, 5]
+which(chr_hg[, 5] < 0.05/23214)
+chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/23214)]
+MRI_S_region <- c()
+for (i in 1:length(chr_result_sig)) {
+  if (is.null(MRI_S_region)) {
+    MRI_S_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+  } else {
+    MRI_S_region <- c(MRI_S_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+  }
+}
+# remove leading empty space in MRI_S_region
+MRI_S_region <- gsub("^\\s+", "", MRI_S_region)
+# make MRI_S_region all lower case
+MRI_S_region <- tolower(MRI_S_region)
+# count the frequency of each region
+MRI_S_region_results <- as.data.frame(table(MRI_S_region))
+write.csv(MRI_S_region_results, file = "chr8_sMRI_region_results.csv", row.names = F)
+
+############################################################################################################
+# diffusion
+chr_D <- readRDS(paste0("chr", chr, "_D.rds"))
+chr_D <- as.data.frame(chr_D)
+chr_D$gene[which(chr_D[, 10] == T)]
+chr_D$gene[which(chr_D[, 11] == T)]
+chr_D$gene[which(chr_D[, 12] == T)]
+chr_D$gene[which(chr_D[, 13] == T)]
+chr_D$gene[which(chr_D[, 14] == T)]
+chr_D$gene[which(chr_D[, 15] == T)]
+chr_D$gene[which(chr_D[, 16] == T)]
+chr_D$gene[which(chr_D[, 17] == T)]
+
 # dMRI IDP description by gene
 des_D <- readRDS(paste0("chr", chr, "_D_description.rds"))
 length(unique(unlist(des_D[[1]])))
@@ -227,7 +263,40 @@ des_D_gene <- cbind(des_D[[2]], des_D_gene)
 colnames(des_D_gene) <- c("gene", "description")
 write.csv(des_D_gene, file = "chr8_dMRI_IDP_description.csv", row.names = F)
 
+# chr8 region
+chr_hg <- readRDS(paste0("hg19_chr", chr, ".rds"))
+chr_result <- readRDS(paste0("chr", chr, "_IDP_results.rds"))
+# obtain $sig_S from each element of the list
+chr_sig_D <- lapply(chr_result, function(x) x$sig_D)
+# replace NULLs with NAs
+chr_sig_D <- lapply(chr_sig_D, function(x) if (is.null(x)) NA else x)
+chr_sig_D <- unlist(chr_sig_D)
+chr_hg <- cbind(chr_hg, chr_sig_D)
+# remove NAs in chr_hg[, 5]
+which(chr_hg[, 5] < 0.05/21896)
+chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/21896)]
+MRI_D_region <- c()
+for (i in 1:length(chr_result_sig)) {
+  if (is.null(MRI_D_region)) {
+    MRI_D_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+  } else {
+    MRI_D_region <- c(MRI_D_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+  }
+}
+# remove leading empty space in MRI_D_region
+MRI_D_region <- gsub("^\\s+", "", MRI_D_region)
+# make MRI_D_region all lower case
+MRI_D_region <- tolower(MRI_D_region)
+# count the frequency of each region
+MRI_D_region_results <- as.data.frame(table(MRI_D_region))
+write.csv(MRI_D_region_results, file = "chr8_dMRI_region_results.csv", row.names = F)
+
+############################################################################################################
 # chr19
+############################################################################################################
+
+############################################################################################################
+# structural
 chr <- 19
 chr_S <- readRDS(paste0("chr", chr, "_S.rds"))
 chr_S <- as.data.frame(chr_S)
@@ -241,21 +310,6 @@ des_S <- readRDS(paste0("chr", chr, "_S_description.rds"))
 length(unique(unlist(des_S[[1]])))
 table(MRIIDP$Category.name[which(MRIIDP$IDP.description %in% unique(unlist(des_S[[1]])))])
 
-chr_D <- readRDS(paste0("chr", chr, "_D.rds"))
-chr_D <- as.data.frame(chr_D)
-chr_S$gene[which(chr_D[, 10] == T)]
-chr_S$gene[which(chr_D[, 11] == T)]
-chr_S$gene[which(chr_D[, 12] == T)]
-chr_S$gene[which(chr_D[, 13] == T)]
-chr_S$gene[which(chr_D[, 14] == T)]
-chr_S$gene[which(chr_D[, 15] == T)]
-chr_S$gene[which(chr_D[, 16] == T)]
-chr_S$gene[which(chr_D[, 17] == T)]
-
-des_D <- readRDS(paste0("chr", chr, "_D_description.rds"))
-length(unique(unlist(des_D[[1]])))
-table(MRIIDP$Category.name[which(MRIIDP$IDP.description %in% unique(unlist(des_D[[1]])))])
-
 # chr19 IDP description
 des_S <- readRDS(paste0("chr", chr, "_S_description.rds"))
 length(unique(unlist(des_S[[1]])))
@@ -268,6 +322,53 @@ for (i in 1:length(des_S_gene)) {
 des_S_gene <- cbind(des_S[[2]], des_S_gene)
 colnames(des_S_gene) <- c("gene", "description")
 write.csv(des_S_gene, file = "chr19_sMRI_IDP_description.csv", row.names = F)
+
+# chr19 region
+chr_hg <- readRDS(paste0("hg19_chr", chr, ".rds"))
+chr_result <- readRDS(paste0("chr", chr, "_IDP_results.rds"))
+# obtain $sig_S from each element of the list
+chr_sig_S <- lapply(chr_result, function(x) x$sig_S)
+# replace NULLs with NAs
+chr_sig_S <- lapply(chr_sig_S, function(x) if (is.null(x)) NA else x)
+chr_sig_S <- unlist(chr_sig_S)
+chr_hg <- cbind(chr_hg, chr_sig_S)
+# remove NAs in chr_hg[, 5]
+which(chr_hg[, 5] < 0.05/23214)
+chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/23214)]
+MRI_S_region <- c()
+for (i in 1:length(chr_result_sig)) {
+  if (is.null(MRI_S_region)) {
+    MRI_S_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+  } else {
+    MRI_S_region <- c(MRI_S_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+  }
+}
+# remove leading empty space in MRI_S_region
+MRI_S_region <- gsub("^\\s+", "", MRI_S_region)
+# make MRI_S_region all lower case
+MRI_S_region <- tolower(MRI_S_region)
+# count the frequency of each region
+MRI_S_region_results <- as.data.frame(table(MRI_S_region))
+write.csv(MRI_S_region_results, file = "chr19_sMRI_region_results.csv", row.names = F)
+
+
+############################################################################################################
+# diffusion
+chr_D <- readRDS(paste0("chr", chr, "_D.rds"))
+chr_D <- as.data.frame(chr_D)
+chr_D$gene[which(chr_D[, 10] == T)]
+chr_D$gene[which(chr_D[, 11] == T)]
+chr_D$gene[which(chr_D[, 12] == T)]
+chr_D$gene[which(chr_D[, 13] == T)]
+chr_D$gene[which(chr_D[, 14] == T)]
+chr_D$gene[which(chr_D[, 15] == T)]
+chr_D$gene[which(chr_D[, 16] == T)]
+chr_D$gene[which(chr_D[, 17] == T)]
+
+des_D <- readRDS(paste0("chr", chr, "_D_description.rds"))
+length(unique(unlist(des_D[[1]])))
+table(MRIIDP$Category.name[which(MRIIDP$IDP.description %in% unique(unlist(des_D[[1]])))])
+
 # dMRI IDP description by gene
 des_D <- readRDS(paste0("chr", chr, "_D_description.rds"))
 length(unique(unlist(des_D[[1]])))
@@ -279,3 +380,31 @@ for (i in 1:length(des_D_gene)) {
 des_D_gene <- cbind(des_D[[2]], des_D_gene)
 colnames(des_D_gene) <- c("gene", "description")
 write.csv(des_D_gene, file = "chr19_dMRI_IDP_description.csv", row.names = F)
+
+# chr19 region
+chr_hg <- readRDS(paste0("hg19_chr", chr, ".rds"))
+chr_result <- readRDS(paste0("chr", chr, "_IDP_results.rds"))
+# obtain $sig_S from each element of the list
+chr_sig_D <- lapply(chr_result, function(x) x$sig_D)
+# replace NULLs with NAs
+chr_sig_D <- lapply(chr_sig_D, function(x) if (is.null(x)) NA else x)
+chr_sig_D <- unlist(chr_sig_D)
+chr_hg <- cbind(chr_hg, chr_sig_D)
+# remove NAs in chr_hg[, 5]
+which(chr_hg[, 5] < 0.05/21896)
+chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/21896)]
+MRI_D_region <- c()
+for (i in 1:length(chr_result_sig)) {
+  if (is.null(MRI_D_region)) {
+    MRI_D_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+  } else {
+    MRI_D_region <- c(MRI_D_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+  }
+}
+# remove leading empty space in MRI_D_region
+MRI_D_region <- gsub("^\\s+", "", MRI_D_region)
+# make MRI_D_region all lower case
+MRI_D_region <- tolower(MRI_D_region)
+# count the frequency of each region
+MRI_D_region_results <- as.data.frame(table(MRI_D_region))
+write.csv(MRI_D_region_results, file = "chr19_dMRI_region_results.csv", row.names = F)
