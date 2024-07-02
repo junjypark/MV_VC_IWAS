@@ -1,0 +1,35 @@
+"MRI_S_region","MRI_S_category","Freq"
+"caudalanteriorcingulate in the left hemisphere","cortical area",5
+"rostralmiddlefrontal in the left hemisphere","cortical grey-white contrast",1
+"superiorfrontal in the right hemisphere","cortical grey-white contrast",1
+"fusiform in the right hemisphere","cortical thickness",1
+"g-front-middle in the left hemisphere","cortical thickness",1
+"g-front-middle in the right hemisphere","cortical thickness",5
+"g-front-sup in the right hemisphere","cortical thickness",1
+"g-ins-lg+s-cent-ins in the left hemisphere","cortical thickness",1
+"g-orbital in the right hemisphere","cortical thickness",1
+"g-temp-sup-plan-tempo in the left hemisphere","cortical thickness",1
+"g+s-transv-frontopol in the right hemisphere","cortical thickness",1
+"insula in the left hemisphere","cortical thickness",2
+"insula in the right hemisphere","cortical thickness",5
+"lateralorbitofrontal in the right hemisphere","cortical thickness",1
+"rostralmiddlefrontal in the left hemisphere","cortical thickness",1
+"rostralmiddlefrontal in the right hemisphere","cortical thickness",1
+"superiorfrontal in the left hemisphere","cortical thickness",2
+"superiorfrontal in the right hemisphere","cortical thickness",2
+"amygdala in the right hemisphere","regional and tissue intensity",1
+"accessory-basal-nucleus in the right hemisphere","regional and tissue volume",1
+"ba3b in the left hemisphere","regional and tissue volume",5
+"cl in the left hemisphere","regional and tissue volume",5
+"g-cingul-post-dorsal in the right hemisphere","regional and tissue volume",1
+"insula in the left hemisphere","regional and tissue volume",2
+"left pallidum","regional and tissue volume",5
+"medulla in the whole brain","regional and tissue volume",1
+"molecular-layer-hp-head in the right hemisphere","regional and tissue volume",5
+"putamen in the right hemisphere","regional and tissue volume",5
+"right amygdala","regional and tissue volume",1
+"right inferior frontal gyrus, pars triangularis","regional and tissue volume",5
+"right inferior temporal gyrus, anterior division","regional and tissue volume",1
+"right postcentral gyrus","regional and tissue volume",1
+"right viib cerebellum","regional and tissue volume",1
+"totalgray in the whole brain","regional and tissue volume",1

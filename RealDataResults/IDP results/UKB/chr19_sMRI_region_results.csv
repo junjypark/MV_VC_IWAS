@@ -1,0 +1,33 @@
+"MRI_S_region","MRI_S_category","Freq"
+"caudalanteriorcingulate in the left hemisphere","cortical area",27
+"g-front-middle in the left hemisphere","cortical area",13
+"g-ins-lg+s-cent-ins in the left hemisphere","cortical area",13
+"lat-fis-post in the left hemisphere","cortical area",27
+"posteriorcingulate in the right hemisphere","cortical area",2
+"rostralmiddlefrontal in the left hemisphere","cortical area",13
+"s-collat-transv-post in the left hemisphere","cortical area",15
+"transversetemporal in the left hemisphere","cortical area",27
+"ba44 in the right hemisphere","cortical thickness",27
+"fusiform in the right hemisphere","cortical thickness",24
+"g-temporal-inf in the left hemisphere","cortical thickness",27
+"g-temporal-inf in the right hemisphere","cortical thickness",24
+"g+s-transv-frontopol in the right hemisphere","cortical thickness",18
+"inferiortemporal in the right hemisphere","cortical thickness",48
+"s-front-middle in the left hemisphere","cortical thickness",13
+"s-orbital-lateral in the left hemisphere","cortical thickness",15
+"cc-posterior in the whole brain","regional and tissue intensity",27
+"g-ins-lg+s-cent-ins in the left hemisphere","regional and tissue volume",13
+"lateraloccipital in the right hemisphere","regional and tissue volume",26
+"left planum temporale","regional and tissue volume",27
+"left precuneous cortex","regional and tissue volume",23
+"left superior temporal gyrus, posterior division","regional and tissue volume",27
+"number of holesbeforefixing in the left hemisphere","regional and tissue volume",27
+"perirhinal in the left hemisphere","regional and tissue volume",27
+"pt in the left hemisphere","regional and tissue volume",12
+"pui in the left hemisphere","regional and tissue volume",2
+"pum in the left hemisphere","regional and tissue volume",23
+"s-intrapariet+p-trans in the left hemisphere","regional and tissue volume",17
+"superiorparietal in the left hemisphere","regional and tissue volume",27
+"transversetemporal in the left hemisphere","regional and tissue volume",54
+"vermis viiia cerebellum","regional and tissue volume",27
+"wm-hypointensities in the whole brain","regional and tissue volume",27

@@ -1,0 +1,26 @@
+"MRI_D_region","MRI_D_category","Freq"
+"cerebral peduncle (right)","WM tract diffusivity",34
+"posterior corona radiata (left)","WM tract diffusivity",34
+"posterior thalamic radiation (left)","WM tract diffusivity",34
+"splenium of corpus callosum","WM tract diffusivity",34
+"superior corona radiata (right)","WM tract diffusivity",34
+"superior fronto-occipital fasciculus (right)","WM tract diffusivity",68
+"superior longitudinal fasciculus (left)","WM tract diffusivity",68
+"tapetum (left)","WM tract diffusivity",34
+"tract forceps major","WM tract diffusivity",32
+"tract left acoustic radiation","WM tract diffusivity",16
+"tract left inferior longitudinal fasciculus","WM tract diffusivity",68
+"tract left superior longitudinal fasciculus","WM tract diffusivity",68
+"tract right corticospinal tract","WM tract diffusivity",68
+"tract right posterior thalamic radiation","WM tract diffusivity",102
+"tract right superior thalamic radiation","WM tract diffusivity",68
+"superior fronto-occipital fasciculus (right)","WM tract FA",3
+"tapetum (right)","WM tract FA",34
+"cerebral peduncle (right)","WM tract ICVF",34
+"posterior limb of internal capsule (right)","WM tract ICVF",34
+"tapetum (left)","WM tract ICVF",34
+"fornix cres+stria terminalis (left)","WM tract ISOVF",31
+"posterior limb of internal capsule (right)","WM tract ISOVF",1
+"posterior thalamic radiation (left)","WM tract ISOVF",34
+"sagittal stratum (left)","WM tract OD",31
+"tract left corticospinal tract","WM tract OD",10

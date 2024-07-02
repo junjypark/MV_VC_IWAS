@@ -1,0 +1,46 @@
+"MRI_D_region","MRI_D_category","Freq"
+"anterior corona radiata (left)","WM tract diffusivity",6
+"anterior corona radiata (right)","WM tract diffusivity",6
+"anterior limb of internal capsule (right)","WM tract diffusivity",3
+"cerebral peduncle (right)","WM tract diffusivity",37
+"posterior corona radiata (left)","WM tract diffusivity",41
+"posterior thalamic radiation (left)","WM tract diffusivity",37
+"retrolenticular part of internal capsule (left)","WM tract diffusivity",3
+"retrolenticular part of internal capsule (right)","WM tract diffusivity",9
+"splenium of corpus callosum","WM tract diffusivity",35
+"superior corona radiata (left)","WM tract diffusivity",9
+"superior corona radiata (right)","WM tract diffusivity",38
+"superior fronto-occipital fasciculus (left)","WM tract diffusivity",3
+"superior fronto-occipital fasciculus (right)","WM tract diffusivity",73
+"superior longitudinal fasciculus (left)","WM tract diffusivity",70
+"tapetum (left)","WM tract diffusivity",35
+"tract forceps major","WM tract diffusivity",33
+"tract left acoustic radiation","WM tract diffusivity",19
+"tract left inferior longitudinal fasciculus","WM tract diffusivity",74
+"tract left superior longitudinal fasciculus","WM tract diffusivity",73
+"tract right anterior thalamic radiation","WM tract diffusivity",3
+"tract right corticospinal tract","WM tract diffusivity",70
+"tract right posterior thalamic radiation","WM tract diffusivity",105
+"tract right superior thalamic radiation","WM tract diffusivity",70
+"cingulum hippocampus (left)","WM tract FA",3
+"superior fronto-occipital fasciculus (right)","WM tract FA",6
+"tapetum (right)","WM tract FA",36
+"anterior corona radiata (left)","WM tract ICVF",3
+"cerebral peduncle (right)","WM tract ICVF",37
+"cingulum hippocampus (left)","WM tract ICVF",3
+"posterior limb of internal capsule (right)","WM tract ICVF",35
+"retrolenticular part of internal capsule (right)","WM tract ICVF",3
+"superior corona radiata (right)","WM tract ICVF",3
+"tapetum (left)","WM tract ICVF",35
+"tract forceps minor","WM tract ICVF",3
+"tract left anterior thalamic radiation","WM tract ICVF",3
+"tract left parahippocampal part of cingulum","WM tract ICVF",3
+"tract left uncinate fasciculus","WM tract ICVF",3
+"tract right anterior thalamic radiation","WM tract ICVF",3
+"tract right superior thalamic radiation","WM tract ICVF",3
+"tract right uncinate fasciculus","WM tract ICVF",3
+"fornix cres+stria terminalis (left)","WM tract ISOVF",32
+"posterior limb of internal capsule (right)","WM tract ISOVF",4
+"posterior thalamic radiation (left)","WM tract ISOVF",36
+"sagittal stratum (left)","WM tract OD",34
+"tract left corticospinal tract","WM tract OD",11

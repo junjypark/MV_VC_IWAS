@@ -1,0 +1,40 @@
+"MRI_D_region","MRI_D_category","Freq"
+"corticospinal tract (left)","WM tract diffusivity",1
+"corticospinal tract (right)","WM tract diffusivity",2
+"fornix cres+stria terminalis (left)","WM tract diffusivity",6
+"inferior cerebellar peduncle (right)","WM tract diffusivity",2
+"middle cerebellar peduncle","WM tract diffusivity",1
+"posterior limb of internal capsule (left)","WM tract diffusivity",1
+"posterior thalamic radiation (left)","WM tract diffusivity",6
+"superior cerebellar peduncle (left)","WM tract diffusivity",1
+"superior cerebellar peduncle (right)","WM tract diffusivity",1
+"superior corona radiata (left)","WM tract diffusivity",6
+"superior corona radiata (right)","WM tract diffusivity",6
+"superior longitudinal fasciculus (left)","WM tract diffusivity",6
+"tract right inferior longitudinal fasciculus","WM tract diffusivity",6
+"body of corpus callosum","WM tract ICVF",6
+"fornix cres+stria terminalis (right)","WM tract ICVF",6
+"genu of corpus callosum","WM tract ICVF",6
+"retrolenticular part of internal capsule (left)","WM tract ICVF",6
+"retrolenticular part of internal capsule (right)","WM tract ICVF",6
+"sagittal stratum (left)","WM tract ICVF",6
+"sagittal stratum (right)","WM tract ICVF",6
+"splenium of corpus callosum","WM tract ICVF",6
+"tapetum (right)","WM tract ICVF",6
+"tract left acoustic radiation","WM tract ICVF",6
+"tract left inferior fronto-occipital fasciculus","WM tract ICVF",6
+"tract left inferior longitudinal fasciculus","WM tract ICVF",6
+"tract left posterior thalamic radiation","WM tract ICVF",6
+"tract right inferior fronto-occipital fasciculus","WM tract ICVF",6
+"tract right inferior longitudinal fasciculus","WM tract ICVF",6
+"tract right posterior thalamic radiation","WM tract ICVF",6
+"tract right superior longitudinal fasciculus","WM tract ICVF",6
+"tract right superior thalamic radiation","WM tract ICVF",6
+"corticospinal tract (right)","WM tract ISOVF",1
+"pontine crossing tract","WM tract ISOVF",1
+"tract left anterior thalamic radiation","WM tract ISOVF",1
+"superior cerebellar peduncle (right)","WM tract MO",5
+"anterior corona radiata (left)","WM tract OD",6
+"body of corpus callosum","WM tract OD",2
+"posterior thalamic radiation (left)","WM tract OD",5
+"sagittal stratum (left)","WM tract OD",5

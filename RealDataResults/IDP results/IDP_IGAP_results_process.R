@@ -1,4 +1,4 @@
-setwd("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results")
+setwd("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results/IGAP/")
 
 
 for (chr in 1:22) {
@@ -41,7 +41,7 @@ for (chr in 1:22) {
       chr_S[i, 5] <- length(which(S_result$category == "regional and tissue intensity"))
       
       if (!is.na(chr_result[[i]]$sig_S )) {
-        if (chr_result[[i]]$sig_S < 2.153873e-06) {
+        if (abs(chr_result[[i]]$sig_S) < 2.153873e-06) {
           # whether regional and tissue volume is significant
           if (chr_S[i, 1] > 0) {
             chr_S[i, 6] <- T
@@ -98,7 +98,7 @@ for (chr in 1:22) {
       
       # significant results
       if (!is.na(chr_result[[i]]$sig_D)) {
-        if (chr_result[[i]]$sig_D < 2.283522e-06) {
+        if (abs(chr_result[[i]]$sig_D) < 2.283522e-06) {
           # whether white matter hyperintensity volume is significant
           if (chr_D[i, 1] > 0) {
             chr_D[i, 9] <- T
@@ -164,7 +164,7 @@ for (chr in 1:22) {
   chr_D <- cbind(gene, chr_D)
   description_S <- list(IDP_S_description, IDP_S_gene)
   description_D <- list(IDP_D_description, IDP_D_gene)
-  setwd("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results")
+  setwd("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results/IGAP")
   saveRDS(chr_S, file = paste0("chr", chr, "_S.rds"))
   saveRDS(chr_D, file = paste0("chr", chr, "_D.rds"))
   if (chr %in% c(8, 19)) {
@@ -223,11 +223,14 @@ chr_hg <- cbind(chr_hg, chr_sig_S)
 which(chr_hg[, 5] < 0.05/23214)
 chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/23214)]
 MRI_S_region <- c()
+MRI_S_category <- c()
 for (i in 1:length(chr_result_sig)) {
   if (is.null(MRI_S_region)) {
     MRI_S_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+    MRI_S_category  <- MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$S[3, ])]
   } else {
     MRI_S_region <- c(MRI_S_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+    MRI_S_category <- c(MRI_S_category, MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$S[3, ])])
   }
 }
 # remove leading empty space in MRI_S_region
@@ -235,7 +238,9 @@ MRI_S_region <- gsub("^\\s+", "", MRI_S_region)
 # make MRI_S_region all lower case
 MRI_S_region <- tolower(MRI_S_region)
 # count the frequency of each region
-MRI_S_region_results <- as.data.frame(table(MRI_S_region))
+MRI_S_region_results <- as.data.frame(table(MRI_S_region, MRI_S_category))
+# remove rows with freq 0 in MRI_S_region_results
+MRI_S_region_results <- MRI_S_region_results[which(MRI_S_region_results$Freq != 0), ]
 write.csv(MRI_S_region_results, file = "chr8_sMRI_region_results.csv", row.names = F)
 
 ############################################################################################################
@@ -276,19 +281,24 @@ chr_hg <- cbind(chr_hg, chr_sig_D)
 which(chr_hg[, 5] < 0.05/21896)
 chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/21896)]
 MRI_D_region <- c()
+MRI_D_category <- c()
 for (i in 1:length(chr_result_sig)) {
   if (is.null(MRI_D_region)) {
-    MRI_D_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+    MRI_D_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$D[3, ])]
+    MRI_D_category <- MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$D[3, ])]
   } else {
-    MRI_D_region <- c(MRI_D_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+    MRI_D_region <- c(MRI_D_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$D[3, ])])
+    MRI_D_category <- c(MRI_D_category, MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$D[3, ])])
   }
 }
 # remove leading empty space in MRI_D_region
 MRI_D_region <- gsub("^\\s+", "", MRI_D_region)
 # make MRI_D_region all lower case
 MRI_D_region <- tolower(MRI_D_region)
-# count the frequency of each region
-MRI_D_region_results <- as.data.frame(table(MRI_D_region))
+# count the frequency of each region by category
+MRI_D_region_results <- as.data.frame(table(MRI_D_region, MRI_D_category))
+# remove rows with freq 0 in MRI_D_region_results
+MRI_D_region_results <- MRI_D_region_results[which(MRI_D_region_results$Freq != 0), ]
 write.csv(MRI_D_region_results, file = "chr8_dMRI_region_results.csv", row.names = F)
 
 ############################################################################################################
@@ -336,11 +346,14 @@ chr_hg <- cbind(chr_hg, chr_sig_S)
 which(chr_hg[, 5] < 0.05/23214)
 chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/23214)]
 MRI_S_region <- c()
+MRI_S_category <- c()
 for (i in 1:length(chr_result_sig)) {
   if (is.null(MRI_S_region)) {
     MRI_S_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+    MRI_S_category  <- MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$S[3, ])]
   } else {
     MRI_S_region <- c(MRI_S_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+    MRI_S_category <- c(MRI_S_category, MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$S[3, ])])
   }
 }
 # remove leading empty space in MRI_S_region
@@ -348,7 +361,9 @@ MRI_S_region <- gsub("^\\s+", "", MRI_S_region)
 # make MRI_S_region all lower case
 MRI_S_region <- tolower(MRI_S_region)
 # count the frequency of each region
-MRI_S_region_results <- as.data.frame(table(MRI_S_region))
+MRI_S_region_results <- as.data.frame(table(MRI_S_region, MRI_S_category))
+# remove rows with freq 0 in MRI_S_region_results
+MRI_S_region_results <- MRI_S_region_results[which(MRI_S_region_results$Freq != 0), ]
 write.csv(MRI_S_region_results, file = "chr19_sMRI_region_results.csv", row.names = F)
 
 
@@ -394,17 +409,110 @@ chr_hg <- cbind(chr_hg, chr_sig_D)
 which(chr_hg[, 5] < 0.05/21896)
 chr_result_sig <- chr_result[which(chr_hg[, 5] < 0.05/21896)]
 MRI_D_region <- c()
+MRI_D_category <- c()
 for (i in 1:length(chr_result_sig)) {
   if (is.null(MRI_D_region)) {
-    MRI_D_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])]
+    MRI_D_region <- MRIIDP$region[as.numeric(chr_result_sig[[i]]$D[3, ])]
+    MRI_D_category <- MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$D[3, ])]
   } else {
-    MRI_D_region <- c(MRI_D_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$S[3, ])])
+    MRI_D_region <- c(MRI_D_region, MRIIDP$region[as.numeric(chr_result_sig[[i]]$D[3, ])])
+    MRI_D_category <- c(MRI_D_category, MRIIDP$Category.name[as.numeric(chr_result_sig[[i]]$D[3, ])])
   }
 }
 # remove leading empty space in MRI_D_region
 MRI_D_region <- gsub("^\\s+", "", MRI_D_region)
 # make MRI_D_region all lower case
 MRI_D_region <- tolower(MRI_D_region)
-# count the frequency of each region
-MRI_D_region_results <- as.data.frame(table(MRI_D_region))
+# count the frequency of each region by category
+MRI_D_region_results <- as.data.frame(table(MRI_D_region, MRI_D_category))
+# remove rows with freq 0 in MRI_D_region_results
+MRI_D_region_results <- MRI_D_region_results[which(MRI_D_region_results$Freq != 0), ]
 write.csv(MRI_D_region_results, file = "chr19_dMRI_region_results.csv", row.names = F)
+
+
+############################################################################################################
+# chr8 sMRI
+############################################################################################################
+# Load the data
+file_path <- "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results/IGAP/chr8_sMRI_region_results.csv"
+df <- read.csv(file_path)
+colnames(df) <- c("IDP_region", "IDP_category", "Freq")
+
+# Summarize the number of unique IDP regions by IDP category
+summary_data <- df %>%
+  group_by(IDP_category) %>%
+  summarise(unique_regions = n_distinct(IDP_region))
+print(summary_data)
+sum(summary_data$unique_regions)
+
+# check regions shared by different IDP categories
+df %>%
+  group_by(IDP_region) %>%
+  summarise(unique_categories = n_distinct(IDP_category)) %>%
+  filter(unique_categories > 1)
+
+############################################################################################################
+# chr8 dMRI
+############################################################################################################
+# Load the data
+file_path <- "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results/IGAP/chr8_dMRI_region_results.csv"
+df <- read.csv(file_path)
+colnames(df) <- c("IDP_region", "IDP_category", "Freq")
+length(unique(df$IDP_region))
+
+# Summarize the number of unique IDP regions by IDP category
+summary_data <- df %>%
+  group_by(IDP_category) %>%
+  summarise(unique_regions = n_distinct(IDP_region))
+print(summary_data)
+sum(summary_data$unique_regions)
+
+df %>%
+  group_by(IDP_region) %>%
+  summarise(unique_categories = n_distinct(IDP_category)) %>%
+  filter(unique_categories > 1)
+
+############################################################################################################
+# chr19 sMRI
+############################################################################################################
+# Load the data
+file_path <- "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results/IGAP/chr19_sMRI_region_results.csv"
+df <- read.csv(file_path)
+colnames(df) <- c("IDP_region", "IDP_category", "Freq")
+length(unique(df$IDP_region))
+
+# Summarize the number of unique IDP regions by IDP category
+summary_data <- df %>%
+  group_by(IDP_category) %>%
+  summarise(unique_regions = n_distinct(IDP_region))
+print(summary_data)
+sum(summary_data$unique_regions)
+
+# check regions shared by different IDP categories
+sharedf <- df %>%
+  group_by(IDP_region) %>%
+  summarise(unique_categories = n_distinct(IDP_category)) %>%
+  filter(unique_categories > 1)
+
+############################################################################################################
+# chr19 sMRI
+############################################################################################################
+# Load the data
+file_path <- "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IDP results/IGAP/chr19_dMRI_region_results.csv"
+df <- read.csv(file_path)
+colnames(df) <- c("IDP_region", "IDP_category", "Freq")
+length(unique(df$IDP_region))
+
+# Summarize the number of unique IDP regions by IDP category
+summary_data <- df %>%
+  group_by(IDP_category) %>%
+  summarise(unique_regions = n_distinct(IDP_region))
+print(summary_data)
+sum(summary_data$unique_regions)
+
+# check regions shared by different IDP categories
+sharedf <- df %>%
+  group_by(IDP_region) %>%
+  summarise(unique_categories = n_distinct(IDP_category)) %>%
+  filter(unique_categories > 1)
+sharedf
