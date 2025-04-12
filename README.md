@@ -16,6 +16,6 @@ The analysis methods are implemented in the R folder.
 
 Simulation studies are available in the Simulation folder. These include simulations for both one-sample and two-sample scenarios, covering binary and continuous outcomes.
 
-# Real Data Analysis
+## Real Data Analysis
 
 Real data analyses are performed in the DataAnalysis folder, with separate analyses for IGAP and UKB. Additionally, the MV-IWAS analysis used for comparison with the proposed method can be found in the MVIWAS folder.
