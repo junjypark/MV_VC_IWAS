@@ -24,4 +24,10 @@ Simulation studies are available in the Simulation folder. These include simulat
 
 ## Real Data Analysis
 
-Real data analyses are performed in the DataAnalysis folder, with separate analyses for IGAP and UKB. Additionally, the MV-IWAS analysis used for comparison with the proposed method can be found in the MVIWAS folder.
+Real data analyses scripts are included in the DataAnalysis folder, with separate analyses for IGAP and UKB. 
+
+- Step 1: The first step of the analysis is performed using the `run_IGAP_part1.R` and `run_UKB_part1.R` scripts. These scripts perform the preprocessing of the data, including the calculation of the correlation vector and LD matrix. The results are to be used in Step 2
+
+- Step 2: The second step of the analysis is performed using the `run_IGAP_part2_S.R`, `run_IGAP_part2_D.R`, `run_IGAP_part2_F.R` and `run_UKB_part2_S.R`, `run_UKB_part2_D.R`, `run_UKB_part2_F.R` scripts. Each script corresponds to a specific dataset (IGAP or UKB) and a particular MRI modality of testing interest (structural, diffusion, or functional). These scripts perform the MV-Modality-IWAS analysis using the results from step 1, together with IDP GWAS data. 
+
+Additionally, the MV-IWAS analysis used for comparison with the proposed method can be found in the MVIWAS folder.
