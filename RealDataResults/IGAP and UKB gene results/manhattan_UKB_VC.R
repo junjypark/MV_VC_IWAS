@@ -192,8 +192,9 @@ don_s <- UKB_s %>%
   arrange(CHR, BP) %>%
   mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
+  mutate( is_highlight=ifelse(CHR %in% c(19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(UKB_s))), "yes", "no"))
+
 
 table(don_s$is_annotate, don_s$CHR)
 UKBadj_gene_chr19_s <- don_s$Gene[don_s$CHR == 19 & don_s$is_annotate == "yes"]
@@ -378,8 +379,28 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
+
 ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_UKB19_VC.png", 
        plot = p, width = 6, height = 4, dpi = 300)
 
 # UKB_genes <- list(UKBadj_gene_chr8_d = UKBadj_gene_chr8_d, UKBadj_gene_chr19_d = UKBadj_gene_chr19_d, UKBadj_gene_chr19_s = UKBadj_gene_chr19_s)
 # saveRDS(UKB_genes, "/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene resultsUKB_genes.rds")
+
+# 
+UKB_d <- cbind(don_d$Gene[which(don_d$is_annotate == "yes")], don_d$CHR[which(don_d$is_annotate == "yes")])
+colnames(UKB_d) <- c("Gene", "CHR")
+UKB_d <- as.data.frame(UKB_d)
+UKB_s <- cbind(don_s$Gene[which(don_s$is_annotate == "yes")], don_s$CHR[which(don_s$is_annotate == "yes")])
+colnames(UKB_s) <- c("Gene", "CHR")
+UKB_s <- as.data.frame(UKB_s)
+
+#
+UKB_d_chr8 <- UKB_d[which(UKB_d$CHR == "8"),]
+table(UKB_d_chr8$Gene %in% IGAP_d$Gene)
+UKB_d_chr19 <- UKB_d[which(UKB_d$CHR == "19"),]
+table(UKB_d_chr19$Gene %in% IGAP_d$Gene)
+
+UKB_s_chr8 <- UKB_s[which(UKB_s$CHR == "8"),]
+table(UKB_s_chr8$Gene %in% IGAP_s$Gene)
+UKB_s_chr19 <- UKB_s[which(UKB_s$CHR == "19"),]
+table(UKB_s_chr19$Gene %in% IGAP_s$Gene)

@@ -122,7 +122,7 @@ don_d <- IGAP_d %>%
   arrange(CHR, BP) %>%
   mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
+  mutate( is_highlight=ifelse(CHR %in% c(1, 2, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(IGAP_d))), "yes", "no"))
 
 IGAP_gene_chr19_d <- don_d$Gene[don_d$CHR == 19 & don_d$is_annotate == "yes"]
@@ -148,7 +148,7 @@ p_d <- ggplot(don_d, aes(x=BPcum, y=-log10(P))) +
   geom_hline(yintercept = -log10(0.05/(nrow(IGAP_d) + nrow(IGAP_s) + nrow(IGAP_f))), linetype = "dashed", color = "red") +
   
   # # Add highlighted points
-  geom_point(data=subset(don_d, is_highlight=="yes"), color="orange", size=2) +
+  geom_point(data=subset(don_d, is_highlight=="yes"), color="pink", size=2) +
   
   # Add label using ggrepel to avoid overlapping
   geom_label_repel( data=subset(don_d, is_annotate=="yes"), aes(label=Gene), size = 3, 
@@ -167,7 +167,9 @@ p_d <- ggplot(don_d, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_IGAP_d_NoAdj.png", plot = p_d, width = 12, height = 5, dpi = 300)
+p_d
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_d_NoAdj.png", plot = p_d, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -188,7 +190,7 @@ don_s <- IGAP_s %>%
   arrange(CHR, BP) %>%
   mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
+  mutate( is_highlight=ifelse(CHR %in% c(2, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(IGAP_s))), "yes", "no"))
 
 
@@ -216,7 +218,7 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   geom_hline(yintercept = -log10(0.05/(nrow(IGAP_d) + nrow(IGAP_s) + nrow(IGAP_f))), linetype = "dashed", color = "red") +
   
   # # Add highlighted points
-  geom_point(data=subset(don_s, is_highlight=="yes"), color="orange", size=2) +
+  geom_point(data=subset(don_s, is_highlight=="yes"), color="pink", size=2) +
   
   # Add label using ggrepel to avoid overlapping
   geom_label_repel( data=subset(don_s, is_annotate=="yes"), aes(label=Gene), size = 3, 
@@ -235,7 +237,9 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_IGAP_s_NoAdj.png", plot = p_s, width = 12, height = 5, dpi = 300)
+p_s
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_s_NoAdj.png", plot = p_s, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -256,6 +260,7 @@ don_f <- IGAP_f %>%
   arrange(CHR, BP) %>%
   mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
+  mutate( is_highlight=ifelse(CHR %in% c(1, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P) )> (-log10(0.05/nrow(IGAP_f))), "yes", "no"))
 
 # Prepare X axis
@@ -278,6 +283,9 @@ p_f <- ggplot(don_f, aes(x=BPcum, y=-log10(P))) +
   # global threshold
   geom_hline(yintercept = -log10(0.05/(nrow(IGAP_d) + nrow(IGAP_s) + nrow(IGAP_f))), linetype = "dashed", color = "red") +
   
+  # # Add highlighted points
+  geom_point(data=subset(don_f, is_highlight=="yes"), color="pink", size=2) +
+  
   # Add label using ggrepel to avoid overlapping
   geom_label_repel( data=subset(don_f, is_annotate=="yes"), aes(label=Gene), size = 3, 
                     max.overlaps = 80, segment.alpha = 0.5) +
@@ -295,7 +303,9 @@ p_f <- ggplot(don_f, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_IGAP_f_NoAdj.png", plot = p_f, width = 12, height = 5, dpi = 300)
+p_f
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_f_NoAdj.png", plot = p_f, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -328,7 +338,7 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_IGAP8_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_IGAP8_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
 
 ################################################
 # IGAP chr19 overlap
@@ -367,4 +377,15 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_IGAP19_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_IGAP19_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
+
+
+
+#
+table(don_d$CHR, don_d$is_annotate)
+table(don_s$CHR, don_s$is_annotate)
+table(don_f$CHR, don_f$is_annotate)
+
+table(don_d$is_annotate)
+table(don_s$is_annotate)
+table(don_f$is_annotate)

@@ -122,7 +122,7 @@ don_d <- UKB_d %>%
   arrange(CHR, BP) %>%
   mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
+  mutate( is_highlight=ifelse(CHR %in% c(19, 22), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(UKB_d))), "yes", "no"))
 
 # Prepare X axis
@@ -146,7 +146,7 @@ p_d <- ggplot(don_d, aes(x=BPcum, y=-log10(P))) +
   geom_hline(yintercept = -log10(0.05/(nrow(UKB_d) + nrow(UKB_s) + nrow(UKB_f))), linetype = "dashed", color = "red") +
   
   # # Add highlighted points
-  geom_point(data=subset(don_d, is_highlight=="yes"), color="orange", size=2) +
+  geom_point(data=subset(don_d, is_highlight=="yes"), color="pink", size=2) +
   
   # Add label using ggrepel to avoid overlapping
   geom_label_repel( data=subset(don_d, is_annotate=="yes"), aes(label=Gene), size = 3, 
@@ -165,7 +165,9 @@ p_d <- ggplot(don_d, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_UKB_d_NoAdj.png", plot = p_d, width = 12, height = 5, dpi = 300)
+p_d
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_UKB_d_NoAdj.png", plot = p_d, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -186,7 +188,6 @@ don_s <- UKB_s %>%
   arrange(CHR, BP) %>%
   mutate( BPcum=BP+tot) %>%
   # Add highlight and annotation information
-  mutate( is_highlight=ifelse(CHR %in% c(8, 19), "yes", "no")) %>%
   mutate( is_annotate=ifelse((-log10(P)) > (-log10(0.05/nrow(UKB_s))), "yes", "no"))
 
 # Prepare X axis
@@ -209,9 +210,6 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   # global threshold
   geom_hline(yintercept = -log10(0.05/(nrow(UKB_d) + nrow(UKB_s) + nrow(UKB_f))), linetype = "dashed", color = "red") +
   
-  # # Add highlighted points
-  geom_point(data=subset(don_s, is_highlight=="yes"), color="orange", size=2) +
-  
   # Add label using ggrepel to avoid overlapping
   geom_label_repel( data=subset(don_s, is_annotate=="yes"), aes(label=Gene), size = 3, 
                     max.overlaps = 80, segment.alpha = 0.5) +
@@ -229,7 +227,9 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_UKB_s_NoAdj.png", plot = p_s, width = 12, height = 5, dpi = 300)
+p_s
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_UKB_s_NoAdj.png", plot = p_s, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -289,7 +289,9 @@ p_f <- ggplot(don_f, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
-ggsave("manhattan_plot_UKB_f_NoAdj.png", plot = p_f, width = 12, height = 5, dpi = 300)
+p_f
+
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_UKB_f_NoAdj.png", plot = p_f, width = 12, height = 5, dpi = 300)
 
 
 ################################################
@@ -322,7 +324,7 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_UKB8_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_UKB8_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
 
 ################################################
 # UKB chr19 overlap
@@ -337,15 +339,16 @@ unique_diffusion <- setdiff(chr19_d, chr19_s)
 unique_structural <- setdiff(chr19_s, chr19_d)
 overlap_genes <- intersect(chr19_d, chr19_s)
 
-# Split the overlap genes into two columns
-overlap_genes_col1 <- overlap_genes[1:ceiling(length(overlap_genes)/2)]
-overlap_genes_col2 <- overlap_genes[(ceiling(length(overlap_genes)/2) + 1):length(overlap_genes)]
+# Split the diffusion genes into two columns
+unique_diffusion1 <- unique_diffusion[1:ceiling(length(unique_diffusion)/2)]
+unique_diffusion2 <- unique_diffusion[(ceiling(length(unique_diffusion)/2) + 1):length(unique_diffusion)]
 
 # Create basic Venn plot with transparent fills and adjusted circle positions
 p <- ggplot() +
   geom_circle(aes(x0 = -1.5, y0 = 0, r = 2.5), fill = "lightblue", color = "black", size = 0.5, alpha = 0.5) +
   geom_circle(aes(x0 = 1.5, y0 = 0, r = 2.5), fill = "lightyellow", color = "black", size = 0.5, alpha = 0.5) +
-  annotate("text", x = -2, y = 0, label = paste(unique_diffusion, collapse = "\n"), size = 3, hjust = 1) +
+  annotate("text", x = -2.5, y = 0, label = paste(unique_diffusion1, collapse = "\n"), size = 3, hjust = 1) +
+  annotate("text", x = -1.1, y = 0, label = paste(unique_diffusion2, collapse = "\n"), size = 3, hjust = 1) +
   annotate("text", x = 2, y = 0, label = paste(unique_structural, collapse = "\n"), size = 3, hjust = 0) +
   annotate("text", x = -0.25, y = seq(1.5, -1.5, length.out = length(overlap_genes_col1)), 
            label = overlap_genes_col1, size = 3, hjust = 1) +
@@ -361,9 +364,20 @@ p <- ggplot() +
 # Print the plot
 print(p)
 
-ggsave("venn_plot_UKB19_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
+ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/venn_plot_UKB19_NoAdj.png", plot = p, width = 6, height = 4, dpi = 300)
 
 
 table(don_s$is_annotate, don_s$CHR)
 table(don_d$is_annotate, don_d$CHR)
 chr19_d <- don_d$Gene[which(don_d$is_annotate == "yes" & don_d$CHR == "19")]
+
+
+
+#
+table(don_d$CHR, don_d$is_annotate)
+table(don_s$CHR, don_s$is_annotate)
+table(don_f$CHR, don_f$is_annotate)
+
+table(don_d$is_annotate)
+table(don_s$is_annotate)
+table(don_f$is_annotate)

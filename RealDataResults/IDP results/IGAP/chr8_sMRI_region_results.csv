@@ -1,35 +1,88 @@
-"MRI_S_region","MRI_S_category","Freq"
-"caudalanteriorcingulate in the left hemisphere","cortical area",5
-"rostralmiddlefrontal in the left hemisphere","cortical grey-white contrast",1
-"superiorfrontal in the right hemisphere","cortical grey-white contrast",1
-"fusiform in the right hemisphere","cortical thickness",1
-"g-front-middle in the left hemisphere","cortical thickness",1
-"g-front-middle in the right hemisphere","cortical thickness",5
-"g-front-sup in the right hemisphere","cortical thickness",1
-"g-ins-lg+s-cent-ins in the left hemisphere","cortical thickness",1
-"g-orbital in the right hemisphere","cortical thickness",1
-"g-temp-sup-plan-tempo in the left hemisphere","cortical thickness",1
-"g+s-transv-frontopol in the right hemisphere","cortical thickness",1
-"insula in the left hemisphere","cortical thickness",2
-"insula in the right hemisphere","cortical thickness",5
-"lateralorbitofrontal in the right hemisphere","cortical thickness",1
-"rostralmiddlefrontal in the left hemisphere","cortical thickness",1
-"rostralmiddlefrontal in the right hemisphere","cortical thickness",1
-"superiorfrontal in the left hemisphere","cortical thickness",2
-"superiorfrontal in the right hemisphere","cortical thickness",2
-"amygdala in the right hemisphere","regional and tissue intensity",1
-"accessory-basal-nucleus in the right hemisphere","regional and tissue volume",1
-"ba3b in the left hemisphere","regional and tissue volume",5
-"cl in the left hemisphere","regional and tissue volume",5
-"g-cingul-post-dorsal in the right hemisphere","regional and tissue volume",1
-"insula in the left hemisphere","regional and tissue volume",2
-"left pallidum","regional and tissue volume",5
-"medulla in the whole brain","regional and tissue volume",1
-"molecular-layer-hp-head in the right hemisphere","regional and tissue volume",5
-"putamen in the right hemisphere","regional and tissue volume",5
-"right amygdala","regional and tissue volume",1
-"right inferior frontal gyrus, pars triangularis","regional and tissue volume",5
-"right inferior temporal gyrus, anterior division","regional and tissue volume",1
-"right postcentral gyrus","regional and tissue volume",1
-"right viib cerebellum","regional and tissue volume",1
-"totalgray in the whole brain","regional and tissue volume",1
+"MRI_S_region_8","MRI_S_category_8","Freq"
+"648","Area",1
+"649","Area",1
+"661","Area",1
+"685","Area",1
+"705","Area",1
+"1478","Mean FA",1
+"1920","Mean ICVF",1
+"1937","Mean ICVF",1
+"1942","Mean ICVF",1
+"1946","Mean ICVF",1
+"1332","Mean intensity",1
+"1333","Mean intensity",1
+"1336","Mean intensity",1
+"1338","Mean intensity",1
+"1343","Mean intensity",1
+"1358","Mean intensity",1
+"1364","Mean intensity",1
+"1366","Mean intensity",1
+"2067","Mean ISOVF",1
+"2073","Mean ISOVF",1
+"2075","Mean ISOVF",1
+"2077","Mean ISOVF",1
+"2093","Mean ISOVF",1
+"1680","Mean L1",1
+"1681","Mean L1",1
+"1693","Mean L1",1
+"1698","Mean L2",1
+"1701","Mean L2",1
+"1710","Mean L2",1
+"1750","Mean L3",1
+"1791","Mean L3",1
+"1625","Mean MD",1
+"1637","Mean MD",1
+"1542","Mean MO",1
+"1544","Mean MO",1
+"1993","Mean OD",1
+"2006","Mean OD",1
+"2023","Mean OD",1
+"2234","rfMRI",1
+"2315","rfMRI",1
+"2360","rfMRI",1
+"2391","rfMRI",1
+"2425","rfMRI",1
+"195","Volume",1
+"197","Volume",1
+"198","Volume",1
+"201","Volume",1
+"204","Volume",1
+"209","Volume",1
+"210","Volume",1
+"224","Volume",1
+"225","Volume",1
+"228","Volume",1
+"251","Volume",1
+"258","Volume",1
+"263","Volume",1
+"266","Volume",1
+"268","Volume",2
+"273","Volume",1
+"284","Volume",1
+"285","Volume",1
+"296","Volume",1
+"303","Volume",1
+"304","Volume",1
+"314","Volume",2
+"318","Volume",1
+"326","Volume",1
+"355","Volume",1
+"360","Volume",1
+"374","Volume",1
+"146","Volume of grey matter",1
+"150","Volume of grey matter",1
+"152","Volume of grey matter",1
+"156","Volume of grey matter",1
+"157","Volume of grey matter",1
+"26","Volume of grey matter",1
+"53","Volume of grey matter",1
+"1513","Weighted-mean FA",1
+"1524","Weighted-mean FA",1
+"2106","Weighted-mean ISOVF",1
+"2108","Weighted-mean ISOVF",1
+"2119","Weighted-mean ISOVF",1
+"1877","Weighted-mean L3",1
+"1805","Weighted-mean MD",1
+"1584","Weighted-mean MO",1
+"1590","Weighted-mean MO",1
+"2037","Weighted-mean OD",1

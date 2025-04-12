@@ -234,6 +234,8 @@ p_s <- ggplot(don_s, aes(x=BPcum, y=-log10(P))) +
   ) +
   xlab(NULL) # Remove x-axis label
 
+p_s
+
 ggsave("/Users/tianyuan/Documents/GitHub/MV_VC_IWAS/RealDataResults/IGAP and UKB gene results/manhattan_plot_IGAP_VC_s.png", 
        plot = p_s, width = 12, height = 5, dpi = 300)
 
@@ -387,3 +389,12 @@ for (i in 1:22) {
 IGAP_d <- IGAP_d[, -c(6:8)]
 colnames(IGAP_d) <- c("CHR", "POS1", "POS2", "Gene", "P")
 sig_S <- IGAP_d[which(IGAP_d$Gene %in% c(chr19_s, chr19_d)), ]
+
+
+# 
+IGAP_d <- cbind(don_d$Gene[which(don_d$is_annotate == "yes")], don_d$CHR[which(don_d$is_annotate == "yes")])
+colnames(IGAP_d) <- c("Gene", "CHR")
+IGAP_d <- as.data.frame(IGAP_d)
+IGAP_s <- cbind(don_s$Gene[which(don_s$is_annotate == "yes")], don_s$CHR[which(don_s$is_annotate == "yes")])
+colnames(IGAP_s) <- c("Gene", "CHR")
+IGAP_s <- as.data.frame(IGAP_s)
