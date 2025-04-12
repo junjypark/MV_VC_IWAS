@@ -2,7 +2,7 @@
 
 ## Data Acquisition
 
-The data acquisition process is described in detail in [DataCleaning.md](DataCleaning.md), with all related files located in the DataCleaning folder. It consists of three main steps:
+The data acquisition process is described in detail in [DataCleaning.md](https://github.com/junjypark/MV_VC_IWAS/blob/main/DataCleaning/DataCleaning.md), with all related files located in the DataCleaning folder. It consists of three main steps:
 
 1. **Data Collection**: Obtain the UKB, 1000G, and IGAP datasets.
 2. **Data Reprocessing**: Intersect the three datasets to ensure that only common SNPs are included.
