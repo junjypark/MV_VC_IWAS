@@ -10,7 +10,13 @@ The data acquisition process is described in detail in [DataCleaning.md](https:/
 
 ## Methods
 
-The analysis methods are implemented in the R folder.
+The proposed methods are implemented in the R folder. The main function is `mv_vc_iwas`, which can be used to perform the MV-Modality-IWAS analysis. The function takes the following parameters:
+- `corr`: p times 1 correction vector (from AD GWAS)
+- `LD`: p times p LD matrix of the variants
+- `A1`: p times q1 matrix of coefficients predicting imaging data (in modality of testing interest) from genotypes (from IDP GWAS)
+- `A2`: p times q2 matrix of coefficients predicting imaging data from genotypes (from IDP GWAS)
+- `method`: Either "davies" or "Liu". Davies method is used as a default.
+
 
 ## Simulations
 
